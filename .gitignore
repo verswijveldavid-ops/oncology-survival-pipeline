@@ -1,0 +1,50 @@
+# Personal / private — never commit
+Project strategy/
+*.pdf
+CV*
+cv*
+Resume*
+resume*
+
+# Raw data — large files, always redownloadable from source
+data/raw/
+*.svs
+*.bam
+*.vcf.gz
+
+# Processed data — regeneratable from src/ scripts
+data/processed/*.csv
+data/processed/*.parquet
+data/processed/*.duckdb
+data/processed/*.sqlite
+!data/processed/.gitkeep
+
+# Python
+__pycache__/
+*.pyc
+*.pyo
+.venv/
+venv/
+env/
+.ipynb_checkpoints/
+
+# R
+.Rhistory
+.RData
+.Rproj.user/
+renv/library/
+renv/staging/
+
+# macOS
+.DS_Store
+
+# VS Code
+.vscode/
+
+# Streamlit
+.streamlit/secrets.toml
+
+# Secrets — never commit
+.env
+*.key
+credentials.json
