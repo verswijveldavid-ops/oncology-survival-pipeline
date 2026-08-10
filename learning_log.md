@@ -163,6 +163,69 @@ Reproduce the survival analysis in R (for the R skills the portfolio needs). Mor
 
 ---
 
+## 2026-08-10 — Day 1 (cont.): GitHub, ER analysis, R reproduction
+
+### What I built
+
+- Committed the project and pushed to GitHub (public) with `gh repo create`.
+- `src/07_survival_by_er.py` — survival by ER (estrogen receptor) status.
+- `R/05_survival_by_stage.R` — reproduced the by-stage survival analysis in R with `survival` + `survminer`. Saved `reports/figures/km_by_stage_R.png`.
+
+### What I learned
+
+- **Local commit vs GitHub are different.** `git commit` only saves on my laptop. Nothing is online until I create a remote repo and push. GitHub Desktop only shows repos I add to it by hand.
+- **Same answer in two languages.** The R log-rank p-value (p < 0.0001) matched Python. Showing both proves I'm not tied to one tool — useful for clinical roles that ask for R.
+- **R survival vocabulary:** `Surv()` bundles time + event, `survfit()` fits KM curves, `survdiff()` is the log-rank test, `ggsurvplot()` draws curves + at-risk table + p-value.
+- The R at-risk table made the thin-tail limitation concrete: by year 15 only 1-3 patients remain per group.
+
+### Next
+
+Item 3: map the raw data into CDISC SDTM domains (DM first, then MH, CM, DS). This is the differentiator.
+
+---
+
+## 2026-08-10 — Day 1 (cont.): SDTM mapping — DM domain
+
+### What I built
+
+- `src/08_sdtm_dm.py` — maps the raw patient data into the SDTM DM (Demographics) domain, saved to `data/processed/sdtm_dm.csv` (1,097 subjects).
+- `docs/03_sdtm_mapping_spec.md` — the mapping specification: every DM variable, its source, its rule, and the reason.
+
+### What SDTM is (interview version)
+
+SDTM = Study Data Tabulation Model. It is the standard table format regulators (e.g. FDA) expect for clinical data. Data is split into **domains** — one table per topic — with fixed variable names AND fixed allowed values, so any reviewer can read any study the same way. Key domains: DM (demographics), MH (medical history), CM (medications), DS (disposition).
+
+### The DM decisions I must be able to defend
+
+- **SEX coded `F`/`M`, not "FEMALE"/"MALE".** SDTM uses *controlled terminology* — a fixed list of allowed values per variable. This is the heart of SDTM: standard column names AND standard values inside them.
+- **RACE / ETHNIC left unchanged — on purpose.** TCGA already uses CDISC terms (`WHITE`, `NOT HISPANIC OR LATINO`). I checked against the standard first, then decided no change was needed. Checking and deciding "no change" is real mapping work, not skipping it.
+- **USUBJID = the barcode.** It must be unique per subject. Every other domain reuses the same USUBJID so all of a subject's records tie back to one DM row. This is how the domains link.
+- **DM has all 1,097 subjects, not the 1,035 analysis cohort.** DM describes everyone enrolled. Dropping short follow-up was an *analysis* decision, separate from demographics.
+
+### Honest limitations (say these before they ask)
+
+- TCGA gives day offsets, not calendar dates, so SDTM date variables (RFSTDTC etc.) are omitted.
+- No ARM/ARMCD — TCGA is observational, not a randomized trial with treatment arms.
+
+### Why this is a real skill, not "AI ran a script"
+
+Real SDTM work IS mostly renaming and recoding against a rulebook, plus documenting each decision. The value is judgment and standards knowledge, not clever code. The deliverable a CDA hands over is the mapping spec, not the script. My defense is being able to explain every row of that spec.
+
+### Next
+
+CM (medications) domain — the more interesting reshape, because it is one row per drug (many per subject) and needs a sequence number (CMSEQ).
+
+### CM and DS domains (added same day)
+
+- `src/09_sdtm_cm.py` → CM (medications). One row per drug; `CMSEQ` numbers drugs 1..n per subject because USUBJID alone is not unique in CM. Key = USUBJID + CMSEQ.
+- `src/10_sdtm_ds.py` → DS (disposition). One row per subject; `DSDECOD` = `DEATH`/`ALIVE`, the disposition version of the survival event flag. Counts match (104/993).
+
+### "Are we CDISC compliant?" — the honest interview answer
+
+No. This is a credible, documented SDTM mapping (DM, CM, DS) that demonstrates the skill. Full compliance needs: all domains and required variables, full controlled-terminology conformance (my `ALIVE` term would fail), a `define.xml` metadata file, and passing an automated checker (Pinnacle 21). Correct claim: "mapped to SDTM DM/CM/DS following CDISC conventions, deviations documented" — not "submission-ready." Knowing this difference is itself part of the skill.
+
+---
+
 <!--
 Template for future entries — copy and fill in:
 
