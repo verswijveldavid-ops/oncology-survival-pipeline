@@ -226,6 +226,49 @@ No. This is a credible, documented SDTM mapping (DM, CM, DS) that demonstrates t
 
 ---
 
+## 2026-08-10 — Day 1 (cont.): subtypes, FISH refinement, Cox model
+
+### What I built
+
+- `src/11_derive_subtypes.py` — molecular subtype from ER/PR/HER2 IHC (HR+/HER2-, HER2-positive, Triple Negative, Unknown).
+- `src/13_refine_subtypes_fish.py` — resolve equivocal/missing HER2 IHC using the FISH test (the real clinical tie-breaker). Cut Unknown from 356 to 129 (rescued 227).
+- `src/12_survival_by_subtype.py` — KM survival by subtype.
+- `src/14_cox_model.py` — multivariable Cox proportional-hazards model: age + stage + subtype together.
+- `docs/04_analysis_plan.md` — full analysis roadmap (this is a big, multi-module project).
+
+### The key clinical concepts
+
+- **HER2 IHC vs FISH.** IHC is a protein stain (0/1+/2+/3+); 2+ is equivocal. FISH is a gene-copy test used to resolve equivocal IHC. Using FISH to rescue Unknowns mirrors the real lab workflow.
+- **Molecular subtype** splits breast cancer into clinically distinct diseases: HR+/HER2- (best), HER2-positive, Triple Negative (worst).
+
+### The Cox model — what it means and why it matters
+
+- KM/log-rank tests one factor at a time; real factors are tangled (is worse survival from subtype or from stage?). Cox puts all factors in one model and gives each an effect **adjusted for the others**.
+- **Hazard ratio (HR):** >1 = higher risk of death, <1 = lower, =1 = no effect. Reference groups here are Stage I and HR+/HER2-.
+- **Results:** Stage IV HR ~4.4, Triple Negative ~3.0, Stage III ~2.6, HER2-positive ~2.2, age ~1.5 per decade, Stage II not different from Stage I. Stage and subtype each raise risk **independently**.
+
+### The two findings I can defend
+
+1. **Adjusted analysis separates tangled causes.** Subtype still matters after holding stage constant. Single KM charts cannot show this.
+2. **Data cleaning changed the conclusion.** Before FISH refinement, raw KM made HER2-positive look worst. After refinement, Triple Negative is worst (HR 3.0) — the clinically correct answer. Cleaning fixed the science, not just the numbers.
+
+### Also learned
+
+- **Idempotent scripts.** Script 13 crashed on a second run because it re-merged a column it had already added (pandas made `_x`/`_y` copies). Fix: drop the helper columns before merging so re-running is safe. Pipeline scripts must be safe to run repeatedly.
+
+### Cox assumption check + time-varying effects (same day)
+
+- `src/15_cox_period_split.py` — after the Schoenfeld test flagged age, Stage IV, and Triple Negative as non-proportional, I estimated hazard ratios separately for years 0-5 vs 5+.
+- **Result:** risk is front-loaded. Triple Negative HR 4.76 (years 0-5) then 0.63 (years 5+). Nearly all effects collapse toward 1 after 5 years. Matches known biology (Triple Negative recurs early or not at all).
+- **Caveat I must state:** late period is tiny (83 patients, 14 deaths), so late HRs are unstable (Stage IV `0.00` is degenerate). The direction is robust; the exact late numbers are not.
+- **Interview point:** I checked the model's assumption, found it violated, and turned the violation into a clinical finding instead of hiding it.
+
+### Next (from docs/04 plan)
+
+Table 1 cohort summary; then the Streamlit dashboard. Still open: PFI second endpoint, follow-up merge, MH domain, forest-plot polish.
+
+---
+
 <!--
 Template for future entries — copy and fill in:
 

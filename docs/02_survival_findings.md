@@ -37,6 +37,26 @@ We **kept the full timeline** rather than cutting it off. We added a **numbers-a
 
 **Rule of thumb for reading the chart:** trust a curve while its number at risk is still healthy. Treat small groups and the far-right tail as suggestive, not conclusive.
 
+## Multivariable model and time-varying risk
+
+We fitted a Cox proportional-hazards model with age, stage, and molecular subtype together. This adjusts each factor for the others. After adjustment, higher stage and worse subtype each raise the risk of death independently. Reference groups were Stage I and HR+/HER2-.
+
+We then checked the model's core assumption (proportional hazards, via Schoenfeld residuals). Three variables failed it: age, Stage IV, and Triple Negative. Their effect on risk is **not constant over time**.
+
+Rather than hide this, we investigated it. We estimated hazard ratios separately for the first 5 years and after 5 years:
+
+| Factor | Years 0-5 | Years 5+ |
+|---|---|---|
+| Triple Negative | 4.76 | 0.63 |
+| Stage IV | 7.51 | 0.00 (unstable) |
+| HER2-positive | 3.04 | 0.95 |
+| Stage III | 2.96 | 1.08 |
+| Age (per decade) | 1.61 | 1.08 |
+
+**Finding:** risk is front-loaded into the first 5 years. Triple Negative is about 4.8x the death rate early, then falls below the reference for patients who survive 5 years. This matches known biology: Triple Negative breast cancer recurs early or not at all.
+
+**Limitation:** the late period has only 83 patients and 14 deaths, so the late hazard ratios are unstable (the Stage IV `0.00` is a degenerate estimate, not real). The trustworthy message is the direction — effects shrink sharply after 5 years — not the exact late numbers.
+
 ## Sources
 
 - [Liu J et al., *An Integrated TCGA Pan-Cancer Clinical Data Resource*, Cell 2018](https://www.cell.com/cell/fulltext/S0092-8674(18)30229-0)
