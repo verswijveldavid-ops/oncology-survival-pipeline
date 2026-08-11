@@ -1,0 +1,1074 @@
+bcr_patient_barcode,gender,age_at_diagnosis,race,ethnicity,ajcc_pathologic_tumor_stage,er_status_by_ihc,pr_status_by_ihc,her2_status_by_ihc,vital_status,os_time,os_event,n_drugs,got_chemo,got_hormone,got_radiation,stage_group,os_years,molecular_subtype,her2_fish_status,her2_effective,rec_day,pfi_event,pfi_years
+TCGA-3C-AAAU,FEMALE,55,WHITE,NOT HISPANIC OR LATINO,Stage X,Positive,Positive,Negative,Alive,4047.0,0,1,True,False,False,Unknown,11.08,HR+/HER2-,,Negative,,0,11.08
+TCGA-3C-AALI,FEMALE,50,BLACK OR AFRICAN AMERICAN,NOT HISPANIC OR LATINO,Stage IIB,Positive,Positive,Positive,Alive,4005.0,0,1,False,False,True,II,10.97,HER2-positive,,Positive,,0,10.97
+TCGA-3C-AALJ,FEMALE,62,BLACK OR AFRICAN AMERICAN,NOT HISPANIC OR LATINO,Stage IIB,Positive,Positive,Indeterminate,Alive,1474.0,0,5,True,False,False,II,4.04,Unknown,,Unknown,,0,4.04
+TCGA-3C-AALK,FEMALE,52,BLACK OR AFRICAN AMERICAN,NOT HISPANIC OR LATINO,Stage IA,Positive,Positive,Positive,Alive,1448.0,0,4,True,False,False,I,3.96,HER2-positive,,Positive,,0,3.96
+TCGA-4H-AAAK,FEMALE,50,WHITE,NOT HISPANIC OR LATINO,Stage IIIA,Positive,Positive,Equivocal,Alive,348.0,0,3,True,False,False,III,0.95,Unknown,,Unknown,,0,0.95
+TCGA-5L-AAT0,FEMALE,42,WHITE,HISPANIC OR LATINO,Stage IIA,Positive,Positive,Negative,Alive,1477.0,0,1,False,True,True,II,4.04,HR+/HER2-,,Negative,,0,4.04
+TCGA-5L-AAT1,FEMALE,63,WHITE,HISPANIC OR LATINO,Stage IV,Positive,Positive,Equivocal,Alive,1471.0,0,1,False,True,False,IV,4.03,Unknown,,Unknown,,0,4.03
+TCGA-5T-A9QA,FEMALE,52,BLACK OR AFRICAN AMERICAN,NOT HISPANIC OR LATINO,Stage IIA,Positive,Negative,Equivocal,Alive,303.0,0,4,True,True,True,II,0.83,HR+/HER2-,Negative,Negative,,0,0.83
+TCGA-A1-A0SB,FEMALE,70,WHITE,NOT HISPANIC OR LATINO,Stage I,Positive,Negative,Negative,Alive,259.0,0,0,False,False,False,I,0.71,HR+/HER2-,,Negative,,0,0.71
+TCGA-A1-A0SD,FEMALE,59,WHITE,NOT HISPANIC OR LATINO,Stage IIA,Positive,Positive,Negative,Alive,437.0,0,0,False,False,False,II,1.2,HR+/HER2-,,Negative,,0,1.2
+TCGA-A1-A0SE,FEMALE,56,WHITE,NOT HISPANIC OR LATINO,Stage I,Positive,Positive,Negative,Alive,1321.0,0,0,False,False,False,I,3.62,HR+/HER2-,Negative,Negative,,0,3.62
+TCGA-A1-A0SF,FEMALE,54,WHITE,NOT HISPANIC OR LATINO,Stage IIA,Positive,Positive,Negative,Alive,1463.0,0,3,True,True,False,II,4.01,HR+/HER2-,,Negative,,0,4.01
+TCGA-A1-A0SG,FEMALE,61,WHITE,NOT HISPANIC OR LATINO,Stage IIB,Positive,Positive,Negative,Alive,434.0,0,1,True,False,False,II,1.19,HR+/HER2-,,Negative,,0,1.19
+TCGA-A1-A0SH,FEMALE,39,WHITE,NOT HISPANIC OR LATINO,Stage IIA,Negative,Positive,Equivocal,Alive,1437.0,0,1,True,False,False,II,3.93,HR+/HER2-,Negative,Negative,,0,3.93
+TCGA-A1-A0SI,FEMALE,52,WHITE,NOT HISPANIC OR LATINO,Stage IIB,Positive,Positive,Negative,Alive,635.0,0,0,False,False,False,II,1.74,HR+/HER2-,,Negative,,0,1.74
+TCGA-A1-A0SJ,FEMALE,39,BLACK OR AFRICAN AMERICAN,NOT HISPANIC OR LATINO,Stage IIIA,Positive,Positive,Equivocal,Alive,416.0,0,0,False,False,False,III,1.14,HR+/HER2-,Negative,Negative,,0,1.14
+TCGA-A1-A0SK,FEMALE,54,ASIAN,NOT HISPANIC OR LATINO,Stage IIA,Negative,Negative,Negative,Dead,967.0,1,0,False,False,False,II,2.65,Triple Negative,,Negative,,1,2.65
+TCGA-A1-A0SM,MALE,77,WHITE,NOT HISPANIC OR LATINO,Stage IIA,Positive,Negative,Positive,Alive,242.0,0,0,False,False,False,II,0.66,HER2-positive,Positive,Positive,,0,0.66
+TCGA-A1-A0SN,FEMALE,50,WHITE,NOT HISPANIC OR LATINO,Stage IIA,Positive,Positive,Positive,Alive,1196.0,0,3,True,False,True,II,3.27,HER2-positive,,Positive,,0,3.27
+TCGA-A1-A0SO,FEMALE,67,WHITE,NOT HISPANIC OR LATINO,Stage IIB,Negative,Negative,Equivocal,Alive,852.0,0,1,True,False,True,II,2.33,Triple Negative,Negative,Negative,,0,2.33
+TCGA-A1-A0SP,FEMALE,40,,NOT HISPANIC OR LATINO,Stage IIA,Negative,Negative,Negative,Alive,584.0,0,1,True,False,True,II,1.6,Triple Negative,,Negative,,0,1.6
+TCGA-A1-A0SQ,FEMALE,45,WHITE,NOT HISPANIC OR LATINO,Stage IIB,Positive,Positive,Negative,Alive,554.0,0,3,True,True,True,II,1.52,HR+/HER2-,,Negative,,0,1.52
+TCGA-A2-A04N,FEMALE,66,WHITE,HISPANIC OR LATINO,Stage IA,Positive,Positive,,Alive,4354.0,0,3,True,True,True,I,11.92,HR+/HER2-,Negative,Negative,,0,11.92
+TCGA-A2-A04P,FEMALE,36,BLACK OR AFRICAN AMERICAN,,Stage IIIC,Negative,Negative,,Dead,548.0,1,8,True,True,True,III,1.5,Triple Negative,Negative,Negative,,1,1.5
+TCGA-A2-A04Q,FEMALE,48,WHITE,,Stage IA,Negative,Negative,Equivocal,Alive,2385.0,0,2,True,False,False,I,6.53,Triple Negative,Negative,Negative,,0,6.53
+TCGA-A2-A04R,FEMALE,36,BLACK OR AFRICAN AMERICAN,NOT HISPANIC OR LATINO,Stage IA,Positive,Positive,Equivocal,Alive,3709.0,0,5,True,True,True,I,10.15,HR+/HER2-,Negative,Negative,,0,10.15
+TCGA-A2-A04T,FEMALE,62,WHITE,,Stage IIA,Negative,Negative,Equivocal,Alive,2246.0,0,3,True,False,True,II,6.15,Triple Negative,Negative,Negative,,0,6.15
+TCGA-A2-A04U,FEMALE,47,WHITE,NOT HISPANIC OR LATINO,Stage IIA,Negative,Negative,Negative,Alive,2654.0,0,4,True,False,False,II,7.27,Triple Negative,Positive,Negative,,0,7.27
+TCGA-A2-A04V,FEMALE,39,WHITE,NOT HISPANIC OR LATINO,Stage IIA,Positive,Positive,Equivocal,Dead,1920.0,1,6,True,True,False,II,5.26,HR+/HER2-,Negative,Negative,,1,5.26
+TCGA-A2-A04W,FEMALE,50,WHITE,NOT HISPANIC OR LATINO,Stage IIB,Negative,Negative,Positive,Alive,3102.0,0,5,True,False,False,II,8.49,HER2-positive,Positive,Positive,,0,8.49
+TCGA-A2-A04X,FEMALE,34,WHITE,,Stage IIA,Positive,Positive,Positive,Alive,1686.0,0,5,True,True,False,II,4.62,HER2-positive,Positive,Positive,,0,4.62
+TCGA-A2-A04Y,FEMALE,53,WHITE,,Stage IIB,Positive,Positive,Negative,Alive,1099.0,0,7,True,True,True,II,3.01,HR+/HER2-,Negative,Negative,,0,3.01
+TCGA-A2-A0CK,FEMALE,60,WHITE,NOT HISPANIC OR LATINO,Stage IIIA,Positive,Positive,Negative,Alive,4159.0,0,6,True,True,True,III,11.39,HR+/HER2-,Negative,Negative,,0,11.39
+TCGA-A2-A0CL,FEMALE,37,BLACK OR AFRICAN AMERICAN,NOT HISPANIC OR LATINO,Stage IIIA,Positive,Positive,Negative,Alive,3015.0,0,7,True,True,True,III,8.25,HR+/HER2-,Negative,Negative,,0,8.25
+TCGA-A2-A0CM,FEMALE,40,BLACK OR AFRICAN AMERICAN,NOT HISPANIC OR LATINO,Stage IIA,Negative,Negative,Negative,Dead,754.0,1,6,True,True,False,II,2.06,Triple Negative,,Negative,,1,2.06
+TCGA-A2-A0CO,FEMALE,85,WHITE,NOT HISPANIC OR LATINO,Stage IIB,Positive,Positive,Negative,Dead,1468.0,1,2,False,True,True,II,4.02,HR+/HER2-,Negative,Negative,,1,4.02
+TCGA-A2-A0CP,FEMALE,60,WHITE,NOT HISPANIC OR LATINO,Stage IA,Positive,Positive,,Alive,2813.0,0,3,True,True,True,I,7.7,HR+/HER2-,Negative,Negative,,0,7.7
+TCGA-A2-A0CQ,FEMALE,62,BLACK OR AFRICAN AMERICAN,NOT HISPANIC OR LATINO,Stage IA,Positive,Positive,Equivocal,Alive,2695.0,0,4,True,True,True,I,7.38,HR+/HER2-,Negative,Negative,,0,7.38
+TCGA-A2-A0CR,FEMALE,54,ASIAN,NOT HISPANIC OR LATINO,Stage IIB,Positive,Positive,Negative,Alive,3283.0,0,5,True,True,False,II,8.99,HR+/HER2-,Negative,Negative,,0,8.99
+TCGA-A2-A0CS,FEMALE,73,WHITE,NOT HISPANIC OR LATINO,Stage IV,Positive,Positive,Equivocal,Dead,2348.0,1,2,False,True,True,IV,6.43,HR+/HER2-,Negative,Negative,,1,6.43
+TCGA-A2-A0CT,FEMALE,71,WHITE,NOT HISPANIC OR LATINO,Stage IIA,Positive,Negative,Equivocal,Alive,2289.0,0,4,True,True,False,II,6.27,HR+/HER2-,Negative,Negative,,0,6.27
+TCGA-A2-A0CU,FEMALE,73,WHITE,NOT HISPANIC OR LATINO,Stage IIA,Positive,Positive,Equivocal,Dead,158.0,1,1,False,True,False,II,0.43,HR+/HER2-,Negative,Negative,,1,0.43
+TCGA-A2-A0CV,FEMALE,41,ASIAN,NOT HISPANIC OR LATINO,Stage IIB,Positive,Positive,Negative,Alive,3011.0,0,4,True,True,True,II,8.24,HR+/HER2-,Negative,Negative,,0,8.24
+TCGA-A2-A0CW,FEMALE,67,WHITE,NOT HISPANIC OR LATINO,Stage IIB,Positive,Positive,Equivocal,Alive,3283.0,0,1,False,True,False,II,8.99,HR+/HER2-,Negative,Negative,,0,8.99
+TCGA-A2-A0CX,FEMALE,52,WHITE,NOT HISPANIC OR LATINO,Stage IIA,Positive,Negative,Positive,Alive,1728.0,0,7,True,True,True,II,4.73,HER2-positive,,Positive,,0,4.73
+TCGA-A2-A0CY,FEMALE,63,WHITE,NOT HISPANIC OR LATINO,Stage IIB,Positive,Positive,Negative,Alive,1673.0,0,9,True,True,False,II,4.58,HR+/HER2-,Negative,Negative,,0,4.58
+TCGA-A2-A0CZ,FEMALE,46,WHITE,NOT HISPANIC OR LATINO,Stage IIA,Positive,Positive,Negative,Alive,1616.0,0,3,True,True,False,II,4.42,HR+/HER2-,Negative,Negative,,0,4.42
+TCGA-A2-A0D0,FEMALE,60,BLACK OR AFRICAN AMERICAN,NOT HISPANIC OR LATINO,Stage IIA,Negative,Negative,Negative,Alive,2048.0,0,2,True,False,False,II,5.61,Triple Negative,Negative,Negative,,0,5.61
+TCGA-A2-A0D1,FEMALE,76,WHITE,NOT HISPANIC OR LATINO,Stage IIA,Negative,Negative,Positive,Alive,1051.0,0,4,True,False,True,II,2.88,HER2-positive,Positive,Positive,,0,2.88
+TCGA-A2-A0D2,FEMALE,45,WHITE,NOT HISPANIC OR LATINO,Stage IIA,Negative,Negative,Negative,Alive,1027.0,0,3,True,False,True,II,2.81,Triple Negative,Negative,Negative,,0,2.81
+TCGA-A2-A0D3,FEMALE,42,WHITE,NOT HISPANIC OR LATINO,Stage IA,Positive,Positive,Negative,Alive,1873.0,0,4,True,True,False,I,5.13,HR+/HER2-,Negative,Negative,,0,5.13
+TCGA-A2-A0D4,FEMALE,37,BLACK OR AFRICAN AMERICAN,NOT HISPANIC OR LATINO,Stage IIB,Positive,Positive,Negative,Alive,767.0,0,4,True,True,True,II,2.1,HR+/HER2-,Negative,Negative,,0,2.1
+TCGA-A2-A0EM,FEMALE,73,WHITE,NOT HISPANIC OR LATINO,Stage IA,Positive,Positive,,Alive,3094.0,0,1,False,True,True,I,8.47,HR+/HER2-,Negative,Negative,,0,8.47
+TCGA-A2-A0EN,FEMALE,70,WHITE,NOT HISPANIC OR LATINO,Stage IIA,Positive,Positive,Equivocal,Alive,4088.0,0,2,False,True,True,II,11.19,HR+/HER2-,Negative,Negative,,0,11.19
+TCGA-A2-A0EO,FEMALE,54,WHITE,NOT HISPANIC OR LATINO,Stage IA,Positive,Positive,Negative,Alive,2442.0,0,3,False,True,True,I,6.69,HR+/HER2-,Negative,Negative,,0,6.69
+TCGA-A2-A0EP,FEMALE,56,WHITE,NOT HISPANIC OR LATINO,Stage I,Positive,Negative,Negative,Alive,3603.0,0,5,True,True,False,I,9.86,HR+/HER2-,Negative,Negative,,0,9.86
+TCGA-A2-A0EQ,FEMALE,64,BLACK OR AFRICAN AMERICAN,NOT HISPANIC OR LATINO,Stage IIA,Negative,Negative,Positive,Alive,2426.0,0,5,True,False,True,II,6.64,HER2-positive,Negative,Positive,,0,6.64
+TCGA-A2-A0ER,FEMALE,63,WHITE,NOT HISPANIC OR LATINO,Stage IB,Positive,Positive,Equivocal,Alive,2263.0,0,5,True,True,True,I,6.2,HR+/HER2-,Negative,Negative,,0,6.2
+TCGA-A2-A0ES,FEMALE,52,WHITE,NOT HISPANIC OR LATINO,Stage IIA,Positive,Positive,Negative,Alive,2190.0,0,4,True,True,False,II,6.0,HR+/HER2-,Negative,Negative,,0,6.0
+TCGA-A2-A0ET,FEMALE,58,WHITE,NOT HISPANIC OR LATINO,Stage IIIA,Positive,Positive,Equivocal,Alive,1066.0,0,4,True,True,True,III,2.92,HR+/HER2-,Negative,Negative,,0,2.92
+TCGA-A2-A0EU,FEMALE,79,WHITE,NOT HISPANIC OR LATINO,Stage IA,Positive,Positive,Negative,Alive,1043.0,0,0,False,False,True,I,2.86,HR+/HER2-,Negative,Negative,,0,2.86
+TCGA-A2-A0EV,FEMALE,80,WHITE,NOT HISPANIC OR LATINO,Stage IA,Positive,Positive,Negative,Alive,968.0,0,0,False,False,False,I,2.65,HR+/HER2-,Negative,Negative,,0,2.65
+TCGA-A2-A0EW,FEMALE,53,WHITE,NOT HISPANIC OR LATINO,Stage IIIC,Positive,Positive,Negative,Dead,1884.0,1,12,True,True,True,III,5.16,HR+/HER2-,Negative,Negative,,1,5.16
+TCGA-A2-A0EX,FEMALE,46,WHITE,NOT HISPANIC OR LATINO,Stage IIB,Positive,Positive,Negative,Alive,752.0,0,3,False,True,False,II,2.06,HR+/HER2-,Negative,Negative,,0,2.06
+TCGA-A2-A0EY,FEMALE,62,WHITE,NOT HISPANIC OR LATINO,Stage IIB,Positive,Negative,Positive,Alive,1925.0,0,6,True,True,True,II,5.27,HER2-positive,Positive,Positive,,0,5.27
+TCGA-A2-A0ST,FEMALE,62,WHITE,NOT HISPANIC OR LATINO,Stage IIA,Negative,Negative,,Alive,3017.0,0,6,True,True,True,II,8.26,Triple Negative,Negative,Negative,,0,8.26
+TCGA-A2-A0SU,FEMALE,66,WHITE,NOT HISPANIC OR LATINO,Stage IIA,Positive,Positive,Negative,Alive,1662.0,0,1,False,True,False,II,4.55,HR+/HER2-,,Negative,,0,4.55
+TCGA-A2-A0SV,FEMALE,63,WHITE,NOT HISPANIC OR LATINO,Stage IV,Positive,Positive,Equivocal,Dead,825.0,1,4,True,True,True,IV,2.26,HR+/HER2-,Negative,Negative,,1,2.26
+TCGA-A2-A0SW,FEMALE,82,WHITE,NOT HISPANIC OR LATINO,Stage IV,Positive,Negative,,Dead,1365.0,1,2,False,True,True,IV,3.74,HR+/HER2-,Negative,Negative,,1,3.74
+TCGA-A2-A0SX,FEMALE,48,WHITE,NOT HISPANIC OR LATINO,Stage IA,Negative,Negative,Negative,Alive,1534.0,0,5,True,False,True,I,4.2,Triple Negative,,Negative,,0,4.2
+TCGA-A2-A0SY,FEMALE,62,WHITE,NOT HISPANIC OR LATINO,Stage IIIA,Positive,Positive,,Alive,1347.0,0,5,True,True,True,III,3.69,HER2-positive,Positive,Positive,,0,3.69
+TCGA-A2-A0T0,FEMALE,59,WHITE,NOT HISPANIC OR LATINO,Stage IIB,Negative,Negative,Negative,Alive,533.0,0,3,True,False,True,II,1.46,Triple Negative,,Negative,,0,1.46
+TCGA-A2-A0T1,FEMALE,55,AMERICAN INDIAN OR ALASKA NATIVE,NOT HISPANIC OR LATINO,Stage IIIC,Negative,Negative,Positive,Alive,521.0,0,3,True,False,True,III,1.43,HER2-positive,,Positive,,0,1.43
+TCGA-A2-A0T2,FEMALE,66,WHITE,NOT HISPANIC OR LATINO,Stage IV,Negative,Negative,Negative,Dead,255.0,1,1,True,False,True,IV,0.7,Triple Negative,,Negative,,1,0.7
+TCGA-A2-A0T3,FEMALE,37,WHITE,NOT HISPANIC OR LATINO,Stage IB,Positive,Positive,Equivocal,Alive,1516.0,0,4,True,True,True,I,4.15,HR+/HER2-,Negative,Negative,,0,4.15
+TCGA-A2-A0T4,FEMALE,62,WHITE,NOT HISPANIC OR LATINO,Stage IIA,Positive,Positive,Equivocal,Alive,624.0,0,1,False,True,False,II,1.71,HR+/HER2-,Negative,Negative,,0,1.71
+TCGA-A2-A0T5,FEMALE,39,WHITE,NOT HISPANIC OR LATINO,Stage IIA,Positive,Positive,Negative,Alive,531.0,0,3,True,True,False,II,1.45,HR+/HER2-,Negative,Negative,,0,1.45
+TCGA-A2-A0T6,FEMALE,50,WHITE,NOT HISPANIC OR LATINO,Stage IIB,Positive,Positive,Negative,Alive,575.0,0,4,True,True,True,II,1.57,HR+/HER2-,,Negative,,0,1.57
+TCGA-A2-A0T7,FEMALE,51,WHITE,NOT HISPANIC OR LATINO,Stage IIA,Positive,Positive,Negative,Alive,631.0,0,4,True,True,False,II,1.73,HR+/HER2-,,Negative,,0,1.73
+TCGA-A2-A0YC,FEMALE,59,WHITE,NOT HISPANIC OR LATINO,Stage IIB,Positive,Positive,,Alive,990.0,0,1,False,True,True,II,2.71,HR+/HER2-,Negative,Negative,,0,2.71
+TCGA-A2-A0YD,FEMALE,63,WHITE,NOT HISPANIC OR LATINO,Stage IIB,Positive,Positive,,Alive,769.0,0,3,True,True,False,II,2.11,HR+/HER2-,Negative,Negative,,0,2.11
+TCGA-A2-A0YE,FEMALE,48,WHITE,NOT HISPANIC OR LATINO,Stage IIB,Negative,Negative,Negative,Alive,554.0,0,3,True,False,True,II,1.52,Triple Negative,,Negative,,0,1.52
+TCGA-A2-A0YF,FEMALE,67,BLACK OR AFRICAN AMERICAN,NOT HISPANIC OR LATINO,Stage I,Positive,Negative,Negative,Alive,1535.0,0,1,False,True,False,I,4.2,HR+/HER2-,,Negative,,0,4.2
+TCGA-A2-A0YG,FEMALE,63,WHITE,NOT HISPANIC OR LATINO,Stage IIIC,Positive,Positive,Positive,Alive,666.0,0,6,True,True,True,III,1.82,HER2-positive,,Positive,,0,1.82
+TCGA-A2-A0YH,FEMALE,53,WHITE,NOT HISPANIC OR LATINO,Stage IIIA,Positive,Positive,Negative,Alive,659.0,0,4,True,True,True,III,1.8,HR+/HER2-,,Negative,,0,1.8
+TCGA-A2-A0YI,FEMALE,62,WHITE,NOT HISPANIC OR LATINO,Stage I,Positive,Positive,Negative,Alive,1505.0,0,1,False,True,True,I,4.12,HR+/HER2-,,Negative,,0,4.12
+TCGA-A2-A0YJ,FEMALE,39,WHITE,NOT HISPANIC OR LATINO,Stage IIIA,Positive,Negative,Negative,Alive,566.0,0,2,True,False,True,III,1.55,HR+/HER2-,,Negative,,0,1.55
+TCGA-A2-A0YK,FEMALE,61,WHITE,NOT HISPANIC OR LATINO,Stage IIA,Positive,Negative,Negative,Alive,588.0,0,3,True,True,False,II,1.61,HR+/HER2-,,Negative,,0,1.61
+TCGA-A2-A0YL,FEMALE,48,WHITE,NOT HISPANIC OR LATINO,Stage IIIA,Positive,Positive,Negative,Alive,1474.0,0,4,True,True,True,III,4.04,HR+/HER2-,,Negative,,0,4.04
+TCGA-A2-A0YM,FEMALE,67,WHITE,NOT HISPANIC OR LATINO,Stage IIA,Negative,Negative,,Alive,965.0,0,0,False,False,True,II,2.64,Triple Negative,Negative,Negative,,0,2.64
+TCGA-A2-A0YT,FEMALE,56,WHITE,NOT HISPANIC OR LATINO,Stage IIIB,Positive,Negative,,Dead,723.0,1,1,False,True,True,III,1.98,HR+/HER2-,Negative,Negative,,1,1.98
+TCGA-A2-A1FV,FEMALE,74,WHITE,NOT HISPANIC OR LATINO,Stage IIB,Positive,Positive,Negative,Alive,714.0,0,3,True,True,True,II,1.95,HR+/HER2-,Negative,Negative,,0,1.95
+TCGA-A2-A1FW,FEMALE,62,WHITE,NOT HISPANIC OR LATINO,Stage IIIA,Positive,Negative,Negative,Alive,528.0,0,4,True,True,True,III,1.45,HR+/HER2-,,Negative,,0,1.45
+TCGA-A2-A1FX,FEMALE,61,WHITE,NOT HISPANIC OR LATINO,Stage IIIA,Positive,Positive,,Alive,1847.0,0,3,True,True,True,III,5.06,HR+/HER2-,Negative,Negative,,0,5.06
+TCGA-A2-A1FZ,FEMALE,63,WHITE,NOT HISPANIC OR LATINO,Stage IIA,Positive,Positive,Negative,Alive,683.0,0,1,False,True,False,II,1.87,HR+/HER2-,,Negative,,0,1.87
+TCGA-A2-A1G0,FEMALE,49,WHITE,NOT HISPANIC OR LATINO,Stage IIB,Positive,Positive,Equivocal,Alive,616.0,0,4,True,True,True,II,1.69,HR+/HER2-,Negative,Negative,,0,1.69
+TCGA-A2-A1G1,FEMALE,85,WHITE,NOT HISPANIC OR LATINO,Stage IIB,Negative,Negative,Equivocal,Alive,584.0,0,0,False,False,True,II,1.6,HER2-positive,Positive,Positive,,0,1.6
+TCGA-A2-A1G4,FEMALE,71,WHITE,NOT HISPANIC OR LATINO,Stage IIIA,Positive,Positive,Negative,Alive,595.0,0,4,True,True,False,III,1.63,HR+/HER2-,,Negative,,0,1.63
+TCGA-A2-A1G6,FEMALE,50,WHITE,NOT HISPANIC OR LATINO,Stage IIIA,Negative,Negative,Negative,Alive,501.0,0,3,True,False,True,III,1.37,Triple Negative,,Negative,,0,1.37
+TCGA-A2-A259,FEMALE,70,BLACK OR AFRICAN AMERICAN,NOT HISPANIC OR LATINO,Stage I,Positive,Positive,Negative,Alive,1596.0,0,1,False,True,False,I,4.37,HR+/HER2-,Negative,Negative,,0,4.37
+TCGA-A2-A25A,FEMALE,44,WHITE,NOT HISPANIC OR LATINO,Stage IIA,Positive,Positive,Equivocal,Alive,3276.0,0,4,True,True,True,II,8.97,HR+/HER2-,Negative,Negative,,0,8.97
+TCGA-A2-A25B,FEMALE,39,BLACK OR AFRICAN AMERICAN,NOT HISPANIC OR LATINO,Stage IIB,Positive,Positive,Equivocal,Alive,1291.0,0,4,True,True,True,II,3.53,HR+/HER2-,Negative,Negative,,0,3.53
+TCGA-A2-A25C,FEMALE,50,WHITE,NOT HISPANIC OR LATINO,Stage IIB,Positive,Positive,Negative,Alive,523.0,0,6,True,True,True,II,1.43,HR+/HER2-,,Negative,,0,1.43
+TCGA-A2-A25E,FEMALE,34,BLACK OR AFRICAN AMERICAN,NOT HISPANIC OR LATINO,Stage IIIA,Positive,Positive,Equivocal,Alive,3204.0,0,7,True,True,True,III,8.77,Unknown,Equivocal,Unknown,,0,8.77
+TCGA-A2-A25F,FEMALE,66,WHITE,NOT HISPANIC OR LATINO,Stage IIA,Negative,Positive,Negative,Alive,322.0,0,2,True,False,True,II,0.88,HR+/HER2-,,Negative,,0,0.88
+TCGA-A2-A3KC,FEMALE,55,BLACK OR AFRICAN AMERICAN,NOT HISPANIC OR LATINO,Stage IIB,Positive,Positive,Equivocal,Alive,1102.0,0,5,True,True,True,II,3.02,HR+/HER2-,Negative,Negative,,0,3.02
+TCGA-A2-A3KD,FEMALE,47,WHITE,NOT HISPANIC OR LATINO,Stage IIIA,Positive,Positive,Negative,Alive,1206.0,0,3,True,True,True,III,3.3,HR+/HER2-,Negative,Negative,,0,3.3
+TCGA-A2-A3XS,FEMALE,62,BLACK OR AFRICAN AMERICAN,NOT HISPANIC OR LATINO,Stage IIIA,Negative,Negative,,Dead,1032.0,1,8,True,True,False,III,2.83,Triple Negative,Negative,Negative,,1,2.83
+TCGA-A2-A3XT,FEMALE,45,BLACK OR AFRICAN AMERICAN,NOT HISPANIC OR LATINO,Stage IIB,Negative,Negative,Negative,Alive,2770.0,0,3,True,False,True,II,7.58,Triple Negative,Negative,Negative,,0,7.58
+TCGA-A2-A3XU,FEMALE,35,BLACK OR AFRICAN AMERICAN,NOT HISPANIC OR LATINO,Stage IIB,Negative,Negative,,Dead,912.0,1,5,True,True,True,II,2.5,Triple Negative,Negative,Negative,574.0,1,1.571526351813826
+TCGA-A2-A3XV,FEMALE,46,BLACK OR AFRICAN AMERICAN,NOT HISPANIC OR LATINO,Stage IIA,Positive,Negative,Equivocal,Alive,996.0,0,4,True,True,True,II,2.73,HER2-positive,Positive,Positive,,0,2.73
+TCGA-A2-A3XW,FEMALE,42,BLACK OR AFRICAN AMERICAN,NOT HISPANIC OR LATINO,Stage IIB,Positive,Negative,Negative,Alive,1712.0,0,4,True,True,True,II,4.69,HR+/HER2-,Negative,Negative,,0,4.69
+TCGA-A2-A3XX,FEMALE,49,BLACK OR AFRICAN AMERICAN,NOT HISPANIC OR LATINO,Stage IIA,Negative,Negative,Negative,Dead,1439.0,1,3,True,False,False,II,3.94,Triple Negative,Negative,Negative,,1,3.94
+TCGA-A2-A3XY,FEMALE,49,BLACK OR AFRICAN AMERICAN,NOT HISPANIC OR LATINO,Stage IIB,Negative,Negative,Negative,Dead,1093.0,1,9,True,False,True,II,2.99,Triple Negative,Negative,Negative,,1,2.99
+TCGA-A2-A3XZ,FEMALE,46,BLACK OR AFRICAN AMERICAN,NOT HISPANIC OR LATINO,Stage I,Negative,Negative,Positive,Alive,1532.0,0,3,True,False,False,I,4.19,HER2-positive,,Positive,,0,4.19
+TCGA-A2-A3Y0,FEMALE,57,BLACK OR AFRICAN AMERICAN,NOT HISPANIC OR LATINO,Stage IIB,Positive,Negative,Negative,Alive,1546.0,0,6,True,True,False,II,4.23,HR+/HER2-,,Negative,,0,4.23
+TCGA-A2-A4RW,FEMALE,49,WHITE,NOT HISPANIC OR LATINO,Stage IIIC,Positive,Positive,Negative,Alive,222.0,0,0,False,False,False,III,0.61,HR+/HER2-,,Negative,,0,0.61
+TCGA-A2-A4RX,FEMALE,67,BLACK OR AFRICAN AMERICAN,NOT HISPANIC OR LATINO,Stage IIA,Positive,Positive,Negative,Alive,742.0,0,0,False,False,False,II,2.03,HR+/HER2-,,Negative,,0,2.03
+TCGA-A2-A4RY,FEMALE,46,WHITE,NOT HISPANIC OR LATINO,Stage IIIC,Positive,Positive,Negative,Alive,648.0,0,4,True,True,True,III,1.77,HR+/HER2-,,Negative,,0,1.77
+TCGA-A2-A4S0,FEMALE,77,WHITE,NOT HISPANIC OR LATINO,Stage IIA,Positive,Positive,Negative,Alive,706.0,0,0,False,False,False,II,1.93,HR+/HER2-,,Negative,,0,1.93
+TCGA-A2-A4S1,FEMALE,66,WHITE,NOT HISPANIC OR LATINO,Stage IIA,Positive,Negative,Negative,Alive,820.0,0,0,False,False,True,II,2.25,HR+/HER2-,,Negative,,0,2.25
+TCGA-A2-A4S2,FEMALE,62,WHITE,NOT HISPANIC OR LATINO,Stage IIIA,Positive,Positive,Negative,Alive,643.0,0,4,True,True,True,III,1.76,HR+/HER2-,,Negative,,0,1.76
+TCGA-A2-A4S3,FEMALE,59,BLACK OR AFRICAN AMERICAN,NOT HISPANIC OR LATINO,Stage IIB,Positive,Positive,Negative,Alive,666.0,0,0,False,False,False,II,1.82,HR+/HER2-,,Negative,,0,1.82
+TCGA-A7-A0CD,FEMALE,66,WHITE,NOT HISPANIC OR LATINO,Stage I,Positive,Positive,Equivocal,Alive,1165.0,0,1,False,True,True,I,3.19,HR+/HER2-,Negative,Negative,,0,3.19
+TCGA-A7-A0CE,FEMALE,57,WHITE,NOT HISPANIC OR LATINO,Stage IIA,Negative,Negative,Equivocal,Alive,1074.0,0,3,True,False,True,II,2.94,Triple Negative,Negative,Negative,,0,2.94
+TCGA-A7-A0CG,FEMALE,78,WHITE,NOT HISPANIC OR LATINO,Stage IIA,Positive,Negative,Negative,Alive,1043.0,0,0,False,False,True,II,2.86,HR+/HER2-,,Negative,,0,2.86
+TCGA-A7-A0CH,FEMALE,79,WHITE,NOT HISPANIC OR LATINO,Stage IIA,,,,Alive,1079.0,0,1,False,True,False,II,2.95,Unknown,,Unknown,,0,2.95
+TCGA-A7-A0CJ,FEMALE,57,WHITE,NOT HISPANIC OR LATINO,Stage IIA,Positive,Positive,Negative,Alive,931.0,0,3,True,True,True,II,2.55,HR+/HER2-,,Negative,,0,2.55
+TCGA-A7-A0D9,FEMALE,37,WHITE,NOT HISPANIC OR LATINO,Stage IIA,Positive,Negative,Negative,Alive,1139.0,0,3,True,True,False,II,3.12,HR+/HER2-,,Negative,,0,3.12
+TCGA-A7-A0DA,FEMALE,62,WHITE,NOT HISPANIC OR LATINO,Stage IIA,Negative,Negative,Negative,Alive,1085.0,0,3,True,False,True,II,2.97,Triple Negative,,Negative,,0,2.97
+TCGA-A7-A0DB,FEMALE,56,WHITE,NOT HISPANIC OR LATINO,Stage IIA,Positive,Positive,Negative,Alive,1007.0,0,1,False,True,True,II,2.76,HR+/HER2-,,Negative,,0,2.76
+TCGA-A7-A0DC,FEMALE,63,WHITE,NOT HISPANIC OR LATINO,Stage IA,Positive,Negative,Negative,Alive,906.0,0,6,True,True,True,I,2.48,HR+/HER2-,,Negative,,0,2.48
+TCGA-A7-A13D,FEMALE,46,BLACK OR AFRICAN AMERICAN,NOT HISPANIC OR LATINO,Stage IIA,Negative,Positive,Equivocal,Alive,965.0,0,2,True,False,True,II,2.64,HR+/HER2-,Negative,Negative,,0,2.64
+TCGA-A7-A13E,FEMALE,62,WHITE,NOT HISPANIC OR LATINO,Stage IIB,Positive,Negative,Equivocal,Dead,614.0,1,7,True,True,True,II,1.68,HR+/HER2-,Negative,Negative,,1,1.68
+TCGA-A7-A13F,FEMALE,44,WHITE,NOT HISPANIC OR LATINO,Stage IIIA,Positive,Positive,Equivocal,Alive,765.0,0,5,True,True,True,III,2.09,HR+/HER2-,Negative,Negative,,0,2.09
+TCGA-A7-A13G,FEMALE,79,WHITE,NOT HISPANIC OR LATINO,Stage IIA,Positive,Positive,Negative,Alive,718.0,0,2,False,True,False,II,1.97,HR+/HER2-,,Negative,,0,1.97
+TCGA-A7-A13H,FEMALE,61,WHITE,NOT HISPANIC OR LATINO,Stage IIB,Positive,Positive,Equivocal,Alive,899.0,0,1,False,True,False,II,2.46,HR+/HER2-,Negative,Negative,,0,2.46
+TCGA-A7-A26E,FEMALE,71,WHITE,NOT HISPANIC OR LATINO,Stage IIIA,Positive,Positive,Negative,Alive,954.0,0,3,True,True,True,III,2.61,HR+/HER2-,,Negative,,0,2.61
+TCGA-A7-A26F,FEMALE,55,WHITE,NOT HISPANIC OR LATINO,Stage IA,Negative,Negative,Equivocal,Alive,738.0,0,2,True,False,True,I,2.02,Triple Negative,Negative,Negative,,0,2.02
+TCGA-A7-A26G,FEMALE,50,BLACK OR AFRICAN AMERICAN,NOT HISPANIC OR LATINO,Stage IIA,Negative,Negative,Negative,Alive,722.0,0,2,True,False,False,II,1.98,Triple Negative,,Negative,,0,1.98
+TCGA-A7-A26H,FEMALE,72,WHITE,NOT HISPANIC OR LATINO,Stage IIA,Positive,Negative,Equivocal,Alive,724.0,0,2,True,True,False,II,1.98,HER2-positive,Positive,Positive,,0,1.98
+TCGA-A7-A26I,FEMALE,65,WHITE,NOT HISPANIC OR LATINO,Stage IIA,Negative,Negative,Equivocal,Alive,661.0,0,2,True,False,True,II,1.81,Triple Negative,Negative,Negative,,0,1.81
+TCGA-A7-A26J,FEMALE,49,WHITE,NOT HISPANIC OR LATINO,Stage IIA,Positive,Positive,Negative,Alive,627.0,0,1,False,True,False,II,1.72,HR+/HER2-,,Negative,,0,1.72
+TCGA-A7-A2KD,FEMALE,53,BLACK OR AFRICAN AMERICAN,NOT HISPANIC OR LATINO,Stage IIIA,Positive,Positive,Positive,Alive,679.0,0,4,True,False,True,III,1.86,HER2-positive,,Positive,,0,1.86
+TCGA-A7-A3IY,FEMALE,71,WHITE,NOT HISPANIC OR LATINO,Stage I,Positive,Positive,Negative,Alive,345.0,0,1,False,True,True,I,0.94,HR+/HER2-,,Negative,,0,0.94
+TCGA-A7-A3IZ,FEMALE,62,WHITE,NOT HISPANIC OR LATINO,Stage IIA,Positive,Negative,Equivocal,Alive,322.0,0,3,True,True,True,II,0.88,HR+/HER2-,Negative,Negative,,0,0.88
+TCGA-A7-A3J0,FEMALE,62,WHITE,NOT HISPANIC OR LATINO,Stage IIA,Positive,Positive,Negative,Alive,313.0,0,1,False,True,True,II,0.86,HR+/HER2-,,Negative,,0,0.86
+TCGA-A7-A3J1,FEMALE,63,WHITE,NOT HISPANIC OR LATINO,Stage IA,Positive,Positive,Negative,Alive,343.0,0,3,False,True,True,I,0.94,HR+/HER2-,,Negative,,0,0.94
+TCGA-A7-A3RF,FEMALE,79,WHITE,NOT HISPANIC OR LATINO,Stage IIA,Positive,Positive,Negative,Alive,408.0,0,1,False,True,True,II,1.12,HR+/HER2-,,Negative,,0,1.12
+TCGA-A7-A425,FEMALE,70,WHITE,NOT HISPANIC OR LATINO,Stage IIIC,Positive,Positive,Indeterminate,Alive,447.0,0,4,True,True,True,III,1.22,HR+/HER2-,Negative,Negative,,0,1.22
+TCGA-A7-A426,FEMALE,50,WHITE,NOT HISPANIC OR LATINO,Stage IIIC,Positive,Positive,Negative,Alive,364.0,0,4,True,True,True,III,1.0,HR+/HER2-,,Negative,,0,1.0
+TCGA-A7-A4SA,FEMALE,40,WHITE,NOT HISPANIC OR LATINO,Stage IIB,Positive,Negative,Negative,Alive,454.0,0,4,True,True,False,II,1.24,HR+/HER2-,,Negative,,0,1.24
+TCGA-A7-A4SB,FEMALE,56,WHITE,NOT HISPANIC OR LATINO,Stage IIIA,Positive,Positive,Negative,Alive,418.0,0,3,True,True,True,III,1.14,HR+/HER2-,,Negative,,0,1.14
+TCGA-A7-A4SC,FEMALE,62,WHITE,NOT HISPANIC OR LATINO,Stage IIB,Positive,Negative,Equivocal,Alive,446.0,0,2,False,True,True,II,1.22,HR+/HER2-,Negative,Negative,,0,1.22
+TCGA-A7-A4SD,FEMALE,52,BLACK OR AFRICAN AMERICAN,NOT HISPANIC OR LATINO,Stage IIA,Negative,Negative,Equivocal,Alive,441.0,0,2,True,False,False,II,1.21,Triple Negative,Negative,Negative,,0,1.21
+TCGA-A7-A4SE,FEMALE,54,BLACK OR AFRICAN AMERICAN,NOT HISPANIC OR LATINO,Stage IIA,Negative,Negative,Negative,Alive,644.0,0,3,True,False,False,II,1.76,Triple Negative,,Negative,,0,1.76
+TCGA-A7-A4SF,FEMALE,54,BLACK OR AFRICAN AMERICAN,NOT HISPANIC OR LATINO,Stage IIA,Positive,Negative,Positive,Alive,545.0,0,4,True,True,True,II,1.49,HER2-positive,,Positive,,0,1.49
+TCGA-A7-A56D,FEMALE,84,BLACK OR AFRICAN AMERICAN,NOT HISPANIC OR LATINO,Stage IIA,Positive,Positive,Negative,Alive,448.0,0,1,False,True,False,II,1.23,HR+/HER2-,,Negative,,0,1.23
+TCGA-A7-A5ZV,FEMALE,62,BLACK OR AFRICAN AMERICAN,NOT HISPANIC OR LATINO,Stage IIA,Negative,Negative,Equivocal,Alive,368.0,0,3,True,False,True,II,1.01,Triple Negative,Negative,Negative,,0,1.01
+TCGA-A7-A5ZW,FEMALE,47,BLACK OR AFRICAN AMERICAN,NOT HISPANIC OR LATINO,Stage IIA,Positive,Positive,Negative,Alive,326.0,0,3,True,True,True,II,0.89,HR+/HER2-,,Negative,,0,0.89
+TCGA-A7-A5ZX,FEMALE,48,WHITE,NOT HISPANIC OR LATINO,Stage IIIC,Positive,Positive,Negative,Alive,336.0,0,4,True,True,True,III,0.92,HR+/HER2-,,Negative,,0,0.92
+TCGA-A7-A6VV,FEMALE,51,BLACK OR AFRICAN AMERICAN,NOT HISPANIC OR LATINO,Stage IIA,Negative,Negative,Negative,Alive,313.0,0,2,True,False,False,II,0.86,Triple Negative,,Negative,,0,0.86
+TCGA-A7-A6VW,FEMALE,48,BLACK OR AFRICAN AMERICAN,NOT HISPANIC OR LATINO,Stage IIA,Negative,Negative,Negative,Alive,285.0,0,3,True,False,True,II,0.78,Triple Negative,,Negative,,0,0.78
+TCGA-A7-A6VX,FEMALE,68,BLACK OR AFRICAN AMERICAN,NOT HISPANIC OR LATINO,Stage IIA,Positive,Positive,Negative,Alive,317.0,0,3,True,True,True,II,0.87,HR+/HER2-,,Negative,,0,0.87
+TCGA-A7-A6VY,FEMALE,48,BLACK OR AFRICAN AMERICAN,NOT HISPANIC OR LATINO,Stage IIB,Negative,Negative,Negative,Alive,266.0,0,3,True,False,True,II,0.73,Triple Negative,,Negative,,0,0.73
+TCGA-A8-A06O,FEMALE,60,,,Stage I,Positive,Positive,Negative,Alive,396.0,0,1,False,True,False,I,1.08,HR+/HER2-,Negative,Negative,,0,1.08
+TCGA-A8-A06P,FEMALE,63,,,Stage IIIA,Positive,Positive,Negative,Alive,396.0,0,2,True,True,True,III,1.08,HR+/HER2-,Negative,Negative,,0,1.08
+TCGA-A8-A06Q,FEMALE,63,,,Stage IIIA,Positive,Positive,Negative,Alive,31.0,0,0,False,False,False,III,0.08,HR+/HER2-,Negative,Negative,,0,0.08
+TCGA-A8-A06R,FEMALE,69,,,Stage IIB,Positive,Negative,Positive,Alive,547.0,0,4,True,True,True,II,1.5,HER2-positive,Positive,Positive,,0,1.5
+TCGA-A8-A06T,FEMALE,75,,,Stage IIIA,Positive,Positive,Positive,Alive,1614.0,0,1,False,True,False,III,4.42,HER2-positive,Positive,Positive,,0,4.42
+TCGA-A8-A06U,FEMALE,80,,,Stage IIB,Positive,Positive,Positive,Dead,883.0,1,0,False,False,False,II,2.42,HER2-positive,Positive,Positive,,1,2.42
+TCGA-A8-A06X,FEMALE,77,,,Stage IIB,Positive,Negative,Positive,Dead,943.0,1,0,False,False,True,II,2.58,HER2-positive,Positive,Positive,,1,2.58
+TCGA-A8-A06Y,FEMALE,66,,,Stage IIA,Positive,Positive,Negative,Alive,791.0,0,1,False,True,True,II,2.17,HR+/HER2-,Negative,Negative,,0,2.17
+TCGA-A8-A06Z,FEMALE,84,,,Stage IIB,Positive,Positive,Negative,Alive,31.0,0,0,False,False,False,II,0.08,HR+/HER2-,Negative,Negative,,0,0.08
+TCGA-A8-A075,FEMALE,42,,,Stage IIB,Positive,Positive,Positive,Alive,518.0,0,5,True,True,True,II,1.42,HER2-positive,Positive,Positive,,0,1.42
+TCGA-A8-A076,FEMALE,66,,,Stage IIA,Positive,Positive,Positive,Alive,1642.0,0,1,False,True,False,II,4.5,HER2-positive,Positive,Positive,,0,4.5
+TCGA-A8-A079,FEMALE,69,,,Stage IIIB,Positive,Positive,Negative,Alive,274.0,0,3,True,False,True,III,0.75,HR+/HER2-,Negative,Negative,,0,0.75
+TCGA-A8-A07B,FEMALE,69,,,Stage IIA,Positive,Positive,Positive,Alive,1308.0,0,0,False,False,False,II,3.58,HER2-positive,Positive,Positive,,0,3.58
+TCGA-A8-A07C,FEMALE,57,,,Stage IIA,Negative,Negative,Negative,Alive,1034.0,0,4,True,False,True,II,2.83,Triple Negative,Negative,Negative,,0,2.83
+TCGA-A8-A07E,FEMALE,81,,,Stage X,Positive,Positive,Negative,Alive,608.0,0,1,False,True,False,Unknown,1.66,HR+/HER2-,Negative,Negative,,0,1.66
+TCGA-A8-A07F,FEMALE,65,,,Stage IIB,Positive,Positive,Negative,Alive,577.0,0,4,True,True,True,II,1.58,HR+/HER2-,Negative,Negative,,0,1.58
+TCGA-A8-A07G,FEMALE,65,,,Stage IIA,Positive,Positive,Negative,Alive,577.0,0,4,True,True,True,II,1.58,HR+/HER2-,Negative,Negative,,0,1.58
+TCGA-A8-A07I,FEMALE,69,,,Stage IIIA,Positive,Negative,Positive,Alive,426.0,0,6,True,True,True,III,1.17,HER2-positive,Positive,Positive,,0,1.17
+TCGA-A8-A07J,FEMALE,35,,,Stage IIB,Positive,Positive,Negative,Alive,365.0,0,5,True,True,True,II,1.0,HR+/HER2-,Negative,Negative,,0,1.0
+TCGA-A8-A07L,FEMALE,58,,,Stage IIIA,Positive,Positive,Negative,Alive,975.0,0,2,True,True,True,III,2.67,HR+/HER2-,Negative,Negative,,0,2.67
+TCGA-A8-A07O,FEMALE,51,,,Stage IIA,Negative,Negative,Negative,Alive,304.0,0,1,True,False,True,II,0.83,Triple Negative,Negative,Negative,,0,0.83
+TCGA-A8-A07P,FEMALE,68,,,Stage IIB,Positive,Positive,Positive,Alive,334.0,0,5,True,True,True,II,0.91,HER2-positive,Positive,Positive,,0,0.91
+TCGA-A8-A07R,FEMALE,80,,,Stage IIIC,Negative,Negative,Positive,Alive,273.0,0,1,False,False,True,III,0.75,HER2-positive,,Positive,,0,0.75
+TCGA-A8-A07S,FEMALE,73,,,Stage IIA,Positive,Negative,Negative,Alive,243.0,0,1,False,True,True,II,0.67,HR+/HER2-,Negative,Negative,,0,0.67
+TCGA-A8-A07U,FEMALE,66,,,Stage IIIA,Negative,Positive,Negative,Alive,760.0,0,4,True,False,True,III,2.08,HR+/HER2-,Negative,Negative,,0,2.08
+TCGA-A8-A07W,FEMALE,76,,,Stage IV,Positive,Positive,Negative,Alive,304.0,0,2,True,True,False,IV,0.83,HR+/HER2-,Negative,Negative,,0,0.83
+TCGA-A8-A07Z,FEMALE,85,,,Stage IIA,Positive,Positive,Negative,Alive,1371.0,0,1,False,True,False,II,3.75,HR+/HER2-,Negative,Negative,,0,3.75
+TCGA-A8-A082,FEMALE,58,,,Stage IIB,Positive,Positive,Negative,Alive,549.0,0,6,True,True,False,II,1.5,HR+/HER2-,Negative,Negative,,0,1.5
+TCGA-A8-A084,FEMALE,81,,,Stage IIB,Positive,Negative,Negative,Alive,458.0,0,0,False,False,True,II,1.25,HR+/HER2-,Negative,Negative,,0,1.25
+TCGA-A8-A085,MALE,44,,,Stage IIB,Positive,Positive,Negative,Alive,1124.0,0,1,False,True,False,II,3.08,HR+/HER2-,Negative,Negative,,0,3.08
+TCGA-A8-A086,FEMALE,59,,,Stage IIA,Positive,Positive,Negative,Alive,396.0,0,2,True,False,True,II,1.08,HR+/HER2-,Negative,Negative,,0,1.08
+TCGA-A8-A08A,FEMALE,89,,,Stage I,Positive,Positive,Negative,Alive,30.0,0,0,False,False,False,I,0.08,HR+/HER2-,Negative,Negative,,0,0.08
+TCGA-A8-A08B,FEMALE,52,,,Stage IIA,Positive,Negative,Positive,Alive,1156.0,0,6,True,True,True,II,3.16,HER2-positive,Positive,Positive,,0,3.16
+TCGA-A8-A08C,FEMALE,65,,,Stage IIA,Positive,Positive,Positive,Alive,881.0,0,4,True,True,True,II,2.41,HER2-positive,Positive,Positive,,0,2.41
+TCGA-A8-A08F,FEMALE,59,,,Stage IIIC,Positive,Positive,Negative,Alive,1004.0,0,5,True,True,True,III,2.75,HR+/HER2-,Negative,Negative,,0,2.75
+TCGA-A8-A08G,FEMALE,41,,,Stage IIA,Positive,Positive,Positive,Alive,607.0,0,5,True,True,True,II,1.66,HER2-positive,Positive,Positive,,0,1.66
+TCGA-A8-A08I,FEMALE,53,,,Stage IIA,Positive,Positive,Negative,Alive,365.0,0,4,True,True,True,II,1.0,HR+/HER2-,Negative,Negative,,0,1.0
+TCGA-A8-A08J,FEMALE,52,,,Stage IV,Positive,Negative,Negative,Dead,1127.0,1,0,False,False,False,IV,3.09,HR+/HER2-,Negative,Negative,,1,3.09
+TCGA-A8-A08L,FEMALE,89,,,Stage IIIA,Positive,Negative,Negative,Dead,30.0,1,0,False,False,True,III,0.08,HR+/HER2-,Negative,Negative,,1,0.08
+TCGA-A8-A08O,FEMALE,45,,,Stage IV,Positive,Positive,Negative,Alive,943.0,0,6,True,True,False,IV,2.58,HR+/HER2-,Negative,Negative,,0,2.58
+TCGA-A8-A08P,FEMALE,70,,,Stage IIIA,Positive,Positive,Positive,Alive,943.0,0,6,True,True,True,III,2.58,HER2-positive,Positive,Positive,,0,2.58
+TCGA-A8-A08R,FEMALE,52,,,Stage IIB,Negative,Negative,Negative,Alive,30.0,0,0,False,False,False,II,0.08,Triple Negative,Negative,Negative,,0,0.08
+TCGA-A8-A08S,FEMALE,71,,,Stage IIA,Positive,Positive,Positive,Alive,1004.0,0,1,False,True,True,II,2.75,HER2-positive,Positive,Positive,,0,2.75
+TCGA-A8-A08T,FEMALE,64,,,Stage IV,Positive,Positive,Positive,Dead,3409.0,1,0,False,False,False,IV,9.33,HER2-positive,Positive,Positive,,1,9.33
+TCGA-A8-A08X,FEMALE,43,,,Stage IIIC,Negative,Negative,Positive,Alive,1308.0,0,6,True,True,True,III,3.58,HER2-positive,Positive,Positive,,0,3.58
+TCGA-A8-A08Z,FEMALE,76,,,,Positive,Positive,Negative,Alive,1217.0,0,0,False,False,False,Unknown,3.33,HR+/HER2-,Negative,Negative,,0,3.33
+TCGA-A8-A091,FEMALE,61,,,Stage IIA,Positive,Negative,Negative,Alive,1004.0,0,7,True,True,True,II,2.75,HR+/HER2-,Negative,Negative,,0,2.75
+TCGA-A8-A092,FEMALE,48,,,Stage IIIA,Positive,Positive,Negative,Alive,942.0,0,4,True,True,True,III,2.58,HR+/HER2-,Negative,Negative,,0,2.58
+TCGA-A8-A093,FEMALE,61,,,Stage IIA,Positive,Positive,Negative,Alive,546.0,0,1,False,True,True,II,1.49,HR+/HER2-,Negative,Negative,,0,1.49
+TCGA-A8-A095,FEMALE,45,,,Stage I,Positive,Positive,Negative,Alive,1277.0,0,4,True,True,True,I,3.5,HR+/HER2-,Negative,Negative,,0,3.5
+TCGA-A8-A097,FEMALE,65,,,Stage IIB,Positive,Positive,Positive,Alive,365.0,0,3,True,True,True,II,1.0,HER2-positive,Positive,Positive,,0,1.0
+TCGA-A8-A099,FEMALE,76,,,Stage X,Positive,Positive,Positive,Alive,304.0,0,1,False,True,True,Unknown,0.83,HER2-positive,Positive,Positive,,0,0.83
+TCGA-A8-A09A,FEMALE,40,,,Stage X,Positive,Positive,Negative,Alive,304.0,0,5,True,True,True,Unknown,0.83,HR+/HER2-,Negative,Negative,,0,0.83
+TCGA-A8-A09B,FEMALE,58,,,Stage IIIB,Positive,Positive,Negative,Alive,365.0,0,5,True,True,True,III,1.0,HR+/HER2-,Negative,Negative,,0,1.0
+TCGA-A8-A09C,FEMALE,69,,,Stage X,Positive,Positive,Negative,Alive,31.0,0,0,False,False,False,Unknown,0.08,HR+/HER2-,Negative,Negative,,0,0.08
+TCGA-A8-A09D,FEMALE,47,,,Stage IIB,Positive,Positive,Negative,Alive,1522.0,0,5,True,True,True,II,4.17,HR+/HER2-,Negative,Negative,,0,4.17
+TCGA-A8-A09E,FEMALE,73,,,Stage IIIB,Positive,Positive,Positive,Alive,1492.0,0,1,False,True,True,III,4.08,HER2-positive,Positive,Positive,,0,4.08
+TCGA-A8-A09I,FEMALE,84,,,Stage IIA,Positive,Positive,Positive,Alive,1371.0,0,1,False,True,False,II,3.75,HER2-positive,Positive,Positive,,0,3.75
+TCGA-A8-A09K,FEMALE,68,,,Stage IIA,Positive,Positive,Negative,Alive,912.0,0,0,False,False,False,II,2.5,HR+/HER2-,Negative,Negative,,0,2.5
+TCGA-A8-A09M,FEMALE,75,,,Stage IIIC,Positive,Positive,Negative,Alive,1006.0,0,2,True,True,True,III,2.75,HR+/HER2-,Negative,Negative,,0,2.75
+TCGA-A8-A09N,FEMALE,57,,,Stage IIIC,Positive,Positive,Positive,Alive,31.0,0,0,False,False,False,III,0.08,HER2-positive,Positive,Positive,,0,0.08
+TCGA-A8-A09Q,FEMALE,83,,,Stage IIIB,Positive,Positive,Negative,Alive,761.0,0,1,False,True,False,III,2.08,HR+/HER2-,Negative,Negative,,0,2.08
+TCGA-A8-A09R,FEMALE,82,,,Stage IIB,Positive,Positive,Negative,Alive,273.0,0,1,False,True,True,II,0.75,HR+/HER2-,Negative,Negative,,0,0.75
+TCGA-A8-A09T,FEMALE,68,,,,Positive,Positive,Negative,Alive,579.0,0,1,False,True,True,Unknown,1.59,HR+/HER2-,Negative,Negative,,0,1.59
+TCGA-A8-A09V,FEMALE,51,,,Stage IIA,Positive,Positive,Negative,Alive,457.0,0,1,False,True,True,II,1.25,HR+/HER2-,Negative,Negative,,0,1.25
+TCGA-A8-A09W,FEMALE,70,,,Stage IIIB,Positive,Positive,Negative,Alive,30.0,0,0,False,False,False,III,0.08,HR+/HER2-,Negative,Negative,,0,0.08
+TCGA-A8-A09X,FEMALE,62,,,Stage IIIC,Negative,Negative,Negative,Dead,426.0,1,0,False,False,False,III,1.17,Triple Negative,Negative,Negative,,1,1.17
+TCGA-A8-A0A1,FEMALE,84,,,Stage IIA,Positive,Positive,Negative,Alive,365.0,0,1,False,True,False,II,1.0,HR+/HER2-,Negative,Negative,,0,1.0
+TCGA-A8-A0A2,FEMALE,66,,,Stage IIA,Positive,Positive,Negative,Alive,579.0,0,1,False,True,True,II,1.59,HR+/HER2-,Negative,Negative,,0,1.59
+TCGA-A8-A0A4,FEMALE,73,,,Stage IIA,Positive,Positive,Negative,Alive,396.0,0,2,False,True,False,II,1.08,HR+/HER2-,Negative,Negative,,0,1.08
+TCGA-A8-A0A6,FEMALE,64,,,Stage IIIC,Positive,Positive,Negative,Alive,640.0,0,5,True,True,True,III,1.75,HR+/HER2-,Negative,Negative,,0,1.75
+TCGA-A8-A0A7,FEMALE,57,,,Stage IIB,Negative,Negative,Positive,Alive,30.0,0,0,False,False,False,II,0.08,HER2-positive,Positive,Positive,,0,0.08
+TCGA-A8-A0A9,FEMALE,80,,,Stage IIA,Positive,Positive,Negative,Alive,822.0,0,1,False,True,True,II,2.25,HR+/HER2-,Negative,Negative,,0,2.25
+TCGA-A8-A0AB,FEMALE,54,,,Stage IIA,Positive,Positive,Positive,Alive,518.0,0,4,True,True,False,II,1.42,HER2-positive,Positive,Positive,,0,1.42
+TCGA-A8-A0AD,FEMALE,83,,,Stage I,Positive,Positive,Negative,Alive,1157.0,0,1,False,True,False,I,3.17,HR+/HER2-,Negative,Negative,,0,3.17
+TCGA-AC-A23C,FEMALE,62,WHITE,,Stage IIB,Positive,Positive,Positive,Alive,585.0,0,1,True,False,False,II,1.6,HER2-positive,Positive,Positive,,0,1.6
+TCGA-AC-A23E,FEMALE,50,WHITE,,Stage IIB,Positive,Positive,,Alive,698.0,0,1,False,True,True,II,1.91,Unknown,,Unknown,,0,1.91
+TCGA-AC-A23G,FEMALE,76,WHITE,,Stage IIA,Positive,Positive,Positive,Alive,2248.0,0,4,True,True,False,II,6.15,HER2-positive,Positive,Positive,,0,6.15
+TCGA-AC-A2B8,FEMALE,84,WHITE,NOT HISPANIC OR LATINO,Stage IIB,Positive,Positive,Negative,Alive,677.0,0,2,True,True,True,II,1.85,HR+/HER2-,Negative,Negative,,0,1.85
+TCGA-AC-A2BK,FEMALE,78,BLACK OR AFRICAN AMERICAN,,Stage IIIA,Negative,Negative,Negative,Alive,2222.0,0,4,True,False,True,III,6.08,Triple Negative,,Negative,,0,6.08
+TCGA-AC-A2BM,FEMALE,41,BLACK OR AFRICAN AMERICAN,,Stage IIB,Positive,Positive,,Alive,3022.0,0,0,False,False,False,II,8.27,HR+/HER2-,Negative,Negative,,0,8.27
+TCGA-AC-A2FB,FEMALE,65,WHITE,NOT HISPANIC OR LATINO,Stage IIA,Positive,Positive,Positive,Alive,1234.0,0,3,True,True,False,II,3.38,HER2-positive,,Positive,,0,3.38
+TCGA-AC-A2FE,FEMALE,62,WHITE,NOT HISPANIC OR LATINO,Stage IIIC,Positive,Positive,,Dead,2636.0,1,6,True,True,True,III,7.22,Unknown,,Unknown,766.0,1,2.0971937029431897
+TCGA-AC-A2FF,FEMALE,40,ASIAN,NOT HISPANIC OR LATINO,Stage IIB,Positive,Positive,,Alive,2759.0,0,4,True,True,True,II,7.55,HR+/HER2-,Negative,Negative,,0,7.55
+TCGA-AC-A2FG,FEMALE,79,WHITE,,Stage IIB,Positive,Negative,,Alive,1853.0,0,1,False,True,False,II,5.07,HR+/HER2-,Negative,Negative,,0,5.07
+TCGA-AC-A2FK,FEMALE,45,WHITE,HISPANIC OR LATINO,Stage IIIC,Positive,Positive,,Alive,2650.0,0,4,True,True,True,III,7.26,HR+/HER2-,Negative,Negative,,0,7.26
+TCGA-AC-A2FM,FEMALE,87,WHITE,NOT HISPANIC OR LATINO,Stage IIB,,,,Dead,792.0,1,0,False,False,False,II,2.17,Unknown,,Unknown,,1,2.17
+TCGA-AC-A2FO,FEMALE,65,WHITE,NOT HISPANIC OR LATINO,Stage IIB,Positive,Negative,Negative,Alive,2255.0,0,2,True,True,False,II,6.17,HR+/HER2-,Indeterminate,Negative,,0,6.17
+TCGA-AC-A2QH,FEMALE,58,WHITE,NOT HISPANIC OR LATINO,Stage IIB,Negative,Negative,Negative,Alive,1005.0,0,3,True,False,True,II,2.75,Triple Negative,,Negative,,0,2.75
+TCGA-AC-A2QI,FEMALE,76,WHITE,NOT HISPANIC OR LATINO,Stage IIIA,Positive,Negative,Negative,Alive,588.0,0,3,True,False,True,III,1.61,HR+/HER2-,,Negative,,0,1.61
+TCGA-AC-A2QJ,FEMALE,48,WHITE,HISPANIC OR LATINO,Stage IIIB,Negative,Negative,Negative,Dead,446.0,1,6,True,True,True,III,1.22,Triple Negative,,Negative,,1,1.22
+TCGA-AC-A3BB,FEMALE,46,BLACK OR AFRICAN AMERICAN,NOT HISPANIC OR LATINO,Stage IIIA,Positive,Positive,Negative,Alive,987.0,0,3,True,False,True,III,2.7,HR+/HER2-,,Negative,,0,2.7
+TCGA-AC-A3EH,FEMALE,79,WHITE,NOT HISPANIC OR LATINO,Stage IIIC,Positive,Negative,Negative,Dead,197.0,1,0,False,False,False,III,0.54,HR+/HER2-,Negative,Negative,,1,0.54
+TCGA-AC-A3HN,FEMALE,87,WHITE,NOT HISPANIC OR LATINO,Stage IIB,Positive,Positive,Negative,Alive,496.0,0,0,False,False,False,II,1.36,HR+/HER2-,,Negative,,0,1.36
+TCGA-AC-A3OD,FEMALE,68,WHITE,NOT HISPANIC OR LATINO,Stage IIB,Positive,Positive,Negative,Alive,451.0,0,0,False,False,True,II,1.23,HR+/HER2-,,Negative,,0,1.23
+TCGA-AC-A3QP,FEMALE,79,WHITE,NOT HISPANIC OR LATINO,Stage IIB,Positive,Positive,Equivocal,Alive,675.0,0,1,False,True,True,II,1.85,HR+/HER2-,Negative,Negative,,0,1.85
+TCGA-AC-A3QQ,FEMALE,54,WHITE,NOT HISPANIC OR LATINO,Stage IA,Positive,Positive,Positive,Alive,734.0,0,0,False,False,False,I,2.01,HER2-positive,,Positive,,0,2.01
+TCGA-AC-A3TM,FEMALE,50,WHITE,NOT HISPANIC OR LATINO,Stage IIIA,Positive,Positive,Equivocal,Alive,762.0,0,4,True,True,True,III,2.09,Unknown,Equivocal,Unknown,,0,2.09
+TCGA-AC-A3TN,FEMALE,75,WHITE,NOT HISPANIC OR LATINO,Stage IIB,Positive,Positive,Positive,Alive,456.0,0,1,False,True,True,II,1.25,HER2-positive,Indeterminate,Positive,,0,1.25
+TCGA-AC-A3W5,FEMALE,65,BLACK OR AFRICAN AMERICAN,NOT HISPANIC OR LATINO,Stage IIA,Positive,Positive,,Alive,504.0,0,4,True,True,True,II,1.38,HER2-positive,Positive,Positive,,0,1.38
+TCGA-AC-A3W7,FEMALE,66,WHITE,NOT HISPANIC OR LATINO,Stage IIB,Positive,Negative,Negative,Alive,471.0,0,1,False,True,False,II,1.29,HR+/HER2-,,Negative,,0,1.29
+TCGA-AC-A3YI,FEMALE,74,WHITE,NOT HISPANIC OR LATINO,Stage IIIC,Positive,Positive,Positive,Alive,707.0,0,3,True,False,True,III,1.94,HER2-positive,,Positive,,0,1.94
+TCGA-AC-A3YJ,FEMALE,66,WHITE,NOT HISPANIC OR LATINO,Stage IIA,Positive,Positive,,Alive,754.0,0,2,False,True,False,II,2.06,Unknown,,Unknown,,0,2.06
+TCGA-AC-A4ZE,FEMALE,63,WHITE,NOT HISPANIC OR LATINO,Stage IIB,Positive,Positive,Positive,Alive,890.0,0,0,False,False,False,II,2.44,HER2-positive,,Positive,,0,2.44
+TCGA-AC-A5EH,FEMALE,76,BLACK OR AFRICAN AMERICAN,NOT HISPANIC OR LATINO,Stage IIB,Positive,Negative,Negative,Alive,511.0,0,0,False,False,True,II,1.4,HR+/HER2-,,Negative,,0,1.4
+TCGA-AC-A5EI,FEMALE,88,WHITE,NOT HISPANIC OR LATINO,Stage IB,Positive,Positive,Negative,Alive,442.0,0,0,False,False,False,I,1.21,HR+/HER2-,,Negative,,0,1.21
+TCGA-AC-A5XS,FEMALE,74,WHITE,NOT HISPANIC OR LATINO,Stage IIA,Positive,Positive,Negative,Alive,588.0,0,1,False,True,False,II,1.61,HR+/HER2-,,Negative,,0,1.61
+TCGA-AC-A5XU,FEMALE,74,BLACK OR AFRICAN AMERICAN,NOT HISPANIC OR LATINO,Stage IIB,Positive,Positive,Negative,Alive,455.0,0,1,False,True,True,II,1.25,HR+/HER2-,,Negative,,0,1.25
+TCGA-AC-A62V,MALE,58,BLACK OR AFRICAN AMERICAN,NOT HISPANIC OR LATINO,Stage IV,Positive,Positive,,Dead,348.0,1,2,True,False,True,IV,0.95,Unknown,,Unknown,,1,0.95
+TCGA-AC-A62X,FEMALE,72,BLACK OR AFRICAN AMERICAN,NOT HISPANIC OR LATINO,Stage IIA,Positive,Negative,,Alive,417.0,0,0,False,False,False,II,1.14,Unknown,,Unknown,,0,1.14
+TCGA-AC-A62Y,FEMALE,79,WHITE,NOT HISPANIC OR LATINO,Stage IIB,Positive,Positive,Negative,Alive,530.0,0,0,False,False,False,II,1.45,HR+/HER2-,,Negative,,0,1.45
+TCGA-AC-A6IV,FEMALE,47,WHITE,NOT HISPANIC OR LATINO,Stage IIB,Positive,Positive,Equivocal,Alive,568.0,0,0,False,False,False,II,1.56,Unknown,,Unknown,,0,1.56
+TCGA-AC-A6IW,FEMALE,73,BLACK OR AFRICAN AMERICAN,NOT HISPANIC OR LATINO,Stage IIA,Negative,Negative,Negative,Alive,413.0,0,0,False,False,False,II,1.13,Triple Negative,,Negative,,0,1.13
+TCGA-AC-A6IX,FEMALE,49,WHITE,NOT HISPANIC OR LATINO,Stage IIIC,Positive,Positive,,Alive,373.0,0,0,False,False,False,III,1.02,Unknown,,Unknown,,0,1.02
+TCGA-AC-A6NO,FEMALE,43,BLACK OR AFRICAN AMERICAN,NOT HISPANIC OR LATINO,Stage IIB,Positive,Positive,Negative,Alive,51.0,0,0,False,False,False,II,0.14,HR+/HER2-,,Negative,,0,0.14
+TCGA-AC-A7VB,FEMALE,51,BLACK OR AFRICAN AMERICAN,NOT HISPANIC OR LATINO,Stage IIA,Positive,Negative,,Alive,250.0,0,0,False,False,False,II,0.68,Unknown,,Unknown,,0,0.68
+TCGA-AC-A8OP,FEMALE,72,BLACK OR AFRICAN AMERICAN,NOT HISPANIC OR LATINO,Stage IA,Positive,Positive,Indeterminate,Alive,614.0,0,0,False,False,False,I,1.68,Unknown,,Unknown,,0,1.68
+TCGA-AC-A8OQ,FEMALE,72,BLACK OR AFRICAN AMERICAN,NOT HISPANIC OR LATINO,Stage IIB,Negative,Negative,Indeterminate,Alive,34.0,0,0,False,False,False,II,0.09,Unknown,,Unknown,,0,0.09
+TCGA-AC-A8OR,FEMALE,75,WHITE,NOT HISPANIC OR LATINO,Stage IA,Positive,Positive,Negative,Alive,40.0,0,0,False,False,False,I,0.11,HR+/HER2-,,Negative,,0,0.11
+TCGA-AC-A8OS,FEMALE,71,WHITE,NOT HISPANIC OR LATINO,Stage IIA,Positive,Positive,Positive,Alive,70.0,0,0,False,False,False,II,0.19,HER2-positive,,Positive,,0,0.19
+TCGA-AN-A03X,FEMALE,74,WHITE,NOT HISPANIC OR LATINO,Stage IIA,Positive,Positive,Positive,Alive,10.0,0,0,False,False,False,II,0.03,HER2-positive,,Positive,,0,0.03
+TCGA-AN-A03Y,FEMALE,66,WHITE,NOT HISPANIC OR LATINO,Stage IIA,Positive,Positive,Negative,Alive,10.0,0,0,False,False,False,II,0.03,HR+/HER2-,,Negative,,0,0.03
+TCGA-AN-A041,FEMALE,29,WHITE,NOT HISPANIC OR LATINO,Stage IIB,Positive,Negative,Positive,Alive,7.0,0,0,False,False,False,II,0.02,HER2-positive,,Positive,,0,0.02
+TCGA-AN-A046,FEMALE,68,WHITE,NOT HISPANIC OR LATINO,Stage IIA,Positive,Positive,Negative,Alive,10.0,0,0,False,False,False,II,0.03,HR+/HER2-,,Negative,,0,0.03
+TCGA-AN-A049,FEMALE,62,WHITE,NOT HISPANIC OR LATINO,Stage IIA,Positive,Positive,Negative,Alive,19.0,0,0,False,False,False,II,0.05,HR+/HER2-,,Negative,,0,0.05
+TCGA-AN-A04A,FEMALE,36,WHITE,NOT HISPANIC OR LATINO,Stage IIIA,Positive,Positive,Negative,Alive,90.0,0,0,False,False,False,III,0.25,HR+/HER2-,,Negative,,0,0.25
+TCGA-AN-A04C,FEMALE,51,WHITE,NOT HISPANIC OR LATINO,Stage IIB,Negative,Negative,Positive,Alive,54.0,0,0,False,False,False,II,0.15,HER2-positive,,Positive,,0,0.15
+TCGA-AN-A04D,FEMALE,58,WHITE,NOT HISPANIC OR LATINO,Stage IIB,Negative,Negative,Negative,Alive,52.0,0,0,False,False,False,II,0.14,Triple Negative,,Negative,,0,0.14
+TCGA-AN-A0AJ,FEMALE,79,WHITE,NOT HISPANIC OR LATINO,Stage IIB,Positive,Positive,Positive,Alive,303.0,0,0,False,False,False,II,0.83,HER2-positive,,Positive,,0,0.83
+TCGA-AN-A0AK,FEMALE,76,WHITE,NOT HISPANIC OR LATINO,Stage IIA,Positive,Negative,Positive,Alive,224.0,0,0,False,False,False,II,0.61,HER2-positive,,Positive,,0,0.61
+TCGA-AN-A0AL,FEMALE,41,WHITE,NOT HISPANIC OR LATINO,Stage IIIB,Negative,Negative,Negative,Alive,227.0,0,0,False,False,False,III,0.62,Triple Negative,,Negative,,0,0.62
+TCGA-AN-A0AM,FEMALE,56,WHITE,NOT HISPANIC OR LATINO,Stage IIA,Positive,Negative,Negative,Alive,5.0,0,0,False,False,False,II,0.01,HR+/HER2-,,Negative,,0,0.01
+TCGA-AN-A0AR,FEMALE,55,WHITE,NOT HISPANIC OR LATINO,Stage IIA,Negative,Negative,Negative,Alive,10.0,0,0,False,False,False,II,0.03,Triple Negative,,Negative,,0,0.03
+TCGA-AN-A0AS,FEMALE,70,WHITE,NOT HISPANIC OR LATINO,Stage IIIA,Positive,Negative,Negative,Alive,10.0,0,0,False,False,False,III,0.03,HR+/HER2-,,Negative,,0,0.03
+TCGA-AN-A0AT,FEMALE,62,WHITE,NOT HISPANIC OR LATINO,Stage IIA,Negative,Negative,Negative,Alive,10.0,0,0,False,False,False,II,0.03,Triple Negative,,Negative,,0,0.03
+TCGA-AN-A0FD,FEMALE,71,WHITE,NOT HISPANIC OR LATINO,Stage IIA,Positive,Positive,Positive,Alive,196.0,0,0,False,False,False,II,0.54,HER2-positive,Positive,Positive,,0,0.54
+TCGA-AN-A0FF,FEMALE,32,WHITE,NOT HISPANIC OR LATINO,Stage IA,Positive,Positive,Negative,Alive,172.0,0,0,False,False,False,I,0.47,HR+/HER2-,,Negative,,0,0.47
+TCGA-AN-A0FJ,FEMALE,59,WHITE,NOT HISPANIC OR LATINO,Stage IV,Positive,Negative,Positive,Alive,242.0,0,0,False,False,False,IV,0.66,HER2-positive,,Positive,,0,0.66
+TCGA-AN-A0FK,FEMALE,88,WHITE,NOT HISPANIC OR LATINO,Stage IIIB,Positive,Positive,Positive,Alive,213.0,0,0,False,False,False,III,0.58,HER2-positive,,Positive,,0,0.58
+TCGA-AN-A0FL,FEMALE,62,WHITE,NOT HISPANIC OR LATINO,Stage IIA,Negative,Negative,Positive,Alive,231.0,0,0,False,False,False,II,0.63,HER2-positive,,Positive,,0,0.63
+TCGA-AN-A0FN,FEMALE,61,WHITE,NOT HISPANIC OR LATINO,Stage IA,Positive,Positive,Positive,Alive,218.0,0,0,False,False,False,I,0.6,HER2-positive,,Positive,,0,0.6
+TCGA-AN-A0FS,FEMALE,55,WHITE,NOT HISPANIC OR LATINO,Stage IA,Positive,Negative,Positive,Alive,210.0,0,0,False,False,False,I,0.57,HER2-positive,,Positive,,0,0.57
+TCGA-AN-A0FT,FEMALE,63,WHITE,NOT HISPANIC OR LATINO,Stage IIB,Positive,Positive,Positive,Alive,214.0,0,0,False,False,False,II,0.59,HER2-positive,,Positive,,0,0.59
+TCGA-AN-A0FV,FEMALE,58,WHITE,NOT HISPANIC OR LATINO,Stage IIA,Negative,Negative,Positive,Alive,10.0,0,0,False,False,False,II,0.03,HER2-positive,,Positive,,0,0.03
+TCGA-AN-A0FW,FEMALE,67,WHITE,NOT HISPANIC OR LATINO,Stage IIIA,Positive,Indeterminate,Negative,Alive,11.0,0,0,False,False,False,III,0.03,HR+/HER2-,,Negative,,0,0.03
+TCGA-AN-A0FX,FEMALE,52,WHITE,NOT HISPANIC OR LATINO,Stage IIA,Negative,Negative,Positive,Alive,10.0,0,0,False,False,False,II,0.03,HER2-positive,,Positive,,0,0.03
+TCGA-AN-A0FY,FEMALE,55,WHITE,NOT HISPANIC OR LATINO,Stage IA,Positive,Positive,Negative,Alive,10.0,0,0,False,False,False,I,0.03,HR+/HER2-,,Negative,,0,0.03
+TCGA-AN-A0FZ,FEMALE,45,WHITE,NOT HISPANIC OR LATINO,Stage IIIA,Positive,Negative,Positive,Alive,10.0,0,0,False,False,False,III,0.03,HER2-positive,,Positive,,0,0.03
+TCGA-AN-A0G0,FEMALE,56,WHITE,NOT HISPANIC OR LATINO,Stage IIA,Negative,Negative,Negative,Alive,16.0,0,0,False,False,False,II,0.04,Triple Negative,,Negative,,0,0.04
+TCGA-AN-A0XL,FEMALE,61,WHITE,NOT HISPANIC OR LATINO,Stage IIA,Positive,Positive,Negative,Alive,163.0,0,0,False,False,False,II,0.45,HR+/HER2-,,Negative,,0,0.45
+TCGA-AN-A0XN,FEMALE,68,WHITE,NOT HISPANIC OR LATINO,Stage IIIA,Negative,Positive,Negative,Alive,10.0,0,0,False,False,False,III,0.03,HR+/HER2-,,Negative,,0,0.03
+TCGA-AN-A0XO,FEMALE,59,WHITE,NOT HISPANIC OR LATINO,Stage IIIA,Positive,Negative,Negative,Alive,375.0,0,0,False,False,False,III,1.03,HR+/HER2-,,Negative,,0,1.03
+TCGA-AN-A0XP,FEMALE,69,WHITE,NOT HISPANIC OR LATINO,Stage IIIA,Positive,Positive,Positive,Alive,9.0,0,0,False,False,False,III,0.02,HER2-positive,,Positive,,0,0.02
+TCGA-AN-A0XR,FEMALE,55,WHITE,NOT HISPANIC OR LATINO,Stage IIIA,Positive,Negative,Negative,Alive,10.0,0,0,False,False,False,III,0.03,HR+/HER2-,,Negative,,0,0.03
+TCGA-AN-A0XS,FEMALE,63,WHITE,NOT HISPANIC OR LATINO,Stage IIIA,Negative,Positive,Negative,Alive,10.0,0,0,False,False,False,III,0.03,HR+/HER2-,,Negative,,0,0.03
+TCGA-AN-A0XT,FEMALE,54,WHITE,NOT HISPANIC OR LATINO,Stage IIIA,Positive,Negative,Negative,Alive,10.0,0,0,False,False,False,III,0.03,HR+/HER2-,,Negative,,0,0.03
+TCGA-AN-A0XU,FEMALE,54,WHITE,NOT HISPANIC OR LATINO,Stage IIA,Negative,Negative,Negative,Alive,10.0,0,0,False,False,False,II,0.03,Triple Negative,,Negative,,0,0.03
+TCGA-AN-A0XV,FEMALE,67,WHITE,NOT HISPANIC OR LATINO,Stage IIIA,Positive,Positive,Positive,Alive,162.0,0,0,False,False,False,III,0.44,HER2-positive,Negative,Positive,,0,0.44
+TCGA-AN-A0XW,FEMALE,36,WHITE,NOT HISPANIC OR LATINO,Stage IIIA,Positive,Positive,Positive,Alive,170.0,0,0,False,False,False,III,0.47,HER2-positive,Negative,Positive,,0,0.47
+TCGA-AO-A03L,FEMALE,34,ASIAN,NOT HISPANIC OR LATINO,Stage IIIA,Positive,Positive,Positive,Alive,2442.0,0,5,True,True,True,III,6.69,HER2-positive,Negative,Positive,,0,6.69
+TCGA-AO-A03M,FEMALE,29,WHITE,NOT HISPANIC OR LATINO,Stage I,Positive,Positive,Negative,Alive,1866.0,0,4,True,True,False,I,5.11,HR+/HER2-,Negative,Negative,,0,5.11
+TCGA-AO-A03N,FEMALE,59,WHITE,NOT HISPANIC OR LATINO,Stage IIB,Positive,Positive,Negative,Alive,2031.0,0,13,True,True,False,II,5.56,HR+/HER2-,,Negative,,0,5.56
+TCGA-AO-A03O,FEMALE,69,BLACK OR AFRICAN AMERICAN,NOT HISPANIC OR LATINO,Stage IIA,Positive,Positive,Negative,Dead,2483.0,1,4,True,True,False,II,6.8,HR+/HER2-,Negative,Negative,,1,6.8
+TCGA-AO-A03P,FEMALE,54,BLACK OR AFRICAN AMERICAN,NOT HISPANIC OR LATINO,Stage IIB,Positive,Positive,Negative,Dead,2911.0,1,5,True,True,True,II,7.97,HR+/HER2-,,Negative,,1,7.97
+TCGA-AO-A03R,FEMALE,57,WHITE,NOT HISPANIC OR LATINO,Stage IIB,Positive,Positive,Negative,Alive,2091.0,0,4,True,True,True,II,5.72,HR+/HER2-,Negative,Negative,,0,5.72
+TCGA-AO-A03T,FEMALE,42,WHITE,NOT HISPANIC OR LATINO,Stage IIB,Positive,Positive,Negative,Alive,2124.0,0,6,True,True,False,II,5.82,HR+/HER2-,,Negative,,0,5.82
+TCGA-AO-A03U,FEMALE,31,WHITE,NOT HISPANIC OR LATINO,Stage I,Negative,Negative,Negative,Dead,1793.0,1,3,True,False,False,I,4.91,Triple Negative,Negative,Negative,,1,4.91
+TCGA-AO-A03V,FEMALE,41,WHITE,NOT HISPANIC OR LATINO,Stage I,Positive,Positive,Negative,Alive,1351.0,0,5,True,True,False,I,3.7,HR+/HER2-,,Negative,,0,3.7
+TCGA-AO-A0J2,FEMALE,41,WHITE,NOT HISPANIC OR LATINO,Stage IA,Negative,Negative,Equivocal,Alive,997.0,0,3,True,False,False,I,2.73,Triple Negative,Negative,Negative,,0,2.73
+TCGA-AO-A0J3,FEMALE,67,WHITE,NOT HISPANIC OR LATINO,Stage IIB,Positive,Positive,Equivocal,Alive,651.0,0,7,True,True,True,II,1.78,HR+/HER2-,Negative,Negative,,0,1.78
+TCGA-AO-A0J4,FEMALE,41,BLACK OR AFRICAN AMERICAN,NOT HISPANIC OR LATINO,Stage IA,Negative,Negative,Negative,Alive,1587.0,0,3,True,False,True,I,4.34,Triple Negative,,Negative,,0,4.34
+TCGA-AO-A0J5,FEMALE,48,WHITE,NOT HISPANIC OR LATINO,Stage IV,Positive,Negative,Equivocal,Dead,792.0,1,4,True,True,True,IV,2.17,HR+/HER2-,Negative,Negative,,1,2.17
+TCGA-AO-A0J6,FEMALE,61,WHITE,NOT HISPANIC OR LATINO,Stage IIA,Negative,Negative,Negative,Alive,1140.0,0,3,True,False,True,II,3.12,Triple Negative,,Negative,,0,3.12
+TCGA-AO-A0J7,FEMALE,71,WHITE,NOT HISPANIC OR LATINO,Stage IIB,Positive,Positive,Negative,Alive,618.0,0,4,True,True,True,II,1.69,HR+/HER2-,,Negative,,0,1.69
+TCGA-AO-A0J8,FEMALE,61,WHITE,NOT HISPANIC OR LATINO,Stage IIA,Positive,Positive,Negative,Alive,680.0,0,4,True,True,True,II,1.86,HR+/HER2-,,Negative,,0,1.86
+TCGA-AO-A0J9,FEMALE,61,WHITE,NOT HISPANIC OR LATINO,Stage IIIC,Positive,Positive,,Alive,1613.0,0,8,True,True,True,III,4.42,HR+/HER2-,Negative,Negative,,0,4.42
+TCGA-AO-A0JA,FEMALE,36,BLACK OR AFRICAN AMERICAN,NOT HISPANIC OR LATINO,Stage IIIC,Positive,Positive,Negative,Alive,655.0,0,4,True,True,False,III,1.79,HR+/HER2-,,Negative,,0,1.79
+TCGA-AO-A0JB,FEMALE,50,WHITE,NOT HISPANIC OR LATINO,Stage IIIA,Positive,Positive,Negative,Alive,1542.0,0,4,True,True,True,III,4.22,HR+/HER2-,,Negative,,0,4.22
+TCGA-AO-A0JC,FEMALE,64,WHITE,NOT HISPANIC OR LATINO,Stage IIA,Positive,Positive,Negative,Alive,1547.0,0,4,True,True,True,II,4.24,HR+/HER2-,,Negative,,0,4.24
+TCGA-AO-A0JD,FEMALE,59,WHITE,NOT HISPANIC OR LATINO,Stage IIIA,Positive,Positive,Negative,Alive,2190.0,0,4,True,True,True,III,6.0,HR+/HER2-,Negative,Negative,,0,6.0
+TCGA-AO-A0JE,FEMALE,53,BLACK OR AFRICAN AMERICAN,NOT HISPANIC OR LATINO,Stage IIIA,Negative,Negative,Positive,Alive,2335.0,0,4,True,False,True,III,6.39,HER2-positive,Positive,Positive,,0,6.39
+TCGA-AO-A0JF,FEMALE,68,WHITE,NOT HISPANIC OR LATINO,Stage IIA,Positive,Positive,Negative,Alive,1980.0,0,5,True,True,True,II,5.42,HR+/HER2-,,Negative,,0,5.42
+TCGA-AO-A0JG,FEMALE,49,WHITE,NOT HISPANIC OR LATINO,Stage IIIA,Positive,Positive,Negative,Alive,798.0,0,4,True,True,True,III,2.18,HR+/HER2-,,Negative,,0,2.18
+TCGA-AO-A0JI,FEMALE,56,WHITE,NOT HISPANIC OR LATINO,Stage IIA,Positive,Negative,Negative,Alive,1528.0,0,4,True,True,False,II,4.18,HR+/HER2-,,Negative,,0,4.18
+TCGA-AO-A0JJ,FEMALE,54,WHITE,NOT HISPANIC OR LATINO,Stage IIB,Positive,Positive,Negative,Alive,1887.0,0,5,True,True,True,II,5.17,HR+/HER2-,,Negative,,0,5.17
+TCGA-AO-A0JL,FEMALE,59,WHITE,NOT HISPANIC OR LATINO,Stage IIIA,Negative,Negative,Negative,Alive,1683.0,0,4,True,False,True,III,4.61,Triple Negative,Positive,Negative,,0,4.61
+TCGA-AO-A0JM,FEMALE,40,,HISPANIC OR LATINO,Stage IIB,Positive,Positive,Positive,Alive,2184.0,0,5,True,True,True,II,5.98,HER2-positive,Positive,Positive,,0,5.98
+TCGA-AO-A124,FEMALE,38,WHITE,NOT HISPANIC OR LATINO,Stage IIA,Negative,Negative,Negative,Alive,3506.0,0,3,True,False,False,II,9.6,Triple Negative,,Negative,,0,9.6
+TCGA-AO-A125,FEMALE,72,BLACK OR AFRICAN AMERICAN,NOT HISPANIC OR LATINO,Stage IIA,Positive,Positive,Negative,Alive,3456.0,0,2,False,True,False,II,9.46,HR+/HER2-,Negative,Negative,,0,9.46
+TCGA-AO-A126,FEMALE,39,ASIAN,NOT HISPANIC OR LATINO,Stage IIA,Positive,Positive,Negative,Alive,3307.0,0,5,True,True,True,II,9.05,HR+/HER2-,Negative,Negative,,0,9.05
+TCGA-AO-A128,FEMALE,61,WHITE,NOT HISPANIC OR LATINO,Stage IIA,Negative,Negative,Negative,Alive,3248.0,0,3,True,False,True,II,8.89,Triple Negative,Negative,Negative,,0,8.89
+TCGA-AO-A129,FEMALE,29,WHITE,NOT HISPANIC OR LATINO,Stage IIB,Negative,Negative,Negative,Alive,3286.0,0,3,True,False,True,II,9.0,Triple Negative,Negative,Negative,,0,9.0
+TCGA-AO-A12A,FEMALE,47,WHITE,NOT HISPANIC OR LATINO,Stage IIA,Positive,Positive,Negative,Alive,3112.0,0,5,True,True,False,II,8.52,HR+/HER2-,Negative,Negative,,0,8.52
+TCGA-AO-A12B,FEMALE,63,WHITE,HISPANIC OR LATINO,Stage IIA,Positive,Positive,Negative,Alive,2989.0,0,4,True,True,False,II,8.18,HR+/HER2-,,Negative,,0,8.18
+TCGA-AO-A12C,FEMALE,42,WHITE,NOT HISPANIC OR LATINO,Stage IIB,Positive,Positive,Positive,Alive,2372.0,0,5,True,True,True,II,6.49,HER2-positive,Negative,Positive,,0,6.49
+TCGA-AO-A12D,FEMALE,43,WHITE,NOT HISPANIC OR LATINO,Stage IIA,Negative,Negative,Positive,Alive,2515.0,0,4,True,False,True,II,6.89,HER2-positive,Positive,Positive,,0,6.89
+TCGA-AO-A12E,FEMALE,51,WHITE,NOT HISPANIC OR LATINO,Stage IIB,Positive,Positive,Negative,Alive,2142.0,0,4,True,True,True,II,5.86,HR+/HER2-,,Negative,,0,5.86
+TCGA-AO-A12F,FEMALE,36,WHITE,NOT HISPANIC OR LATINO,Stage IIA,Negative,Negative,Negative,Alive,1842.0,0,3,True,False,True,II,5.04,Triple Negative,,Negative,,0,5.04
+TCGA-AO-A12G,FEMALE,75,WHITE,NOT HISPANIC OR LATINO,Stage IIA,Positive,Positive,Positive,Alive,1639.0,0,1,False,True,False,II,4.49,HER2-positive,Negative,Positive,,0,4.49
+TCGA-AO-A12H,FEMALE,69,BLACK OR AFRICAN AMERICAN,NOT HISPANIC OR LATINO,Stage IIA,Positive,Positive,Negative,Alive,1234.0,0,1,False,True,False,II,3.38,HR+/HER2-,,Negative,,0,3.38
+TCGA-AO-A1KO,FEMALE,46,WHITE,NOT HISPANIC OR LATINO,Stage IIB,Positive,Positive,Negative,Alive,622.0,0,4,True,True,False,II,1.7,HR+/HER2-,,Negative,,0,1.7
+TCGA-AO-A1KP,FEMALE,77,WHITE,NOT HISPANIC OR LATINO,Stage IIA,Positive,Positive,Negative,Alive,2953.0,0,4,True,True,False,II,8.08,HR+/HER2-,Negative,Negative,,0,8.08
+TCGA-AO-A1KQ,MALE,84,WHITE,NOT HISPANIC OR LATINO,Stage IIIB,Positive,Positive,Negative,Alive,1882.0,0,1,False,True,False,III,5.15,HR+/HER2-,,Negative,,0,5.15
+TCGA-AO-A1KR,FEMALE,51,WHITE,NOT HISPANIC OR LATINO,Stage IIA,Negative,Negative,Negative,Alive,2513.0,0,3,True,False,False,II,6.88,Triple Negative,Negative,Negative,,0,6.88
+TCGA-AO-A1KS,FEMALE,69,WHITE,NOT HISPANIC OR LATINO,Stage IIA,Positive,Positive,Equivocal,Alive,350.0,0,1,False,True,True,II,0.96,HR+/HER2-,Negative,Negative,,0,0.96
+TCGA-AO-A1KT,FEMALE,78,WHITE,NOT HISPANIC OR LATINO,Stage IIA,Positive,Positive,Equivocal,Alive,541.0,0,4,True,True,True,II,1.48,HR+/HER2-,Negative,Negative,,0,1.48
+TCGA-AQ-A04H,FEMALE,61,WHITE,NOT HISPANIC OR LATINO,Stage IIIA,Positive,Positive,Indeterminate,Alive,754.0,0,4,True,True,True,III,2.06,HER2-positive,Positive,Positive,,0,2.06
+TCGA-AQ-A04J,FEMALE,45,WHITE,NOT HISPANIC OR LATINO,Stage IIA,Negative,Negative,Negative,Alive,819.0,0,3,True,False,False,II,2.24,Triple Negative,,Negative,,0,2.24
+TCGA-AQ-A04L,FEMALE,48,WHITE,NOT HISPANIC OR LATINO,Stage IIA,Positive,Negative,Positive,Alive,3957.0,0,3,True,True,False,II,10.83,HER2-positive,,Positive,,0,10.83
+TCGA-AQ-A0Y5,FEMALE,70,WHITE,NOT HISPANIC OR LATINO,Stage IIIA,Positive,Positive,Positive,Dead,172.0,1,3,True,False,False,III,0.47,HER2-positive,Positive,Positive,,1,0.47
+TCGA-AQ-A1H2,FEMALE,84,WHITE,NOT HISPANIC OR LATINO,Stage IIIA,Positive,Positive,Indeterminate,Alive,475.0,0,3,True,True,True,III,1.3,HER2-positive,Positive,Positive,,0,1.3
+TCGA-AQ-A1H3,FEMALE,49,WHITE,NOT HISPANIC OR LATINO,Stage IIIC,Positive,Positive,Negative,Alive,989.0,0,4,True,True,True,III,2.71,HR+/HER2-,,Negative,,0,2.71
+TCGA-AQ-A54N,FEMALE,51,BLACK OR AFRICAN AMERICAN,HISPANIC OR LATINO,Stage IIA,Negative,Negative,Equivocal,Alive,78.0,0,0,False,False,False,II,0.21,Triple Negative,Negative,Negative,,0,0.21
+TCGA-AQ-A54O,MALE,51,BLACK OR AFRICAN AMERICAN,NOT HISPANIC OR LATINO,Stage IIA,Positive,Positive,Negative,Alive,1001.0,0,4,True,True,False,II,2.74,HR+/HER2-,,Negative,,0,2.74
+TCGA-AQ-A7U7,FEMALE,55,WHITE,NOT HISPANIC OR LATINO,Stage IIIA,Positive,Positive,Negative,Dead,584.0,1,6,True,True,True,III,1.6,HR+/HER2-,,Negative,,1,1.6
+TCGA-AR-A0TP,FEMALE,43,WHITE,NOT HISPANIC OR LATINO,Stage IIA,Positive,Negative,Negative,Alive,4275.0,0,2,True,False,True,II,11.7,HR+/HER2-,,Negative,,0,11.7
+TCGA-AR-A0TQ,FEMALE,27,WHITE,NOT HISPANIC OR LATINO,Stage IIIA,Positive,Negative,Equivocal,Alive,2991.0,0,9,True,True,True,III,8.19,HER2-positive,Positive,Positive,,0,8.19
+TCGA-AR-A0TR,FEMALE,68,WHITE,NOT HISPANIC OR LATINO,Stage IIB,Positive,Positive,Equivocal,Dead,160.0,1,1,False,True,False,II,0.44,HR+/HER2-,Negative,Negative,,1,0.44
+TCGA-AR-A0TS,FEMALE,46,WHITE,NOT HISPANIC OR LATINO,Stage IIB,Negative,Negative,Negative,Alive,2558.0,0,3,True,False,True,II,7.0,Triple Negative,,Negative,,0,7.0
+TCGA-AR-A0TT,FEMALE,53,BLACK OR AFRICAN AMERICAN,,Stage IIIA,Positive,Negative,Negative,Alive,3316.0,0,5,True,True,True,III,9.08,HR+/HER2-,,Negative,,0,9.08
+TCGA-AR-A0TU,FEMALE,35,,,Stage IIA,Negative,Negative,Negative,Alive,709.0,0,3,True,False,False,II,1.94,Triple Negative,,Negative,,0,1.94
+TCGA-AR-A0TV,FEMALE,66,,,Stage IIA,Positive,Positive,Equivocal,Alive,2288.0,0,0,False,False,False,II,6.26,HR+/HER2-,Negative,Negative,,0,6.26
+TCGA-AR-A0TW,FEMALE,50,WHITE,NOT HISPANIC OR LATINO,Stage IIIA,Positive,Positive,Equivocal,Alive,3009.0,0,3,True,False,False,III,8.24,HR+/HER2-,Negative,Negative,,0,8.24
+TCGA-AR-A0TX,FEMALE,64,,,Stage IIA,Positive,Positive,Positive,Alive,1972.0,0,0,False,False,True,II,5.4,HER2-positive,,Positive,,0,5.4
+TCGA-AR-A0TY,FEMALE,54,WHITE,NOT HISPANIC OR LATINO,Stage IIA,Positive,Negative,Negative,Dead,1699.0,1,4,True,True,False,II,4.65,HR+/HER2-,,Negative,,1,4.65
+TCGA-AR-A0TZ,FEMALE,43,WHITE,NOT HISPANIC OR LATINO,,Positive,Positive,Equivocal,Dead,3262.0,1,5,True,True,True,Unknown,8.93,HR+/HER2-,Negative,Negative,,1,8.93
+TCGA-AR-A0U0,FEMALE,73,WHITE,,Stage IIB,Negative,Negative,,Alive,1988.0,0,0,False,False,True,II,5.44,Unknown,,Unknown,,0,5.44
+TCGA-AR-A0U1,FEMALE,36,WHITE,NOT HISPANIC OR LATINO,Stage IIB,Negative,Negative,Negative,Alive,4052.0,0,3,True,False,True,II,11.09,Triple Negative,,Negative,,0,11.09
+TCGA-AR-A0U2,FEMALE,47,WHITE,NOT HISPANIC OR LATINO,Stage IIIA,Positive,Positive,Negative,Dead,2551.0,1,5,True,True,True,III,6.98,HR+/HER2-,,Negative,,1,6.98
+TCGA-AR-A0U3,FEMALE,59,WHITE,HISPANIC OR LATINO,Stage IIB,Positive,Positive,Negative,Alive,4080.0,0,4,True,True,True,II,11.17,HR+/HER2-,,Negative,,0,11.17
+TCGA-AR-A0U4,FEMALE,54,WHITE,NOT HISPANIC OR LATINO,Stage IIA,Negative,Negative,Negative,Alive,3261.0,0,3,True,False,False,II,8.93,Triple Negative,,Negative,,0,8.93
+TCGA-AR-A1AH,FEMALE,51,WHITE,NOT HISPANIC OR LATINO,Stage IIB,Positive,Negative,Negative,Alive,3807.0,0,2,True,True,False,II,10.42,HR+/HER2-,,Negative,,0,10.42
+TCGA-AR-A1AI,FEMALE,47,WHITE,NOT HISPANIC OR LATINO,Stage IIA,Negative,Negative,Equivocal,Alive,3296.0,0,3,True,False,False,II,9.02,Triple Negative,Negative,Negative,,0,9.02
+TCGA-AR-A1AJ,FEMALE,83,WHITE,NOT HISPANIC OR LATINO,Stage I,Positive,Negative,Negative,Alive,2383.0,0,0,False,False,True,I,6.52,HR+/HER2-,,Negative,,0,6.52
+TCGA-AR-A1AK,FEMALE,70,WHITE,NOT HISPANIC OR LATINO,Stage I,Positive,Positive,Negative,Alive,3159.0,0,1,False,True,False,I,8.65,HR+/HER2-,,Negative,,0,8.65
+TCGA-AR-A1AL,FEMALE,60,WHITE,NOT HISPANIC OR LATINO,Stage IIIA,Positive,Positive,Negative,Alive,2971.0,0,6,True,True,True,III,8.13,HR+/HER2-,,Negative,,0,8.13
+TCGA-AR-A1AM,FEMALE,52,WHITE,NOT HISPANIC OR LATINO,Stage IIIA,Positive,Positive,Equivocal,Alive,2991.0,0,4,True,True,False,III,8.19,HR+/HER2-,Negative,Negative,,0,8.19
+TCGA-AR-A1AN,FEMALE,46,WHITE,HISPANIC OR LATINO,Stage IIA,Positive,Positive,Negative,Alive,2920.0,0,6,True,True,True,II,7.99,HR+/HER2-,,Negative,,0,7.99
+TCGA-AR-A1AO,FEMALE,47,WHITE,NOT HISPANIC OR LATINO,Stage IIA,Positive,Negative,Negative,Alive,2618.0,0,4,True,True,True,II,7.17,HR+/HER2-,,Negative,,0,7.17
+TCGA-AR-A1AP,FEMALE,80,WHITE,NOT HISPANIC OR LATINO,Stage I,Positive,Positive,Equivocal,Alive,2856.0,0,1,False,True,False,I,7.82,HR+/HER2-,Negative,Negative,,0,7.82
+TCGA-AR-A1AQ,FEMALE,49,WHITE,NOT HISPANIC OR LATINO,Stage IIA,Negative,Negative,Equivocal,Alive,3021.0,0,3,True,False,True,II,8.27,Triple Negative,Negative,Negative,,0,8.27
+TCGA-AR-A1AR,FEMALE,50,WHITE,NOT HISPANIC OR LATINO,Stage IIIA,Negative,Negative,Negative,Dead,524.0,1,3,True,False,True,III,1.43,Triple Negative,,Negative,,1,1.43
+TCGA-AR-A1AS,FEMALE,54,ASIAN,,Stage IIB,Positive,Positive,Negative,Alive,1150.0,0,3,True,True,True,II,3.15,HR+/HER2-,,Negative,,0,3.15
+TCGA-AR-A1AT,FEMALE,62,WHITE,NOT HISPANIC OR LATINO,Stage IIA,Positive,Positive,Positive,Dead,1272.0,1,3,True,True,True,II,3.48,HER2-positive,,Positive,,1,3.48
+TCGA-AR-A1AU,FEMALE,39,WHITE,NOT HISPANIC OR LATINO,Stage IIIA,Positive,Positive,Equivocal,Alive,2868.0,0,4,True,True,True,III,7.85,HR+/HER2-,Negative,Negative,,0,7.85
+TCGA-AR-A1AV,MALE,68,WHITE,HISPANIC OR LATINO,Stage IIB,Positive,Positive,Negative,Alive,1864.0,0,4,True,True,True,II,5.1,HR+/HER2-,,Negative,,0,5.1
+TCGA-AR-A1AW,FEMALE,65,WHITE,NOT HISPANIC OR LATINO,Stage IIA,Positive,Positive,Equivocal,Alive,2632.0,0,3,True,True,True,II,7.21,HR+/HER2-,Negative,Negative,,0,7.21
+TCGA-AR-A1AX,FEMALE,64,WHITE,NOT HISPANIC OR LATINO,Stage I,Positive,Positive,Positive,Alive,2629.0,0,6,True,True,True,I,7.2,HER2-positive,,Positive,,0,7.2
+TCGA-AR-A1AY,FEMALE,65,WHITE,NOT HISPANIC OR LATINO,Stage I,Negative,Negative,Negative,Alive,1026.0,0,2,True,False,True,I,2.81,Triple Negative,,Negative,,0,2.81
+TCGA-AR-A24H,FEMALE,65,WHITE,NOT HISPANIC OR LATINO,Stage IIA,Positive,Positive,Negative,Alive,4894.0,0,2,False,True,True,II,13.4,HR+/HER2-,,Negative,,0,13.4
+TCGA-AR-A24K,FEMALE,46,WHITE,,Stage IIA,Positive,Positive,Equivocal,Alive,1548.0,0,3,True,False,True,II,4.24,HR+/HER2-,Negative,Negative,,0,4.24
+TCGA-AR-A24L,FEMALE,26,WHITE,NOT HISPANIC OR LATINO,Stage IIB,Positive,Positive,Equivocal,Dead,2866.0,1,4,True,True,True,II,7.85,HR+/HER2-,Negative,Negative,,1,7.85
+TCGA-AR-A24M,FEMALE,38,WHITE,NOT HISPANIC OR LATINO,Stage IIIA,Positive,Positive,Negative,Alive,3660.0,0,5,True,True,True,III,10.02,HR+/HER2-,,Negative,,0,10.02
+TCGA-AR-A24N,FEMALE,54,WHITE,NOT HISPANIC OR LATINO,Stage I,Positive,Positive,Equivocal,Alive,3035.0,0,0,False,False,False,I,8.31,HR+/HER2-,Negative,Negative,,0,8.31
+TCGA-AR-A24O,FEMALE,43,WHITE,NOT HISPANIC OR LATINO,Stage IIIA,Positive,Positive,Negative,Alive,3607.0,0,5,True,True,True,III,9.88,HR+/HER2-,,Negative,,0,9.88
+TCGA-AR-A24P,FEMALE,47,WHITE,NOT HISPANIC OR LATINO,Stage I,Positive,Positive,Equivocal,Alive,84.0,0,0,False,False,False,I,0.23,HR+/HER2-,Negative,Negative,,0,0.23
+TCGA-AR-A24Q,FEMALE,49,WHITE,,Stage IIB,Positive,Negative,Negative,Alive,3172.0,0,8,True,True,True,II,8.68,HR+/HER2-,,Negative,,0,8.68
+TCGA-AR-A24R,FEMALE,45,WHITE,NOT HISPANIC OR LATINO,Stage IIIA,Positive,Positive,Negative,Alive,3430.0,0,5,True,True,True,III,9.39,HR+/HER2-,Negative,Negative,,0,9.39
+TCGA-AR-A24S,FEMALE,61,WHITE,NOT HISPANIC OR LATINO,Stage I,Positive,Positive,Negative,Alive,2976.0,0,2,False,True,True,I,8.15,HR+/HER2-,,Negative,,0,8.15
+TCGA-AR-A24T,FEMALE,46,WHITE,NOT HISPANIC OR LATINO,Stage IIIC,Positive,Positive,Equivocal,Alive,3202.0,0,5,True,True,True,III,8.77,HR+/HER2-,Negative,Negative,,0,8.77
+TCGA-AR-A24U,FEMALE,47,WHITE,NOT HISPANIC OR LATINO,Stage IIA,Negative,Negative,Positive,Alive,3128.0,0,6,True,False,True,II,8.56,HER2-positive,,Positive,,0,8.56
+TCGA-AR-A24V,FEMALE,52,WHITE,NOT HISPANIC OR LATINO,Stage IIB,Positive,Positive,Negative,Alive,3203.0,0,6,True,True,True,II,8.77,HR+/HER2-,,Negative,,0,8.77
+TCGA-AR-A24W,FEMALE,55,WHITE,,Stage IIB,Positive,Positive,Negative,Alive,1550.0,0,5,True,True,False,II,4.24,HR+/HER2-,,Negative,,0,4.24
+TCGA-AR-A24X,FEMALE,52,WHITE,,Stage IIA,Positive,Positive,Equivocal,Alive,3004.0,0,3,True,True,False,II,8.22,HR+/HER2-,Negative,Negative,,0,8.22
+TCGA-AR-A24Z,FEMALE,57,WHITE,,Stage IIA,Positive,Positive,Negative,Alive,3001.0,0,3,True,True,False,II,8.22,HR+/HER2-,,Negative,,0,8.22
+TCGA-AR-A250,FEMALE,58,WHITE,NOT HISPANIC OR LATINO,Stage IIA,Positive,Negative,Equivocal,Alive,2707.0,0,7,True,True,False,II,7.41,HER2-positive,Positive,Positive,,0,7.41
+TCGA-AR-A251,FEMALE,51,WHITE,NOT HISPANIC OR LATINO,Stage IIIA,Positive,Negative,Equivocal,Alive,3030.0,0,4,True,True,True,III,8.3,HR+/HER2-,Negative,Negative,,0,8.3
+TCGA-AR-A252,FEMALE,50,WHITE,NOT HISPANIC OR LATINO,Stage I,Positive,Positive,Negative,Alive,2838.0,0,3,True,True,True,I,7.77,HR+/HER2-,,Negative,,0,7.77
+TCGA-AR-A254,FEMALE,50,WHITE,NOT HISPANIC OR LATINO,Stage IIIA,Positive,Positive,Positive,Alive,2605.0,0,9,True,True,True,III,7.13,HER2-positive,,Positive,,0,7.13
+TCGA-AR-A255,FEMALE,62,WHITE,NOT HISPANIC OR LATINO,Stage I,Positive,Positive,Positive,Alive,2161.0,0,3,False,True,True,I,5.92,HER2-positive,,Positive,,0,5.92
+TCGA-AR-A256,FEMALE,45,WHITE,,Stage IIA,Negative,Negative,Negative,Dead,2854.0,1,2,True,False,False,II,7.81,Triple Negative,,Negative,,1,7.81
+TCGA-AR-A2LE,FEMALE,69,WHITE,NOT HISPANIC OR LATINO,Stage I,Positive,Negative,,Alive,5062.0,0,1,False,True,True,I,13.86,Unknown,,Unknown,,0,13.86
+TCGA-AR-A2LH,FEMALE,55,WHITE,NOT HISPANIC OR LATINO,Stage III,Negative,Negative,Equivocal,Dead,616.0,1,3,True,False,True,III,1.69,Triple Negative,Negative,Negative,,1,1.69
+TCGA-AR-A2LJ,FEMALE,40,WHITE,NOT HISPANIC OR LATINO,Stage IIIA,Positive,Positive,Positive,Alive,2632.0,0,5,True,True,True,III,7.21,HER2-positive,Positive,Positive,,0,7.21
+TCGA-AR-A2LK,FEMALE,62,WHITE,NOT HISPANIC OR LATINO,Stage III,Positive,Positive,Equivocal,Dead,1649.0,1,4,True,True,True,III,4.51,HR+/HER2-,Negative,Negative,,1,4.51
+TCGA-AR-A2LL,FEMALE,70,WHITE,NOT HISPANIC OR LATINO,Stage IIB,Positive,Positive,Equivocal,Alive,2012.0,0,1,False,True,False,II,5.51,HR+/HER2-,Negative,Negative,,0,5.51
+TCGA-AR-A2LM,FEMALE,49,WHITE,NOT HISPANIC OR LATINO,Stage II,Positive,Positive,,Alive,1935.0,0,4,True,True,False,II,5.3,HR+/HER2-,Negative,Negative,,0,5.3
+TCGA-AR-A2LN,FEMALE,65,WHITE,NOT HISPANIC OR LATINO,Stage IIA,Positive,Positive,Negative,Alive,1161.0,0,1,False,True,False,II,3.18,HR+/HER2-,,Negative,,0,3.18
+TCGA-AR-A2LO,FEMALE,46,WHITE,NOT HISPANIC OR LATINO,Stage IIB,Positive,Positive,Equivocal,Alive,1198.0,0,6,True,True,True,II,3.28,HR+/HER2-,Negative,Negative,,0,3.28
+TCGA-AR-A2LQ,FEMALE,59,WHITE,NOT HISPANIC OR LATINO,Stage IIB,Positive,Positive,Negative,Alive,1233.0,0,3,True,True,True,II,3.38,HR+/HER2-,,Negative,,0,3.38
+TCGA-AR-A2LR,FEMALE,49,WHITE,NOT HISPANIC OR LATINO,Stage I,Negative,Negative,Negative,Alive,1742.0,0,2,True,False,True,I,4.77,Triple Negative,,Negative,,0,4.77
+TCGA-AR-A5QM,FEMALE,62,WHITE,NOT HISPANIC OR LATINO,Stage IIA,Positive,Positive,Equivocal,Alive,2231.0,0,1,False,True,True,II,6.11,Unknown,,Unknown,968.0,1,2.650239561943874
+TCGA-AR-A5QN,FEMALE,68,WHITE,NOT HISPANIC OR LATINO,Stage IIIC,Positive,Positive,Positive,Alive,1013.0,0,4,True,True,True,III,2.77,HER2-positive,,Positive,,0,2.77
+TCGA-AR-A5QP,FEMALE,54,WHITE,NOT HISPANIC OR LATINO,Stage IIB,Positive,Positive,Equivocal,Alive,1185.0,0,1,False,True,True,II,3.24,Unknown,,Unknown,,0,3.24
+TCGA-AR-A5QQ,FEMALE,68,WHITE,NOT HISPANIC OR LATINO,Stage IIIA,Negative,Negative,Negative,Dead,322.0,1,6,True,False,True,III,0.88,Triple Negative,,Negative,301.0,1,0.8240930869267625
+TCGA-B6-A0I1,FEMALE,73,BLACK OR AFRICAN AMERICAN,NOT HISPANIC OR LATINO,Stage IIA,Negative,Negative,,Dead,2361.0,1,0,False,False,False,II,6.46,Unknown,,Unknown,,1,6.46
+TCGA-B6-A0I2,FEMALE,45,WHITE,NOT HISPANIC OR LATINO,Stage IA,,,,Alive,4361.0,0,0,False,False,False,I,11.94,Unknown,,Unknown,,0,11.94
+TCGA-B6-A0I5,FEMALE,49,WHITE,NOT HISPANIC OR LATINO,Stage IIB,Positive,Positive,,Alive,8556.0,0,0,False,False,False,II,23.43,Unknown,,Unknown,,0,23.43
+TCGA-B6-A0I6,FEMALE,49,BLACK OR AFRICAN AMERICAN,NOT HISPANIC OR LATINO,Stage IIA,Negative,Negative,,Dead,991.0,1,0,False,False,False,II,2.71,Unknown,,Unknown,,1,2.71
+TCGA-B6-A0I8,FEMALE,46,WHITE,NOT HISPANIC OR LATINO,Stage X,,,,Dead,749.0,1,0,False,False,False,Unknown,2.05,Unknown,,Unknown,,1,2.05
+TCGA-B6-A0I9,FEMALE,62,WHITE,NOT HISPANIC OR LATINO,Stage IV,Indeterminate,Positive,,Dead,362.0,1,0,False,False,False,IV,0.99,Unknown,,Unknown,,1,0.99
+TCGA-B6-A0IA,FEMALE,51,WHITE,NOT HISPANIC OR LATINO,Stage IIA,Positive,Positive,,Alive,8391.0,0,0,False,False,False,II,22.97,Unknown,,Unknown,,0,22.97
+TCGA-B6-A0IB,FEMALE,64,WHITE,NOT HISPANIC OR LATINO,Stage IV,Positive,Positive,,Dead,3941.0,1,0,False,False,False,IV,10.79,Unknown,,Unknown,,1,10.79
+TCGA-B6-A0IE,FEMALE,38,BLACK OR AFRICAN AMERICAN,NOT HISPANIC OR LATINO,Stage IIIA,Negative,Negative,,Dead,1993.0,1,0,False,False,False,III,5.46,Unknown,,Unknown,,1,5.46
+TCGA-B6-A0IG,FEMALE,50,WHITE,NOT HISPANIC OR LATINO,Stage IIB,Positive,Positive,,Dead,4456.0,1,0,False,False,False,II,12.2,Unknown,,Unknown,,1,12.2
+TCGA-B6-A0IH,FEMALE,81,WHITE,NOT HISPANIC OR LATINO,Stage IIIA,Positive,Positive,,Dead,2965.0,1,0,False,False,False,III,8.12,Unknown,,Unknown,,1,8.12
+TCGA-B6-A0IJ,FEMALE,42,BLACK OR AFRICAN AMERICAN,NOT HISPANIC OR LATINO,Stage IIB,Positive,Positive,,Alive,7106.0,0,0,False,False,False,II,19.46,Unknown,,Unknown,,0,19.46
+TCGA-B6-A0IK,FEMALE,63,WHITE,NOT HISPANIC OR LATINO,Stage IIIB,Negative,Negative,,Dead,571.0,1,0,False,False,False,III,1.56,Unknown,,Unknown,,1,1.56
+TCGA-B6-A0IM,FEMALE,75,BLACK OR AFRICAN AMERICAN,NOT HISPANIC OR LATINO,Stage IIB,Positive,Positive,,Dead,3873.0,1,0,False,False,False,II,10.6,Unknown,,Unknown,,1,10.6
+TCGA-B6-A0IN,FEMALE,45,WHITE,NOT HISPANIC OR LATINO,Stage X,Positive,Negative,,Dead,2573.0,1,0,False,False,False,Unknown,7.04,Unknown,,Unknown,,1,7.04
+TCGA-B6-A0IO,FEMALE,66,WHITE,NOT HISPANIC OR LATINO,Stage IIA,Positive,Indeterminate,,Alive,5042.0,0,0,False,False,False,II,13.8,Unknown,,Unknown,,0,13.8
+TCGA-B6-A0IP,FEMALE,74,WHITE,NOT HISPANIC OR LATINO,Stage IA,Positive,Positive,,Dead,3926.0,1,0,False,False,False,I,10.75,Unknown,,Unknown,,1,10.75
+TCGA-B6-A0IQ,FEMALE,40,WHITE,NOT HISPANIC OR LATINO,Stage IIIA,Negative,Negative,,Alive,4285.0,0,0,False,False,False,III,11.73,Unknown,,Unknown,,0,11.73
+TCGA-B6-A0RE,FEMALE,61,BLACK OR AFRICAN AMERICAN,NOT HISPANIC OR LATINO,Stage X,Negative,Negative,,Alive,7777.0,0,0,False,False,False,Unknown,21.29,Unknown,,Unknown,,0,21.29
+TCGA-B6-A0RG,FEMALE,26,WHITE,NOT HISPANIC OR LATINO,Stage IIB,Negative,Negative,,Alive,2082.0,0,0,False,False,False,II,5.7,Unknown,,Unknown,,0,5.7
+TCGA-B6-A0RH,FEMALE,51,BLACK OR AFRICAN AMERICAN,NOT HISPANIC OR LATINO,Stage IIA,Positive,Positive,,Dead,6456.0,1,0,False,False,False,II,17.68,Unknown,,Unknown,,1,17.68
+TCGA-B6-A0RI,FEMALE,44,WHITE,NOT HISPANIC OR LATINO,Stage IIIB,Positive,Positive,,Alive,7126.0,0,0,False,False,False,III,19.51,Unknown,,Unknown,,0,19.51
+TCGA-B6-A0RL,FEMALE,60,BLACK OR AFRICAN AMERICAN,NOT HISPANIC OR LATINO,Stage IIA,Positive,Positive,,Dead,2469.0,1,0,False,False,False,II,6.76,Unknown,,Unknown,,1,6.76
+TCGA-B6-A0RM,FEMALE,57,BLACK OR AFRICAN AMERICAN,NOT HISPANIC OR LATINO,Stage X,Positive,Positive,,Dead,2373.0,1,0,False,False,False,Unknown,6.5,Unknown,,Unknown,,1,6.5
+TCGA-B6-A0RN,FEMALE,60,WHITE,NOT HISPANIC OR LATINO,Stage IA,Negative,Negative,,Alive,8008.0,0,0,False,False,False,I,21.92,Unknown,,Unknown,,0,21.92
+TCGA-B6-A0RO,FEMALE,71,WHITE,NOT HISPANIC OR LATINO,Stage IIIB,Positive,Positive,,Alive,4929.0,0,0,False,False,False,III,13.49,Unknown,,Unknown,,0,13.49
+TCGA-B6-A0RP,FEMALE,73,WHITE,NOT HISPANIC OR LATINO,,Positive,Positive,,Dead,3126.0,1,0,False,False,False,Unknown,8.56,Unknown,,Unknown,,1,8.56
+TCGA-B6-A0RQ,FEMALE,68,WHITE,NOT HISPANIC OR LATINO,Stage IIB,Positive,Positive,,Dead,4267.0,1,0,False,False,False,II,11.68,Unknown,,Unknown,,1,11.68
+TCGA-B6-A0RS,FEMALE,38,WHITE,NOT HISPANIC OR LATINO,Stage IIA,Negative,Negative,,Dead,3063.0,1,0,False,False,False,II,8.39,Unknown,,Unknown,,1,8.39
+TCGA-B6-A0RT,FEMALE,39,WHITE,NOT HISPANIC OR LATINO,Stage IIIA,Negative,Negative,,Alive,2721.0,0,0,False,False,False,III,7.45,Unknown,,Unknown,,0,7.45
+TCGA-B6-A0RU,FEMALE,40,WHITE,NOT HISPANIC OR LATINO,Stage IA,Negative,Negative,,Alive,8605.0,0,0,False,False,False,I,23.56,Unknown,,Unknown,,0,23.56
+TCGA-B6-A0RV,FEMALE,42,WHITE,NOT HISPANIC OR LATINO,Stage IIIA,Positive,Positive,,Alive,5156.0,0,0,False,False,False,III,14.12,Unknown,,Unknown,,0,14.12
+TCGA-B6-A0WS,FEMALE,58,BLACK OR AFRICAN AMERICAN,NOT HISPANIC OR LATINO,Stage X,Positive,Positive,,Dead,2965.0,1,0,False,False,False,Unknown,8.12,Unknown,,Unknown,,1,8.12
+TCGA-B6-A0WT,FEMALE,61,WHITE,NOT HISPANIC OR LATINO,Stage IIB,Positive,Positive,,Alive,5739.0,0,0,False,False,False,II,15.71,Unknown,,Unknown,,0,15.71
+TCGA-B6-A0WV,FEMALE,67,WHITE,NOT HISPANIC OR LATINO,Stage IIB,Positive,Positive,,Dead,2417.0,1,0,False,False,False,II,6.62,Unknown,,Unknown,,1,6.62
+TCGA-B6-A0WW,FEMALE,58,BLACK OR AFRICAN AMERICAN,NOT HISPANIC OR LATINO,Stage X,Positive,Positive,,Dead,558.0,1,0,False,False,False,Unknown,1.53,Unknown,,Unknown,,1,1.53
+TCGA-B6-A0WX,FEMALE,40,BLACK OR AFRICAN AMERICAN,NOT HISPANIC OR LATINO,Stage IIIA,Negative,Negative,,Dead,639.0,1,0,False,False,False,III,1.75,Unknown,,Unknown,,1,1.75
+TCGA-B6-A0WY,FEMALE,40,WHITE,NOT HISPANIC OR LATINO,Stage IIIA,Positive,Negative,,Dead,3461.0,1,0,False,False,False,III,9.48,Unknown,,Unknown,,1,9.48
+TCGA-B6-A0WZ,FEMALE,50,BLACK OR AFRICAN AMERICAN,NOT HISPANIC OR LATINO,Stage II,Positive,Positive,,Alive,6292.0,0,0,False,False,False,II,17.23,Unknown,,Unknown,,0,17.23
+TCGA-B6-A0X0,FEMALE,54,WHITE,NOT HISPANIC OR LATINO,Stage I,Positive,Positive,,Dead,3945.0,1,0,False,False,False,I,10.8,Unknown,,Unknown,,1,10.8
+TCGA-B6-A0X1,FEMALE,48,WHITE,NOT HISPANIC OR LATINO,,Negative,Negative,,Dead,7455.0,1,0,False,False,False,Unknown,20.41,Unknown,,Unknown,,1,20.41
+TCGA-B6-A0X4,FEMALE,62,WHITE,NOT HISPANIC OR LATINO,Stage IIB,Positive,Positive,,Dead,860.0,1,0,False,False,False,II,2.35,Unknown,,Unknown,,1,2.35
+TCGA-B6-A0X5,FEMALE,61,BLACK OR AFRICAN AMERICAN,NOT HISPANIC OR LATINO,Stage IIB,Positive,Positive,,Dead,2097.0,1,0,False,False,False,II,5.74,Unknown,,Unknown,,1,5.74
+TCGA-B6-A0X7,FEMALE,62,WHITE,NOT HISPANIC OR LATINO,Stage X,Positive,Positive,,Dead,1781.0,1,0,False,False,False,Unknown,4.88,Unknown,,Unknown,,1,4.88
+TCGA-B6-A1KC,FEMALE,67,WHITE,NOT HISPANIC OR LATINO,Stage IIB,Positive,Negative,Negative,Alive,1326.0,0,0,False,False,False,II,3.63,HR+/HER2-,,Negative,,0,3.63
+TCGA-B6-A1KF,FEMALE,68,WHITE,NOT HISPANIC OR LATINO,Stage IIB,Negative,Negative,Equivocal,Alive,3088.0,0,0,False,False,False,II,8.45,Unknown,,Unknown,,0,8.45
+TCGA-B6-A1KI,FEMALE,63,WHITE,NOT HISPANIC OR LATINO,Stage I,Positive,Positive,Equivocal,Alive,2236.0,0,0,False,False,False,I,6.12,HR+/HER2-,Negative,Negative,,0,6.12
+TCGA-B6-A1KN,FEMALE,57,WHITE,NOT HISPANIC OR LATINO,Stage IIIB,Negative,Negative,,Alive,4233.0,0,0,False,False,False,III,11.59,Unknown,,Unknown,,0,11.59
+TCGA-B6-A2IU,FEMALE,62,WHITE,HISPANIC OR LATINO,Stage IIA,Positive,Positive,,Alive,5176.0,0,0,False,False,False,II,14.17,Unknown,,Unknown,,0,14.17
+TCGA-B6-A3ZX,FEMALE,50,BLACK OR AFRICAN AMERICAN,NOT HISPANIC OR LATINO,Stage IV,Negative,Negative,Negative,Dead,1152.0,1,3,True,False,True,IV,3.15,Triple Negative,,Negative,994.0,1,2.7214236824093088
+TCGA-B6-A400,FEMALE,43,BLACK OR AFRICAN AMERICAN,NOT HISPANIC OR LATINO,Stage IIIA,Negative,Negative,Negative,Alive,215.0,0,0,False,False,False,III,0.59,Triple Negative,,Negative,,0,0.59
+TCGA-B6-A401,FEMALE,47,BLACK OR AFRICAN AMERICAN,NOT HISPANIC OR LATINO,Stage IIA,Positive,Positive,Negative,Alive,2596.0,0,4,True,False,True,II,7.11,HR+/HER2-,,Negative,,0,7.11
+TCGA-B6-A402,FEMALE,47,BLACK OR AFRICAN AMERICAN,NOT HISPANIC OR LATINO,Stage I,Negative,Negative,Negative,Alive,2281.0,0,4,True,False,True,I,6.25,Triple Negative,,Negative,1516.0,1,4.1505817932922655
+TCGA-B6-A408,FEMALE,55,BLACK OR AFRICAN AMERICAN,NOT HISPANIC OR LATINO,Stage IIIC,Positive,Positive,Equivocal,Alive,2072.0,0,3,True,False,True,III,5.67,HR+/HER2-,Negative,Negative,,0,5.67
+TCGA-B6-A409,FEMALE,44,BLACK OR AFRICAN AMERICAN,NOT HISPANIC OR LATINO,Stage IIIA,Negative,Negative,Equivocal,Dead,573.0,1,3,True,False,False,III,1.57,Triple Negative,Negative,Negative,456.0,1,1.2484599589322383
+TCGA-B6-A40B,FEMALE,76,WHITE,NOT HISPANIC OR LATINO,Stage I,Positive,Positive,Negative,Alive,3152.0,0,0,False,False,False,I,8.63,HR+/HER2-,,Negative,,0,8.63
+TCGA-B6-A40C,FEMALE,51,WHITE,NOT HISPANIC OR LATINO,Stage IIB,Positive,Positive,Negative,Alive,2164.0,0,3,True,True,True,II,5.92,HR+/HER2-,,Negative,,0,5.92
+TCGA-BH-A0AU,FEMALE,45,WHITE,NOT HISPANIC OR LATINO,Stage IIA,Positive,Positive,Positive,Alive,1914.0,0,0,False,False,True,II,5.24,HER2-positive,Negative,Positive,,0,5.24
+TCGA-BH-A0AV,FEMALE,52,BLACK OR AFRICAN AMERICAN,,Stage I,Negative,Negative,,Alive,1820.0,0,2,True,False,True,I,4.98,Triple Negative,Negative,Negative,,0,4.98
+TCGA-BH-A0AW,FEMALE,56,WHITE,,Stage IIA,Positive,Negative,Positive,Alive,622.0,0,5,True,True,True,II,1.7,HER2-positive,,Positive,,0,1.7
+TCGA-BH-A0AY,FEMALE,62,WHITE,,Stage IIA,Positive,Positive,Negative,Alive,777.0,0,2,True,True,False,II,2.13,HR+/HER2-,,Negative,,0,2.13
+TCGA-BH-A0AZ,FEMALE,47,WHITE,NOT HISPANIC OR LATINO,Stage IIIA,Positive,Positive,Negative,Alive,1919.0,0,4,True,False,False,III,5.25,HR+/HER2-,,Negative,,0,5.25
+TCGA-BH-A0B0,FEMALE,56,BLACK OR AFRICAN AMERICAN,,Stage I,Positive,Positive,Negative,Alive,2477.0,0,2,True,False,True,I,6.78,HR+/HER2-,,Negative,,0,6.78
+TCGA-BH-A0B1,FEMALE,66,WHITE,,Stage IIB,Positive,Positive,Negative,Alive,1148.0,0,4,True,True,True,II,3.14,HR+/HER2-,,Negative,,0,3.14
+TCGA-BH-A0B3,FEMALE,53,WHITE,,Stage IIB,Negative,Negative,Negative,Alive,1203.0,0,3,True,False,True,II,3.29,Triple Negative,,Negative,,0,3.29
+TCGA-BH-A0B4,MALE,65,WHITE,,Stage IIIA,Positive,Positive,Equivocal,Alive,1191.0,0,2,True,True,False,III,3.26,HER2-positive,Positive,Positive,,0,3.26
+TCGA-BH-A0B5,FEMALE,40,WHITE,NOT HISPANIC OR LATINO,Stage IIIA,Positive,Positive,Negative,Alive,2136.0,0,3,True,False,True,III,5.85,HR+/HER2-,,Negative,,0,5.85
+TCGA-BH-A0B6,FEMALE,47,WHITE,NOT HISPANIC OR LATINO,Stage I,Positive,Positive,Positive,Alive,2483.0,0,0,False,False,True,I,6.8,HER2-positive,,Positive,,0,6.8
+TCGA-BH-A0B7,FEMALE,42,WHITE,NOT HISPANIC OR LATINO,Stage IIB,Positive,Positive,Positive,Alive,2559.0,0,2,True,False,True,II,7.01,HER2-positive,,Positive,,0,7.01
+TCGA-BH-A0B8,FEMALE,64,WHITE,,Stage I,Positive,Positive,Equivocal,Alive,1569.0,0,1,False,True,True,I,4.3,HR+/HER2-,Negative,Negative,,0,4.3
+TCGA-BH-A0B9,FEMALE,44,WHITE,,Stage IA,Negative,Negative,Negative,Alive,1572.0,0,2,True,False,True,I,4.3,Triple Negative,,Negative,,0,4.3
+TCGA-BH-A0BA,FEMALE,51,WHITE,,Stage IIIC,Positive,Positive,Negative,Alive,1132.0,0,3,True,False,True,III,3.1,HR+/HER2-,,Negative,,0,3.1
+TCGA-BH-A0BC,FEMALE,60,WHITE,,Stage IIIC,Positive,Positive,Negative,Alive,974.0,0,5,True,True,True,III,2.67,HR+/HER2-,,Negative,,0,2.67
+TCGA-BH-A0BD,FEMALE,47,WHITE,,Stage IIA,Positive,Positive,Negative,Alive,554.0,0,3,True,True,True,II,1.52,HR+/HER2-,,Negative,,0,1.52
+TCGA-BH-A0BF,FEMALE,56,WHITE,NOT HISPANIC OR LATINO,Stage IIB,Positive,Positive,Negative,Dead,1324.0,1,0,False,False,False,II,3.62,HR+/HER2-,,Negative,,1,3.62
+TCGA-BH-A0BG,FEMALE,73,WHITE,NOT HISPANIC OR LATINO,Stage I,Negative,Negative,Negative,Alive,1871.0,0,0,False,False,True,I,5.12,Triple Negative,,Negative,,0,5.12
+TCGA-BH-A0BJ,FEMALE,41,WHITE,,Stage IIB,Positive,Positive,Negative,Alive,660.0,0,4,True,True,True,II,1.81,HR+/HER2-,,Negative,,0,1.81
+TCGA-BH-A0BL,FEMALE,35,WHITE,NOT HISPANIC OR LATINO,Stage I,Negative,Negative,Negative,Alive,2278.0,0,3,True,False,False,I,6.24,Triple Negative,,Negative,,0,6.24
+TCGA-BH-A0BM,FEMALE,54,WHITE,,Stage IIB,Positive,Negative,Negative,Alive,1876.0,0,3,True,False,False,II,5.14,HR+/HER2-,,Negative,,0,5.14
+TCGA-BH-A0BO,FEMALE,54,WHITE,NOT HISPANIC OR LATINO,Stage I,Positive,Positive,Negative,Alive,2197.0,0,0,False,False,True,I,6.02,HR+/HER2-,,Negative,,0,6.02
+TCGA-BH-A0BP,FEMALE,76,WHITE,NOT HISPANIC OR LATINO,Stage I,Positive,Positive,Negative,Dead,2296.0,1,0,False,False,True,I,6.29,HR+/HER2-,,Negative,,1,6.29
+TCGA-BH-A0BQ,FEMALE,39,WHITE,NOT HISPANIC OR LATINO,Stage I,Positive,Positive,Positive,Alive,2255.0,0,0,False,False,False,I,6.17,HER2-positive,,Positive,,0,6.17
+TCGA-BH-A0BR,FEMALE,59,WHITE,NOT HISPANIC OR LATINO,Stage I,Positive,Positive,Negative,Alive,2330.0,0,0,False,False,True,I,6.38,HR+/HER2-,,Negative,,0,6.38
+TCGA-BH-A0BS,FEMALE,55,WHITE,NOT HISPANIC OR LATINO,Stage IIIA,Positive,Positive,,Alive,2612.0,0,2,True,False,True,III,7.15,HR+/HER2-,Negative,Negative,,0,7.15
+TCGA-BH-A0BT,FEMALE,56,WHITE,NOT HISPANIC OR LATINO,Stage IIA,Positive,Positive,Negative,Alive,2365.0,0,2,True,False,True,II,6.48,HR+/HER2-,,Negative,,0,6.48
+TCGA-BH-A0BV,FEMALE,78,WHITE,,Stage IIB,Positive,Positive,Negative,Alive,1519.0,0,4,True,True,False,II,4.16,HR+/HER2-,,Negative,,0,4.16
+TCGA-BH-A0BW,FEMALE,71,BLACK OR AFRICAN AMERICAN,NOT HISPANIC OR LATINO,Stage I,Negative,Negative,,Alive,2371.0,0,2,True,False,True,I,6.49,Triple Negative,Negative,Negative,,0,6.49
+TCGA-BH-A0BZ,FEMALE,59,WHITE,NOT HISPANIC OR LATINO,Stage IIIA,Positive,Positive,Negative,Alive,2255.0,0,3,True,False,True,III,6.17,HR+/HER2-,,Negative,,0,6.17
+TCGA-BH-A0C0,FEMALE,62,WHITE,,Stage IIA,Positive,Positive,Equivocal,Alive,1270.0,0,3,True,True,True,II,3.48,HER2-positive,Positive,Positive,,0,3.48
+TCGA-BH-A0C1,FEMALE,61,WHITE,NOT HISPANIC OR LATINO,Stage IIIA,Positive,Positive,Negative,Dead,1411.0,1,2,True,False,True,III,3.86,HR+/HER2-,,Negative,,1,3.86
+TCGA-BH-A0C3,FEMALE,47,WHITE,,Stage I,Positive,Negative,Negative,Alive,2709.0,0,2,True,False,True,I,7.42,HR+/HER2-,,Negative,,0,7.42
+TCGA-BH-A0C7,FEMALE,48,WHITE,NOT HISPANIC OR LATINO,Stage IIB,Positive,Negative,,Alive,2767.0,0,3,True,False,False,II,7.58,HER2-positive,Positive,Positive,,0,7.58
+TCGA-BH-A0DD,MALE,58,WHITE,,Stage IIB,Positive,Positive,Positive,Alive,2486.0,0,2,True,False,False,II,6.81,HER2-positive,Positive,Positive,,0,6.81
+TCGA-BH-A0DE,FEMALE,62,WHITE,NOT HISPANIC OR LATINO,Stage IIA,Positive,Positive,Negative,Alive,2372.0,0,0,False,False,True,II,6.49,HR+/HER2-,,Negative,,0,6.49
+TCGA-BH-A0DG,FEMALE,30,BLACK OR AFRICAN AMERICAN,NOT HISPANIC OR LATINO,Stage IIA,Positive,Negative,Negative,Alive,2041.0,0,3,True,False,True,II,5.59,HR+/HER2-,,Negative,,0,5.59
+TCGA-BH-A0DH,FEMALE,63,WHITE,,Stage IIB,Positive,Positive,Negative,Alive,1156.0,0,4,True,True,True,II,3.16,HR+/HER2-,,Negative,,0,3.16
+TCGA-BH-A0DI,FEMALE,63,WHITE,NOT HISPANIC OR LATINO,Stage IIB,Positive,Positive,Negative,Alive,912.0,0,3,True,False,True,II,2.5,HR+/HER2-,,Negative,,0,2.5
+TCGA-BH-A0DK,FEMALE,49,WHITE,,Stage IIA,Positive,Positive,Negative,Alive,423.0,0,1,False,True,False,II,1.16,HR+/HER2-,,Negative,,0,1.16
+TCGA-BH-A0DL,FEMALE,64,WHITE,NOT HISPANIC OR LATINO,Stage IIA,Positive,Negative,Negative,Alive,2381.0,0,2,True,False,True,II,6.52,HR+/HER2-,,Negative,,0,6.52
+TCGA-BH-A0DO,FEMALE,78,WHITE,NOT HISPANIC OR LATINO,Stage I,Positive,Positive,Negative,Alive,1644.0,0,0,False,False,False,I,4.5,HR+/HER2-,,Negative,,0,4.5
+TCGA-BH-A0DP,FEMALE,60,WHITE,,Stage IIB,Positive,Positive,Negative,Alive,476.0,0,1,False,True,True,II,1.3,HR+/HER2-,,Negative,,0,1.3
+TCGA-BH-A0DQ,FEMALE,42,WHITE,,Stage IIB,Positive,Positive,Negative,Alive,98.0,0,3,True,False,True,II,0.27,HR+/HER2-,,Negative,,0,0.27
+TCGA-BH-A0DS,FEMALE,71,WHITE,,Stage IIIA,Positive,Positive,Negative,Alive,78.0,0,2,True,False,True,III,0.21,HR+/HER2-,,Negative,,0,0.21
+TCGA-BH-A0DT,FEMALE,41,WHITE,,Stage IIA,Positive,Positive,Negative,Alive,2403.0,0,3,True,False,False,II,6.58,HR+/HER2-,,Negative,,0,6.58
+TCGA-BH-A0DV,FEMALE,54,WHITE,,Stage IIIA,Positive,Positive,Negative,Alive,2064.0,0,3,True,False,True,III,5.65,HR+/HER2-,,Negative,,0,5.65
+TCGA-BH-A0DX,FEMALE,62,WHITE,NOT HISPANIC OR LATINO,Stage I,Positive,Positive,Negative,Alive,2156.0,0,4,True,False,True,I,5.9,HR+/HER2-,,Negative,,0,5.9
+TCGA-BH-A0DZ,FEMALE,43,WHITE,,Stage IIB,Positive,Positive,Positive,Alive,495.0,0,4,True,True,False,II,1.36,HER2-positive,,Positive,,0,1.36
+TCGA-BH-A0E0,FEMALE,38,WHITE,,Stage IIIC,Negative,Negative,Negative,Alive,134.0,0,3,True,False,True,III,0.37,Triple Negative,,Negative,,0,0.37
+TCGA-BH-A0E1,FEMALE,52,WHITE,,Stage IIB,Positive,Positive,Equivocal,Alive,477.0,0,4,True,True,False,II,1.31,HR+/HER2-,Negative,Negative,,0,1.31
+TCGA-BH-A0E2,FEMALE,49,BLACK OR AFRICAN AMERICAN,,Stage IIIA,Positive,Positive,Negative,Alive,435.0,0,4,True,True,False,III,1.19,HR+/HER2-,,Negative,,0,1.19
+TCGA-BH-A0E6,FEMALE,69,WHITE,,Stage IA,Negative,Negative,Equivocal,Alive,293.0,0,2,True,False,True,I,0.8,Triple Negative,Negative,Negative,,0,0.8
+TCGA-BH-A0E7,FEMALE,79,WHITE,,Stage IIB,Positive,Positive,Negative,Alive,1363.0,0,1,False,True,True,II,3.73,HR+/HER2-,,Negative,,0,3.73
+TCGA-BH-A0E9,FEMALE,53,WHITE,,Stage IIB,Positive,Positive,Negative,Alive,2489.0,0,3,True,False,True,II,6.81,HR+/HER2-,,Negative,,0,6.81
+TCGA-BH-A0EA,FEMALE,72,WHITE,NOT HISPANIC OR LATINO,Stage IIA,Positive,Positive,Negative,Dead,991.0,1,2,True,False,False,II,2.71,HR+/HER2-,,Negative,,1,2.71
+TCGA-BH-A0EB,FEMALE,69,WHITE,,Stage IA,Positive,Positive,Equivocal,Alive,745.0,0,1,False,True,True,I,2.04,HR+/HER2-,Negative,Negative,,0,2.04
+TCGA-BH-A0EE,FEMALE,68,WHITE,,Stage IIB,Negative,Negative,Positive,Alive,943.0,0,4,True,False,False,II,2.58,HER2-positive,,Positive,,0,2.58
+TCGA-BH-A0EI,FEMALE,51,WHITE,NOT HISPANIC OR LATINO,Stage IIA,Positive,Positive,Negative,Alive,1926.0,0,0,False,False,True,II,5.27,HR+/HER2-,,Negative,,0,5.27
+TCGA-BH-A0GY,FEMALE,67,WHITE,,Stage IIA,Positive,Positive,Negative,Alive,923.0,0,3,True,True,True,II,2.53,HR+/HER2-,,Negative,,0,2.53
+TCGA-BH-A0GZ,FEMALE,62,WHITE,,Stage IIA,Positive,Positive,Equivocal,Alive,328.0,0,1,False,True,True,II,0.9,HR+/HER2-,Negative,Negative,,0,0.9
+TCGA-BH-A0H0,FEMALE,69,WHITE,,Stage IA,Positive,Positive,Negative,Alive,461.0,0,1,False,True,True,I,1.26,HR+/HER2-,,Negative,,0,1.26
+TCGA-BH-A0H3,FEMALE,46,WHITE,NOT HISPANIC OR LATINO,Stage I,Positive,Positive,,Alive,1928.0,0,0,False,False,True,I,5.28,HR+/HER2-,Negative,Negative,,0,5.28
+TCGA-BH-A0H5,FEMALE,45,WHITE,NOT HISPANIC OR LATINO,Stage I,Positive,Positive,,Alive,1620.0,0,2,True,False,False,I,4.44,HR+/HER2-,Negative,Negative,,0,4.44
+TCGA-BH-A0H6,FEMALE,82,WHITE,,Stage I,Positive,Positive,Negative,Alive,747.0,0,0,False,False,True,I,2.05,HR+/HER2-,,Negative,,0,2.05
+TCGA-BH-A0H7,FEMALE,65,WHITE,,Stage IIIA,Positive,Positive,Negative,Alive,702.0,0,5,True,True,True,III,1.92,HR+/HER2-,,Negative,,0,1.92
+TCGA-BH-A0H9,FEMALE,69,WHITE,,Stage IIA,Positive,Positive,Equivocal,Alive,1247.0,0,1,False,True,True,II,3.41,HR+/HER2-,Negative,Negative,,0,3.41
+TCGA-BH-A0HA,FEMALE,31,WHITE,NOT HISPANIC OR LATINO,Stage I,Positive,Positive,,Alive,1611.0,0,0,False,False,False,I,4.41,HR+/HER2-,Negative,Negative,,0,4.41
+TCGA-BH-A0HB,FEMALE,55,WHITE,,Stage IA,Positive,Positive,Equivocal,Alive,806.0,0,4,True,True,True,I,2.21,HR+/HER2-,Negative,Negative,,0,2.21
+TCGA-BH-A0HF,FEMALE,77,WHITE,,Stage IA,Positive,Positive,Negative,Alive,727.0,0,1,False,True,True,I,1.99,HR+/HER2-,,Negative,,0,1.99
+TCGA-BH-A0HI,FEMALE,78,WHITE,,Stage IA,Positive,Positive,Negative,Alive,620.0,0,1,False,True,True,I,1.7,HR+/HER2-,,Negative,,0,1.7
+TCGA-BH-A0HK,FEMALE,81,WHITE,,Stage IIB,Positive,Negative,Negative,Alive,178.0,0,1,False,True,False,II,0.49,HR+/HER2-,,Negative,,0,0.49
+TCGA-BH-A0HL,FEMALE,56,WHITE,,Stage IIB,Positive,Positive,Equivocal,Alive,72.0,0,4,True,True,False,II,0.2,HR+/HER2-,Negative,Negative,,0,0.2
+TCGA-BH-A0HN,FEMALE,67,WHITE,,Stage IA,Positive,Positive,Equivocal,Alive,516.0,0,1,False,True,False,I,1.41,HR+/HER2-,Negative,Negative,,0,1.41
+TCGA-BH-A0HO,FEMALE,48,WHITE,,Stage IIA,Positive,Positive,Negative,Alive,76.0,0,4,True,True,True,II,0.21,HR+/HER2-,,Negative,,0,0.21
+TCGA-BH-A0HP,FEMALE,65,WHITE,,Stage IIIA,Positive,Negative,Negative,Alive,414.0,0,4,True,True,True,III,1.13,HR+/HER2-,,Negative,,0,1.13
+TCGA-BH-A0HQ,FEMALE,56,WHITE,,Stage IIA,Positive,Positive,Negative,Alive,1121.0,0,1,False,True,True,II,3.07,HR+/HER2-,,Negative,,0,3.07
+TCGA-BH-A0HU,FEMALE,52,WHITE,,Stage IA,Positive,Positive,Negative,Alive,392.0,0,3,True,True,True,I,1.07,HR+/HER2-,,Negative,,0,1.07
+TCGA-BH-A0HW,FEMALE,62,ASIAN,,Stage IA,Positive,Negative,Equivocal,Alive,1561.0,0,3,True,True,True,I,4.27,HR+/HER2-,Negative,Negative,,0,4.27
+TCGA-BH-A0HX,FEMALE,54,WHITE,,Stage IIB,Positive,Positive,Negative,Alive,829.0,0,4,True,True,False,II,2.27,HR+/HER2-,,Negative,,0,2.27
+TCGA-BH-A0HY,FEMALE,60,WHITE,NOT HISPANIC OR LATINO,Stage I,Positive,Negative,Positive,Alive,1545.0,0,3,True,True,False,I,4.23,HER2-positive,,Positive,,0,4.23
+TCGA-BH-A0RX,FEMALE,59,WHITE,,Stage IIA,Negative,Negative,Negative,Alive,170.0,0,3,True,False,False,II,0.47,Triple Negative,,Negative,,0,0.47
+TCGA-BH-A0W3,FEMALE,58,WHITE,NOT HISPANIC OR LATINO,Stage IIA,Positive,Positive,Equivocal,Alive,728.0,0,0,False,False,True,II,1.99,HR+/HER2-,Negative,Negative,,0,1.99
+TCGA-BH-A0W4,FEMALE,46,WHITE,NOT HISPANIC OR LATINO,Stage IIA,Positive,Positive,Negative,Alive,759.0,0,0,False,False,False,II,2.08,HR+/HER2-,,Negative,,0,2.08
+TCGA-BH-A0W5,FEMALE,77,WHITE,NOT HISPANIC OR LATINO,Stage IIA,Positive,Positive,Equivocal,Alive,1288.0,0,1,False,True,True,II,3.53,Unknown,Equivocal,Unknown,,0,3.53
+TCGA-BH-A0W7,FEMALE,49,WHITE,NOT HISPANIC OR LATINO,Stage I,Positive,Positive,Negative,Alive,1363.0,0,4,True,True,True,I,3.73,HR+/HER2-,,Negative,,0,3.73
+TCGA-BH-A0WA,FEMALE,82,WHITE,NOT HISPANIC OR LATINO,Stage I,Negative,Negative,Negative,Alive,701.0,0,0,False,False,False,I,1.92,Triple Negative,,Negative,,0,1.92
+TCGA-BH-A18F,FEMALE,50,WHITE,NOT HISPANIC OR LATINO,Stage IIA,Positive,Positive,Negative,Alive,1001.0,0,2,True,False,True,II,2.74,HR+/HER2-,,Negative,,0,2.74
+TCGA-BH-A18G,FEMALE,81,WHITE,NOT HISPANIC OR LATINO,Stage IA,Negative,Negative,Negative,Alive,149.0,0,0,False,False,True,I,0.41,Triple Negative,,Negative,,0,0.41
+TCGA-BH-A18H,FEMALE,63,WHITE,NOT HISPANIC OR LATINO,Stage IA,Positive,Positive,Positive,Alive,652.0,0,3,True,False,True,I,1.79,HER2-positive,Equivocal,Positive,,0,1.79
+TCGA-BH-A18I,FEMALE,53,WHITE,NOT HISPANIC OR LATINO,Stage IIA,Positive,Positive,Positive,Alive,1093.0,0,2,True,False,False,II,2.99,HER2-positive,,Positive,,0,2.99
+TCGA-BH-A18J,FEMALE,56,WHITE,NOT HISPANIC OR LATINO,Stage IV,Positive,Positive,Negative,Dead,612.0,1,0,False,False,False,IV,1.68,HR+/HER2-,,Negative,,1,1.68
+TCGA-BH-A18K,FEMALE,46,WHITE,NOT HISPANIC OR LATINO,Stage I,Positive,Positive,Negative,Dead,2763.0,1,0,False,False,False,I,7.56,HR+/HER2-,,Negative,,1,7.56
+TCGA-BH-A18L,FEMALE,50,WHITE,NOT HISPANIC OR LATINO,Stage IIIA,Positive,Positive,Negative,Dead,811.0,1,0,False,False,False,III,2.22,HR+/HER2-,,Negative,,1,2.22
+TCGA-BH-A18M,FEMALE,39,WHITE,NOT HISPANIC OR LATINO,Stage IIIA,Positive,Positive,Positive,Dead,2207.0,1,0,False,False,False,III,6.04,HER2-positive,Positive,Positive,,1,6.04
+TCGA-BH-A18N,FEMALE,88,WHITE,NOT HISPANIC OR LATINO,Stage IIA,Positive,Positive,Negative,Dead,468.0,1,0,False,False,False,II,1.28,HR+/HER2-,,Negative,,1,1.28
+TCGA-BH-A18P,FEMALE,60,WHITE,,Stage I,Positive,Negative,Positive,Dead,921.0,1,0,False,False,False,I,2.52,HER2-positive,Positive,Positive,,1,2.52
+TCGA-BH-A18Q,FEMALE,56,WHITE,NOT HISPANIC OR LATINO,Stage IIB,Negative,Negative,Positive,Dead,1692.0,1,0,False,False,False,II,4.63,HER2-positive,Negative,Positive,,1,4.63
+TCGA-BH-A18R,FEMALE,50,WHITE,NOT HISPANIC OR LATINO,Stage IIA,Indeterminate,Negative,Positive,Dead,1142.0,1,0,False,False,False,II,3.13,HER2-positive,Positive,Positive,,1,3.13
+TCGA-BH-A18S,FEMALE,79,WHITE,NOT HISPANIC OR LATINO,Stage I,Positive,Positive,Negative,Dead,2009.0,1,0,False,False,False,I,5.5,HR+/HER2-,,Negative,,1,5.5
+TCGA-BH-A18T,FEMALE,70,WHITE,NOT HISPANIC OR LATINO,Stage IIA,Negative,Negative,Positive,Dead,224.0,1,0,False,False,False,II,0.61,HER2-positive,Negative,Positive,,1,0.61
+TCGA-BH-A18U,FEMALE,72,WHITE,NOT HISPANIC OR LATINO,Stage IIIA,Positive,Positive,Positive,Dead,1563.0,1,0,False,False,False,III,4.28,HER2-positive,,Positive,,1,4.28
+TCGA-BH-A18V,FEMALE,48,WHITE,NOT HISPANIC OR LATINO,Stage IIB,Negative,Negative,Negative,Dead,1556.0,1,0,False,False,False,II,4.26,Triple Negative,,Negative,,1,4.26
+TCGA-BH-A1EN,FEMALE,78,WHITE,NOT HISPANIC OR LATINO,Stage IIA,Negative,Negative,Positive,Dead,2127.0,1,0,False,False,False,II,5.82,HER2-positive,,Positive,,1,5.82
+TCGA-BH-A1EO,FEMALE,68,WHITE,NOT HISPANIC OR LATINO,Stage IIA,Positive,Positive,Negative,Dead,2798.0,1,0,False,False,False,II,7.66,HR+/HER2-,,Negative,,1,7.66
+TCGA-BH-A1ES,FEMALE,35,WHITE,NOT HISPANIC OR LATINO,Stage IIB,Positive,Positive,Negative,Dead,3462.0,1,0,False,False,False,II,9.48,HR+/HER2-,,Negative,,1,9.48
+TCGA-BH-A1ET,FEMALE,55,WHITE,NOT HISPANIC OR LATINO,Stage I,Positive,Positive,Negative,Dead,2520.0,1,0,False,False,False,I,6.9,HR+/HER2-,,Negative,,1,6.9
+TCGA-BH-A1EU,FEMALE,83,WHITE,NOT HISPANIC OR LATINO,Stage I,Positive,Positive,Negative,Dead,1286.0,1,0,False,False,False,I,3.52,HR+/HER2-,,Negative,,1,3.52
+TCGA-BH-A1EV,FEMALE,45,WHITE,NOT HISPANIC OR LATINO,Stage IIIA,Positive,Positive,Positive,Dead,365.0,1,0,False,False,True,III,1.0,HER2-positive,,Positive,,1,1.0
+TCGA-BH-A1EW,FEMALE,38,WHITE,NOT HISPANIC OR LATINO,Stage IIA,Negative,Negative,Negative,Dead,1694.0,1,0,False,False,False,II,4.64,Triple Negative,,Negative,,1,4.64
+TCGA-BH-A1EX,FEMALE,67,WHITE,NOT HISPANIC OR LATINO,Stage IIB,Positive,Positive,Positive,Dead,1508.0,1,0,False,False,False,II,4.13,HER2-positive,Negative,Positive,,1,4.13
+TCGA-BH-A1EY,FEMALE,79,WHITE,NOT HISPANIC OR LATINO,Stage IIA,Positive,Positive,Negative,Dead,538.0,1,0,False,False,False,II,1.47,HR+/HER2-,,Negative,,1,1.47
+TCGA-BH-A1F0,FEMALE,80,WHITE,NOT HISPANIC OR LATINO,Stage IIA,Negative,Indeterminate,Negative,Dead,785.0,1,0,False,False,False,II,2.15,Unknown,,Negative,,1,2.15
+TCGA-BH-A1F2,FEMALE,53,WHITE,NOT HISPANIC OR LATINO,Stage IIIB,Positive,Positive,Positive,Dead,959.0,1,0,False,False,False,III,2.63,HER2-positive,,Positive,,1,2.63
+TCGA-BH-A1F5,FEMALE,62,WHITE,NOT HISPANIC OR LATINO,Stage IIA,Positive,Positive,Negative,Dead,2712.0,1,0,False,False,False,II,7.43,HR+/HER2-,,Negative,,1,7.43
+TCGA-BH-A1F6,FEMALE,51,WHITE,NOT HISPANIC OR LATINO,,Negative,Negative,Negative,Dead,2965.0,1,0,False,False,False,Unknown,8.12,Triple Negative,,Negative,,1,8.12
+TCGA-BH-A1FB,FEMALE,60,WHITE,NOT HISPANIC OR LATINO,Stage IIB,Positive,Positive,Negative,Dead,3669.0,1,0,False,False,False,II,10.05,HR+/HER2-,,Negative,,1,10.05
+TCGA-BH-A1FC,FEMALE,78,BLACK OR AFRICAN AMERICAN,NOT HISPANIC OR LATINO,Stage IIA,Negative,Negative,Negative,Dead,3472.0,1,0,False,False,False,II,9.51,Triple Negative,,Negative,,1,9.51
+TCGA-BH-A1FD,FEMALE,68,WHITE,NOT HISPANIC OR LATINO,Stage I,Positive,Positive,Negative,Dead,1009.0,1,0,False,False,False,I,2.76,HR+/HER2-,,Negative,,1,2.76
+TCGA-BH-A1FE,FEMALE,31,WHITE,NOT HISPANIC OR LATINO,Stage IIB,Positive,Positive,,Dead,2273.0,1,0,False,False,False,II,6.22,Unknown,,Unknown,,1,6.22
+TCGA-BH-A1FG,FEMALE,88,WHITE,NOT HISPANIC OR LATINO,Stage I,Positive,Positive,Negative,Dead,577.0,1,0,False,False,False,I,1.58,HR+/HER2-,,Negative,,1,1.58
+TCGA-BH-A1FH,FEMALE,47,WHITE,NOT HISPANIC OR LATINO,Stage IV,Positive,Negative,,Dead,1034.0,1,0,False,False,False,IV,2.83,Unknown,,Unknown,,1,2.83
+TCGA-BH-A1FJ,FEMALE,66,WHITE,NOT HISPANIC OR LATINO,Stage IIIA,Negative,Positive,,Dead,1927.0,1,0,False,False,False,III,5.28,Unknown,,Unknown,,1,5.28
+TCGA-BH-A1FL,FEMALE,69,WHITE,NOT HISPANIC OR LATINO,Stage IIB,Positive,Positive,,Dead,1673.0,1,0,False,False,False,II,4.58,Unknown,,Unknown,,1,4.58
+TCGA-BH-A1FM,FEMALE,44,WHITE,NOT HISPANIC OR LATINO,Stage IIIA,Positive,Negative,,Dead,1388.0,1,0,False,False,False,III,3.8,Unknown,,Unknown,,1,3.8
+TCGA-BH-A1FN,FEMALE,34,WHITE,NOT HISPANIC OR LATINO,Stage IIA,Positive,Positive,,Dead,2192.0,1,0,False,False,False,II,6.0,Unknown,,Unknown,,1,6.0
+TCGA-BH-A1FR,FEMALE,73,WHITE,NOT HISPANIC OR LATINO,Stage IIIB,Positive,Positive,,Dead,1642.0,1,0,False,False,False,III,4.5,Unknown,,Unknown,,1,4.5
+TCGA-BH-A1FU,FEMALE,44,WHITE,NOT HISPANIC OR LATINO,Stage IA,Negative,Negative,,Dead,1688.0,1,0,False,False,False,I,4.62,Unknown,,Unknown,,1,4.62
+TCGA-BH-A201,FEMALE,64,WHITE,NOT HISPANIC OR LATINO,Stage IA,Positive,Positive,Negative,Alive,856.0,0,0,False,False,True,I,2.34,HR+/HER2-,,Negative,,0,2.34
+TCGA-BH-A202,FEMALE,60,WHITE,NOT HISPANIC OR LATINO,Stage II,Positive,Positive,Positive,Alive,795.0,0,2,True,False,True,II,2.18,HER2-positive,,Positive,,0,2.18
+TCGA-BH-A203,FEMALE,78,WHITE,NOT HISPANIC OR LATINO,Stage IIB,,,,Dead,1174.0,1,0,False,False,False,II,3.21,Unknown,,Unknown,,1,3.21
+TCGA-BH-A204,FEMALE,80,WHITE,NOT HISPANIC OR LATINO,Stage IIB,,,,Dead,2534.0,1,0,False,False,False,II,6.94,Unknown,,Unknown,,1,6.94
+TCGA-BH-A208,FEMALE,48,WHITE,NOT HISPANIC OR LATINO,Stage IIB,,,,Dead,1759.0,1,0,False,False,False,II,4.82,Unknown,,Unknown,,1,4.82
+TCGA-BH-A209,FEMALE,77,BLACK OR AFRICAN AMERICAN,NOT HISPANIC OR LATINO,Stage I,Positive,Positive,,Dead,3959.0,1,0,False,False,False,I,10.84,Unknown,,Unknown,,1,10.84
+TCGA-BH-A28O,FEMALE,50,WHITE,NOT HISPANIC OR LATINO,Stage IIIC,Positive,Positive,Negative,Alive,1120.0,0,2,True,False,False,III,3.07,HR+/HER2-,,Negative,,0,3.07
+TCGA-BH-A28Q,FEMALE,46,WHITE,NOT HISPANIC OR LATINO,Stage IIB,Positive,Positive,Negative,Alive,1119.0,0,0,False,False,False,II,3.06,HR+/HER2-,Indeterminate,Negative,,0,3.06
+TCGA-BH-A2L8,FEMALE,45,WHITE,NOT HISPANIC OR LATINO,Stage IIA,Positive,Positive,Negative,Alive,612.0,0,1,True,False,False,II,1.68,HR+/HER2-,Negative,Negative,,0,1.68
+TCGA-BH-A42T,FEMALE,75,BLACK OR AFRICAN AMERICAN,NOT HISPANIC OR LATINO,Stage IIA,Positive,Positive,Positive,Dead,320.0,1,0,False,False,False,II,0.88,HER2-positive,Equivocal,Positive,,1,0.88
+TCGA-BH-A42U,FEMALE,80,BLACK OR AFRICAN AMERICAN,NOT HISPANIC OR LATINO,Stage IIA,Negative,Negative,Negative,Alive,3364.0,0,0,False,False,False,II,9.21,Triple Negative,,Negative,,0,9.21
+TCGA-BH-A42V,FEMALE,41,BLACK OR AFRICAN AMERICAN,NOT HISPANIC OR LATINO,Stage IB,Positive,Positive,Negative,Alive,635.0,0,0,False,False,True,I,1.74,HR+/HER2-,,Negative,,0,1.74
+TCGA-BH-A5IZ,FEMALE,51,BLACK OR AFRICAN AMERICAN,NOT HISPANIC OR LATINO,Stage IIB,Positive,Negative,Negative,Alive,567.0,0,3,True,False,True,II,1.55,HR+/HER2-,Negative,Negative,,0,1.55
+TCGA-BH-A5J0,FEMALE,63,BLACK OR AFRICAN AMERICAN,NOT HISPANIC OR LATINO,Stage IA,Positive,Positive,Negative,Alive,715.0,0,0,False,False,False,I,1.96,HR+/HER2-,,Negative,,0,1.96
+TCGA-BH-A6R8,FEMALE,46,BLACK OR AFRICAN AMERICAN,NOT HISPANIC OR LATINO,Stage IIA,Positive,Positive,,Alive,293.0,0,0,False,False,True,II,0.8,HR+/HER2-,Negative,Negative,,0,0.8
+TCGA-BH-A6R9,FEMALE,61,WHITE,NOT HISPANIC OR LATINO,Stage IIA,Negative,Positive,Negative,Alive,160.0,0,0,False,False,False,II,0.44,HR+/HER2-,,Negative,,0,0.44
+TCGA-BH-A8FY,FEMALE,87,WHITE,NOT HISPANIC OR LATINO,Stage IA,Positive,Positive,Negative,Dead,295.0,1,0,False,False,False,I,0.81,HR+/HER2-,,Negative,,1,0.81
+TCGA-BH-A8FZ,FEMALE,58,WHITE,NOT HISPANIC OR LATINO,Stage IA,Positive,Positive,Equivocal,Alive,574.0,0,0,False,False,True,I,1.57,Unknown,,Unknown,,0,1.57
+TCGA-BH-A8G0,FEMALE,54,WHITE,NOT HISPANIC OR LATINO,Stage IIB,Positive,Positive,Negative,Alive,662.0,0,2,True,False,False,II,1.81,HR+/HER2-,,Negative,,0,1.81
+TCGA-BH-AB28,FEMALE,53,WHITE,NOT HISPANIC OR LATINO,Stage IIIA,Positive,Positive,Negative,Alive,287.0,0,2,True,False,False,III,0.79,HR+/HER2-,Indeterminate,Negative,,0,0.79
+TCGA-C8-A12L,FEMALE,67,ASIAN,NOT HISPANIC OR LATINO,Stage IIA,Negative,Negative,Equivocal,Alive,363.0,0,0,False,False,False,II,0.99,Unknown,,Unknown,,0,0.99
+TCGA-C8-A12M,FEMALE,70,ASIAN,NOT HISPANIC OR LATINO,Stage IIA,Positive,Negative,Negative,Alive,358.0,0,0,False,False,False,II,0.98,HR+/HER2-,,Negative,,0,0.98
+TCGA-C8-A12N,FEMALE,58,ASIAN,NOT HISPANIC OR LATINO,Stage IIA,Positive,Positive,Negative,Alive,358.0,0,0,False,False,False,II,0.98,HR+/HER2-,,Negative,,0,0.98
+TCGA-C8-A12O,FEMALE,50,ASIAN,NOT HISPANIC OR LATINO,Stage IIA,Positive,Positive,Negative,Alive,385.0,0,0,False,False,False,II,1.05,HR+/HER2-,,Negative,,0,1.05
+TCGA-C8-A12P,FEMALE,55,ASIAN,NOT HISPANIC OR LATINO,Stage IIB,Negative,Negative,Positive,Alive,358.0,0,0,False,False,False,II,0.98,HER2-positive,,Positive,,0,0.98
+TCGA-C8-A12Q,FEMALE,78,ASIAN,NOT HISPANIC OR LATINO,Stage IIIA,Negative,Negative,Positive,Dead,385.0,1,0,False,False,False,III,1.05,HER2-positive,,Positive,,1,1.05
+TCGA-C8-A12U,FEMALE,46,ASIAN,NOT HISPANIC OR LATINO,Stage IIB,Positive,Positive,Negative,Alive,385.0,0,0,False,False,False,II,1.05,HR+/HER2-,,Negative,,0,1.05
+TCGA-C8-A12V,FEMALE,55,ASIAN,NOT HISPANIC OR LATINO,Stage IIA,Negative,Negative,Negative,Alive,385.0,0,0,False,False,False,II,1.05,Triple Negative,,Negative,,0,1.05
+TCGA-C8-A12W,FEMALE,49,ASIAN,NOT HISPANIC OR LATINO,Stage IIIB,Positive,Positive,Negative,Alive,385.0,0,0,False,False,False,III,1.05,HR+/HER2-,,Negative,,0,1.05
+TCGA-C8-A12X,FEMALE,62,ASIAN,NOT HISPANIC OR LATINO,Stage IIB,Positive,Positive,Negative,Alive,385.0,0,0,False,False,False,II,1.05,HR+/HER2-,,Negative,,0,1.05
+TCGA-C8-A12Y,FEMALE,44,ASIAN,NOT HISPANIC OR LATINO,Stage IIB,,,,Alive,1476.0,0,0,False,False,False,II,4.04,Unknown,,Unknown,,0,4.04
+TCGA-C8-A12Z,FEMALE,45,ASIAN,NOT HISPANIC OR LATINO,Stage IIB,Negative,Negative,Positive,Alive,382.0,0,3,True,False,False,II,1.05,HER2-positive,,Positive,,0,1.05
+TCGA-C8-A130,FEMALE,52,ASIAN,NOT HISPANIC OR LATINO,Stage IIIA,Positive,Positive,Equivocal,Alive,370.0,0,0,False,False,False,III,1.01,Unknown,,Unknown,,0,1.01
+TCGA-C8-A131,FEMALE,82,ASIAN,NOT HISPANIC OR LATINO,Stage IIIA,Negative,Negative,Negative,Alive,411.0,0,3,True,False,False,III,1.13,Triple Negative,,Negative,,0,1.13
+TCGA-C8-A132,FEMALE,56,ASIAN,NOT HISPANIC OR LATINO,Stage IIB,Positive,Positive,,Alive,383.0,0,0,False,False,False,II,1.05,Unknown,,Unknown,,0,1.05
+TCGA-C8-A134,FEMALE,52,ASIAN,NOT HISPANIC OR LATINO,Stage IIA,Negative,Negative,Equivocal,Alive,383.0,0,3,True,False,False,II,1.05,Unknown,,Unknown,,0,1.05
+TCGA-C8-A135,FEMALE,64,ASIAN,NOT HISPANIC OR LATINO,Stage IIB,Negative,Negative,Positive,Alive,393.0,0,4,True,False,False,II,1.08,HER2-positive,,Positive,,0,1.08
+TCGA-C8-A137,FEMALE,34,ASIAN,NOT HISPANIC OR LATINO,Stage IIB,Negative,Negative,Positive,Alive,379.0,0,0,False,False,True,II,1.04,HER2-positive,,Positive,,0,1.04
+TCGA-C8-A138,FEMALE,54,ASIAN,NOT HISPANIC OR LATINO,Stage IIIA,Positive,Negative,Equivocal,Alive,380.0,0,0,False,False,False,III,1.04,Unknown,,Unknown,,0,1.04
+TCGA-C8-A1HE,FEMALE,59,ASIAN,NOT HISPANIC OR LATINO,Stage IIA,Positive,Positive,Equivocal,Alive,375.0,0,0,False,False,False,II,1.03,Unknown,,Unknown,,0,1.03
+TCGA-C8-A1HF,FEMALE,48,ASIAN,NOT HISPANIC OR LATINO,Stage IIA,Negative,Positive,Positive,Alive,332.0,0,0,False,False,False,II,0.91,HER2-positive,,Positive,,0,0.91
+TCGA-C8-A1HG,FEMALE,50,ASIAN,NOT HISPANIC OR LATINO,Stage IIA,Positive,Positive,Negative,Alive,345.0,0,0,False,False,False,II,0.94,HR+/HER2-,,Negative,,0,0.94
+TCGA-C8-A1HI,FEMALE,40,ASIAN,NOT HISPANIC OR LATINO,Stage IIIA,Positive,Positive,Negative,Alive,343.0,0,0,False,False,False,III,0.94,HR+/HER2-,,Negative,,0,0.94
+TCGA-C8-A1HJ,FEMALE,53,ASIAN,NOT HISPANIC OR LATINO,Stage IIA,Negative,Negative,Negative,Alive,5.0,0,0,False,False,False,II,0.01,Triple Negative,,Negative,,0,0.01
+TCGA-C8-A1HK,FEMALE,53,ASIAN,NOT HISPANIC OR LATINO,Stage IIB,Negative,Negative,Positive,Alive,366.0,0,0,False,False,False,II,1.0,HER2-positive,,Positive,,0,1.0
+TCGA-C8-A1HL,FEMALE,38,ASIAN,NOT HISPANIC OR LATINO,Stage IIIA,Positive,Negative,Equivocal,Alive,317.0,0,0,False,False,False,III,0.87,Unknown,,Unknown,,0,0.87
+TCGA-C8-A1HM,FEMALE,74,ASIAN,NOT HISPANIC OR LATINO,Stage IIA,Positive,Positive,Negative,Alive,375.0,0,3,True,False,False,II,1.03,HR+/HER2-,,Negative,,0,1.03
+TCGA-C8-A1HN,FEMALE,56,ASIAN,NOT HISPANIC OR LATINO,Stage IIA,Positive,Positive,Equivocal,Alive,394.0,0,0,False,False,False,II,1.08,Unknown,,Unknown,,0,1.08
+TCGA-C8-A1HO,FEMALE,34,ASIAN,NOT HISPANIC OR LATINO,Stage IIIC,Positive,Positive,Negative,Alive,375.0,0,3,True,False,False,III,1.03,HR+/HER2-,,Negative,,0,1.03
+TCGA-C8-A26V,FEMALE,47,ASIAN,NOT HISPANIC OR LATINO,Stage IIIA,Positive,Positive,Negative,Alive,616.0,0,1,False,True,True,III,1.69,HR+/HER2-,,Negative,,0,1.69
+TCGA-C8-A26W,FEMALE,58,ASIAN,NOT HISPANIC OR LATINO,Stage IIB,Positive,Positive,Equivocal,Alive,381.0,0,2,True,False,False,II,1.04,Unknown,,Unknown,,0,1.04
+TCGA-C8-A26X,FEMALE,58,ASIAN,NOT HISPANIC OR LATINO,Stage IIA,Negative,Negative,Negative,Alive,376.0,0,3,True,False,False,II,1.03,Triple Negative,,Negative,,0,1.03
+TCGA-C8-A26Z,FEMALE,59,ASIAN,NOT HISPANIC OR LATINO,Stage IIA,Positive,Positive,Negative,Alive,470.0,0,1,False,True,False,II,1.29,HR+/HER2-,,Negative,,0,1.29
+TCGA-C8-A273,FEMALE,29,ASIAN,NOT HISPANIC OR LATINO,Stage IIB,Positive,Positive,Negative,Alive,513.0,0,1,False,True,False,II,1.4,HR+/HER2-,,Negative,,0,1.4
+TCGA-C8-A274,FEMALE,63,ASIAN,NOT HISPANIC OR LATINO,Stage IIA,Positive,Positive,Negative,Alive,508.0,0,1,False,True,False,II,1.39,HR+/HER2-,,Negative,,0,1.39
+TCGA-C8-A278,FEMALE,61,ASIAN,NOT HISPANIC OR LATINO,Stage IIIA,Negative,Negative,Positive,Alive,297.0,0,1,False,True,False,III,0.81,HER2-positive,,Positive,,0,0.81
+TCGA-C8-A27A,FEMALE,48,ASIAN,NOT HISPANIC OR LATINO,Stage IIB,Positive,Positive,Negative,Alive,747.0,0,4,True,False,False,II,2.05,HR+/HER2-,,Negative,,0,2.05
+TCGA-C8-A27B,FEMALE,48,ASIAN,NOT HISPANIC OR LATINO,Stage IIB,Negative,Negative,Negative,Alive,439.0,0,4,True,False,False,II,1.2,Triple Negative,,Negative,,0,1.2
+TCGA-C8-A3M7,FEMALE,60,ASIAN,NOT HISPANIC OR LATINO,Stage IIIB,Negative,Negative,Negative,Dead,1034.0,1,0,False,False,False,III,2.83,Triple Negative,,Negative,,1,2.83
+TCGA-C8-A3M8,FEMALE,68,ASIAN,NOT HISPANIC OR LATINO,Stage IA,Positive,Positive,Positive,Alive,394.0,0,1,False,True,False,I,1.08,HER2-positive,,Positive,,0,1.08
+TCGA-C8-A8HP,FEMALE,59,ASIAN,NOT HISPANIC OR LATINO,Stage IIIA,Negative,Negative,Positive,Alive,396.0,0,3,True,False,False,III,1.08,HER2-positive,,Positive,,0,1.08
+TCGA-C8-A8HQ,FEMALE,53,ASIAN,NOT HISPANIC OR LATINO,Stage IIB,Positive,Positive,Negative,Alive,380.0,0,0,False,False,False,II,1.04,HR+/HER2-,,Negative,,0,1.04
+TCGA-C8-A8HR,FEMALE,49,ASIAN,NOT HISPANIC OR LATINO,Stage IIIA,,,,Alive,408.0,0,3,True,False,False,III,1.12,Unknown,,Unknown,,0,1.12
+TCGA-C8-A9FZ,FEMALE,49,WHITE,NOT HISPANIC OR LATINO,Stage IIB,,,Negative,Alive,592.0,0,4,True,True,True,II,1.62,Unknown,,Negative,,0,1.62
+TCGA-D8-A13Y,FEMALE,52,WHITE,NOT HISPANIC OR LATINO,Stage IA,Positive,Positive,Negative,Alive,1728.0,0,2,True,False,False,I,4.73,HR+/HER2-,,Negative,,0,4.73
+TCGA-D8-A13Z,FEMALE,51,WHITE,NOT HISPANIC OR LATINO,,Negative,Negative,Negative,Alive,635.0,0,3,True,True,True,Unknown,1.74,Triple Negative,,Negative,,0,1.74
+TCGA-D8-A140,FEMALE,62,WHITE,NOT HISPANIC OR LATINO,Stage IIB,Positive,Positive,Positive,Alive,403.0,0,1,True,False,False,II,1.1,HER2-positive,,Positive,,0,1.1
+TCGA-D8-A141,FEMALE,40,WHITE,NOT HISPANIC OR LATINO,,Positive,Positive,Negative,Alive,626.0,0,3,True,True,False,Unknown,1.71,HR+/HER2-,,Negative,,0,1.71
+TCGA-D8-A142,FEMALE,74,WHITE,NOT HISPANIC OR LATINO,Stage IIB,Negative,Negative,Equivocal,Alive,425.0,0,3,True,False,False,II,1.16,Triple Negative,Negative,Negative,,0,1.16
+TCGA-D8-A143,FEMALE,51,WHITE,NOT HISPANIC OR LATINO,Stage IIA,Negative,Negative,Negative,Alive,431.0,0,2,True,False,False,II,1.18,Triple Negative,,Negative,,0,1.18
+TCGA-D8-A145,FEMALE,80,WHITE,NOT HISPANIC OR LATINO,Stage IIA,Positive,Positive,Equivocal,Alive,410.0,0,1,False,True,False,II,1.12,HR+/HER2-,Negative,Negative,,0,1.12
+TCGA-D8-A146,FEMALE,57,WHITE,NOT HISPANIC OR LATINO,Stage IIA,Positive,Positive,Negative,Alive,643.0,0,0,False,False,False,II,1.76,HR+/HER2-,,Negative,,0,1.76
+TCGA-D8-A147,FEMALE,45,WHITE,NOT HISPANIC OR LATINO,,Negative,Negative,Negative,Alive,584.0,0,4,True,False,True,Unknown,1.6,Triple Negative,,Negative,,0,1.6
+TCGA-D8-A1J8,FEMALE,77,WHITE,NOT HISPANIC OR LATINO,Stage IIB,Positive,Positive,Negative,Alive,431.0,0,1,False,True,False,II,1.18,HR+/HER2-,,Negative,,0,1.18
+TCGA-D8-A1J9,FEMALE,48,WHITE,NOT HISPANIC OR LATINO,Stage IA,Positive,Negative,Positive,Alive,532.0,0,0,False,False,False,I,1.46,HER2-positive,,Positive,,0,1.46
+TCGA-D8-A1JA,FEMALE,60,WHITE,NOT HISPANIC OR LATINO,,Negative,Negative,Positive,Alive,502.0,0,2,True,False,True,Unknown,1.37,HER2-positive,,Positive,,0,1.37
+TCGA-D8-A1JB,FEMALE,54,WHITE,NOT HISPANIC OR LATINO,Stage IIB,Positive,Positive,Equivocal,Alive,1688.0,0,2,True,False,True,II,4.62,HER2-positive,Positive,Positive,,0,4.62
+TCGA-D8-A1JC,FEMALE,59,WHITE,NOT HISPANIC OR LATINO,Stage IIIA,Positive,Positive,Negative,Alive,480.0,0,2,True,False,True,III,1.31,HR+/HER2-,,Negative,,0,1.31
+TCGA-D8-A1JD,FEMALE,41,WHITE,NOT HISPANIC OR LATINO,Stage IIB,Positive,Positive,Negative,Alive,552.0,0,2,True,False,True,II,1.51,HR+/HER2-,,Negative,,0,1.51
+TCGA-D8-A1JE,FEMALE,62,WHITE,NOT HISPANIC OR LATINO,Stage IIA,Positive,Positive,Negative,Alive,575.0,0,2,True,False,False,II,1.57,HR+/HER2-,,Negative,,0,1.57
+TCGA-D8-A1JF,FEMALE,79,WHITE,NOT HISPANIC OR LATINO,Stage IIIA,Negative,Negative,Negative,Alive,366.0,0,0,False,False,False,III,1.0,Triple Negative,,Negative,,0,1.0
+TCGA-D8-A1JG,FEMALE,62,WHITE,NOT HISPANIC OR LATINO,Stage IIA,Negative,Negative,Equivocal,Alive,1612.0,0,2,True,False,True,II,4.41,Triple Negative,Negative,Negative,,0,4.41
+TCGA-D8-A1JH,FEMALE,56,WHITE,NOT HISPANIC OR LATINO,Stage IA,Positive,Positive,Negative,Alive,426.0,0,1,False,True,True,I,1.17,HR+/HER2-,,Negative,,0,1.17
+TCGA-D8-A1JI,FEMALE,54,WHITE,NOT HISPANIC OR LATINO,Stage IIA,Positive,Positive,Negative,Alive,577.0,0,3,True,True,True,II,1.58,HR+/HER2-,,Negative,,0,1.58
+TCGA-D8-A1JJ,FEMALE,54,WHITE,NOT HISPANIC OR LATINO,Stage IIA,Positive,Positive,Negative,Alive,611.0,0,2,True,False,True,II,1.67,HR+/HER2-,,Negative,,0,1.67
+TCGA-D8-A1JL,FEMALE,72,WHITE,NOT HISPANIC OR LATINO,Stage IIA,Negative,Negative,Negative,Alive,611.0,0,0,False,False,False,II,1.67,Triple Negative,,Negative,,0,1.67
+TCGA-D8-A1JM,FEMALE,59,WHITE,NOT HISPANIC OR LATINO,Stage IIB,Positive,Negative,Negative,Alive,590.0,0,1,True,True,True,II,1.62,HR+/HER2-,,Negative,,0,1.62
+TCGA-D8-A1JN,FEMALE,80,WHITE,NOT HISPANIC OR LATINO,Stage IIIC,Positive,Positive,Indeterminate,Alive,620.0,0,1,False,True,False,III,1.7,HR+/HER2-,Negative,Negative,,0,1.7
+TCGA-D8-A1JP,FEMALE,73,WHITE,NOT HISPANIC OR LATINO,Stage IA,Positive,Positive,Negative,Alive,639.0,0,1,False,True,False,I,1.75,HR+/HER2-,,Negative,,0,1.75
+TCGA-D8-A1JS,FEMALE,77,WHITE,NOT HISPANIC OR LATINO,Stage IA,Positive,Positive,Negative,Alive,371.0,0,1,False,True,False,I,1.02,HR+/HER2-,,Negative,,0,1.02
+TCGA-D8-A1JT,FEMALE,70,WHITE,NOT HISPANIC OR LATINO,Stage IIA,Positive,Positive,Equivocal,Alive,405.0,0,1,False,True,False,II,1.11,HR+/HER2-,Negative,Negative,,0,1.11
+TCGA-D8-A1JU,FEMALE,51,WHITE,NOT HISPANIC OR LATINO,Stage IA,Positive,Positive,Negative,Alive,447.0,0,1,False,True,False,I,1.22,HR+/HER2-,,Negative,,0,1.22
+TCGA-D8-A1X5,FEMALE,81,WHITE,NOT HISPANIC OR LATINO,Stage IIIC,Positive,Positive,Positive,Alive,565.0,0,2,False,True,True,III,1.55,HER2-positive,,Positive,,0,1.55
+TCGA-D8-A1X6,FEMALE,80,WHITE,NOT HISPANIC OR LATINO,Stage IIIA,Positive,Positive,Negative,Alive,541.0,0,1,False,True,False,III,1.48,HR+/HER2-,,Negative,,0,1.48
+TCGA-D8-A1X7,FEMALE,40,WHITE,NOT HISPANIC OR LATINO,Stage IIA,Positive,Positive,Negative,Alive,509.0,0,1,True,True,False,II,1.39,HR+/HER2-,,Negative,,0,1.39
+TCGA-D8-A1X8,FEMALE,62,WHITE,NOT HISPANIC OR LATINO,Stage IIIA,Positive,Indeterminate,Negative,Alive,783.0,0,1,True,False,True,III,2.14,HR+/HER2-,,Negative,,0,2.14
+TCGA-D8-A1X9,FEMALE,66,WHITE,NOT HISPANIC OR LATINO,Stage IIB,Positive,Positive,Indeterminate,Alive,727.0,0,1,True,False,True,II,1.99,HR+/HER2-,Negative,Negative,,0,1.99
+TCGA-D8-A1XA,FEMALE,64,WHITE,NOT HISPANIC OR LATINO,Stage IA,Positive,Positive,Equivocal,Alive,839.0,0,0,False,False,True,I,2.3,Unknown,,Unknown,,0,2.3
+TCGA-D8-A1XB,FEMALE,62,WHITE,NOT HISPANIC OR LATINO,Stage IIB,Positive,Positive,Negative,Alive,552.0,0,0,False,False,True,II,1.51,HR+/HER2-,,Negative,,0,1.51
+TCGA-D8-A1XC,FEMALE,85,WHITE,NOT HISPANIC OR LATINO,Stage IIIB,Positive,Positive,Negative,Dead,377.0,1,0,False,False,False,III,1.03,HR+/HER2-,,Negative,,1,1.03
+TCGA-D8-A1XD,FEMALE,36,WHITE,NOT HISPANIC OR LATINO,Stage IIIA,Positive,Positive,Negative,Alive,522.0,0,0,False,False,True,III,1.43,HR+/HER2-,,Negative,,0,1.43
+TCGA-D8-A1XF,FEMALE,45,WHITE,NOT HISPANIC OR LATINO,Stage IIA,Positive,Positive,Negative,Alive,463.0,0,1,True,False,False,II,1.27,HR+/HER2-,,Negative,,0,1.27
+TCGA-D8-A1XG,FEMALE,86,WHITE,NOT HISPANIC OR LATINO,Stage IIIB,Positive,Negative,Negative,Alive,448.0,0,0,False,False,False,III,1.23,HR+/HER2-,,Negative,,0,1.23
+TCGA-D8-A1XJ,FEMALE,76,WHITE,NOT HISPANIC OR LATINO,Stage IIIA,Positive,Positive,Positive,Alive,664.0,0,1,False,True,False,III,1.82,HER2-positive,,Positive,,0,1.82
+TCGA-D8-A1XK,FEMALE,55,WHITE,NOT HISPANIC OR LATINO,Stage IIB,Negative,Negative,Negative,Alive,441.0,0,2,True,False,True,II,1.21,Triple Negative,,Negative,,0,1.21
+TCGA-D8-A1XL,FEMALE,34,WHITE,NOT HISPANIC OR LATINO,Stage IIB,Positive,Positive,Equivocal,Alive,606.0,0,2,True,True,True,II,1.66,HR+/HER2-,Negative,Negative,,0,1.66
+TCGA-D8-A1XM,FEMALE,57,WHITE,NOT HISPANIC OR LATINO,Stage IA,Positive,Positive,Negative,Alive,538.0,0,0,False,False,True,I,1.47,HR+/HER2-,,Negative,,0,1.47
+TCGA-D8-A1XO,FEMALE,56,WHITE,NOT HISPANIC OR LATINO,Stage IIB,Positive,Positive,Negative,Alive,1682.0,0,1,False,True,True,II,4.61,HR+/HER2-,,Negative,,0,4.61
+TCGA-D8-A1XQ,FEMALE,69,WHITE,NOT HISPANIC OR LATINO,Stage IIA,Negative,Negative,Negative,Alive,499.0,0,0,False,False,False,II,1.37,Triple Negative,,Negative,,0,1.37
+TCGA-D8-A1XR,FEMALE,56,WHITE,NOT HISPANIC OR LATINO,Stage IIB,Positive,Positive,Negative,Alive,482.0,0,1,True,False,False,II,1.32,HR+/HER2-,,Negative,,0,1.32
+TCGA-D8-A1XS,MALE,48,WHITE,NOT HISPANIC OR LATINO,Stage IIIC,Positive,Positive,Positive,Alive,496.0,0,1,True,False,True,III,1.36,HER2-positive,,Positive,,0,1.36
+TCGA-D8-A1XT,FEMALE,61,WHITE,NOT HISPANIC OR LATINO,Stage IIA,Negative,Negative,Positive,Alive,506.0,0,1,True,False,False,II,1.39,HER2-positive,,Positive,,0,1.39
+TCGA-D8-A1XU,FEMALE,56,WHITE,NOT HISPANIC OR LATINO,Stage IA,Positive,Positive,Negative,Alive,395.0,0,0,False,False,False,I,1.08,HR+/HER2-,,Negative,,0,1.08
+TCGA-D8-A1XV,FEMALE,84,WHITE,NOT HISPANIC OR LATINO,Stage IIA,Positive,Positive,Equivocal,Alive,461.0,0,0,False,False,False,II,1.26,HR+/HER2-,Negative,Negative,,0,1.26
+TCGA-D8-A1XW,FEMALE,53,WHITE,NOT HISPANIC OR LATINO,Stage IIA,Negative,Positive,Negative,Alive,1309.0,0,1,True,False,False,II,3.58,HR+/HER2-,,Negative,,0,3.58
+TCGA-D8-A1XY,FEMALE,74,WHITE,NOT HISPANIC OR LATINO,Stage IIA,Positive,Positive,Positive,Alive,503.0,0,1,True,False,False,II,1.38,HER2-positive,,Positive,,0,1.38
+TCGA-D8-A1XZ,FEMALE,81,WHITE,NOT HISPANIC OR LATINO,Stage IIIA,Positive,Negative,Negative,Alive,466.0,0,1,False,True,True,III,1.28,HR+/HER2-,,Negative,,0,1.28
+TCGA-D8-A1Y0,FEMALE,65,WHITE,NOT HISPANIC OR LATINO,Stage IIIA,Positive,Positive,Negative,Alive,472.0,0,2,True,True,True,III,1.29,HR+/HER2-,,Negative,,0,1.29
+TCGA-D8-A1Y1,FEMALE,80,WHITE,NOT HISPANIC OR LATINO,Stage IIIA,Positive,Positive,Negative,Dead,302.0,1,1,False,True,False,III,0.83,HR+/HER2-,,Negative,,1,0.83
+TCGA-D8-A1Y2,FEMALE,71,WHITE,NOT HISPANIC OR LATINO,Stage IIA,Positive,Positive,Indeterminate,Alive,433.0,0,1,False,True,False,II,1.19,HR+/HER2-,Negative,Negative,,0,1.19
+TCGA-D8-A1Y3,FEMALE,61,WHITE,NOT HISPANIC OR LATINO,Stage IIIA,Positive,Positive,Indeterminate,Alive,430.0,0,2,True,True,True,III,1.18,HR+/HER2-,Negative,Negative,,0,1.18
+TCGA-D8-A27E,FEMALE,66,WHITE,NOT HISPANIC OR LATINO,Stage IA,Positive,Positive,Negative,Alive,530.0,0,1,False,True,True,I,1.45,HR+/HER2-,,Negative,,0,1.45
+TCGA-D8-A27F,FEMALE,40,WHITE,NOT HISPANIC OR LATINO,Stage IIA,Negative,Negative,Negative,Alive,488.0,0,1,True,False,True,II,1.34,Triple Negative,,Negative,,0,1.34
+TCGA-D8-A27G,FEMALE,75,WHITE,NOT HISPANIC OR LATINO,Stage IIA,Positive,Positive,Equivocal,Alive,409.0,0,0,False,False,False,II,1.12,HR+/HER2-,Negative,Negative,,0,1.12
+TCGA-D8-A27H,FEMALE,72,WHITE,NOT HISPANIC OR LATINO,Stage IIA,Negative,Negative,Negative,Alive,397.0,0,1,True,False,False,II,1.09,Triple Negative,,Negative,,0,1.09
+TCGA-D8-A27I,FEMALE,58,WHITE,NOT HISPANIC OR LATINO,Stage IIIA,Positive,Positive,Negative,Alive,439.0,0,1,True,False,True,III,1.2,HR+/HER2-,,Negative,,0,1.2
+TCGA-D8-A27K,FEMALE,47,WHITE,NOT HISPANIC OR LATINO,Stage IIB,Positive,Positive,Negative,Alive,1461.0,0,2,True,True,False,II,4.0,HR+/HER2-,,Negative,,0,4.0
+TCGA-D8-A27L,FEMALE,49,WHITE,NOT HISPANIC OR LATINO,Stage IIIA,Positive,Positive,Negative,Alive,499.0,0,1,True,False,False,III,1.37,HR+/HER2-,,Negative,,0,1.37
+TCGA-D8-A27M,FEMALE,59,WHITE,NOT HISPANIC OR LATINO,Stage IA,Negative,Negative,Negative,Alive,410.0,0,1,True,False,False,I,1.12,Triple Negative,,Negative,,0,1.12
+TCGA-D8-A27N,FEMALE,36,WHITE,NOT HISPANIC OR LATINO,Stage IIIA,Positive,Positive,Positive,Alive,519.0,0,1,True,False,False,III,1.42,HER2-positive,,Positive,,0,1.42
+TCGA-D8-A27P,FEMALE,64,WHITE,NOT HISPANIC OR LATINO,Stage IA,Positive,Positive,Negative,Alive,49.0,0,0,False,False,False,I,0.13,HR+/HER2-,,Negative,,0,0.13
+TCGA-D8-A27R,FEMALE,41,WHITE,NOT HISPANIC OR LATINO,Stage IIIC,Positive,Positive,Equivocal,Alive,307.0,0,1,True,False,True,III,0.84,HR+/HER2-,Negative,Negative,,0,0.84
+TCGA-D8-A27T,FEMALE,53,WHITE,NOT HISPANIC OR LATINO,Stage IIIC,Positive,Positive,Negative,Alive,398.0,0,2,True,True,True,III,1.09,HR+/HER2-,,Negative,,0,1.09
+TCGA-D8-A27V,FEMALE,62,WHITE,NOT HISPANIC OR LATINO,Stage IIA,Positive,Positive,Negative,Alive,381.0,0,1,False,True,False,II,1.04,HR+/HER2-,,Negative,,0,1.04
+TCGA-D8-A27W,FEMALE,55,WHITE,NOT HISPANIC OR LATINO,Stage IIIB,Positive,Positive,Equivocal,Alive,373.0,0,2,True,True,True,III,1.02,HER2-positive,Positive,Positive,,0,1.02
+TCGA-D8-A3Z5,FEMALE,54,WHITE,NOT HISPANIC OR LATINO,Stage IIIC,Positive,Positive,Negative,Alive,1015.0,0,0,False,False,False,III,2.78,HR+/HER2-,,Negative,,0,2.78
+TCGA-D8-A3Z6,FEMALE,56,WHITE,NOT HISPANIC OR LATINO,Stage IIIC,Positive,Positive,Negative,Alive,563.0,0,4,True,True,True,III,1.54,HR+/HER2-,,Negative,,0,1.54
+TCGA-D8-A4Z1,FEMALE,68,WHITE,NOT HISPANIC OR LATINO,Stage IA,Positive,Positive,Negative,Alive,659.0,0,1,False,True,False,I,1.8,HR+/HER2-,,Negative,,0,1.8
+TCGA-D8-A73U,FEMALE,88,WHITE,NOT HISPANIC OR LATINO,Stage IIA,Positive,Positive,Negative,Alive,492.0,0,1,False,True,False,II,1.35,HR+/HER2-,Negative,Negative,,0,1.35
+TCGA-D8-A73W,FEMALE,79,WHITE,NOT HISPANIC OR LATINO,Stage IIIA,Positive,Negative,Negative,Dead,385.0,1,1,False,True,True,III,1.05,HR+/HER2-,,Negative,,1,1.05
+TCGA-D8-A73X,FEMALE,53,WHITE,NOT HISPANIC OR LATINO,Stage IIA,Positive,Positive,Negative,Alive,767.0,0,1,False,True,True,II,2.1,HR+/HER2-,Negative,Negative,,0,2.1
+TCGA-E2-A105,FEMALE,79,WHITE,NOT HISPANIC OR LATINO,Stage IIA,Positive,Positive,Equivocal,Alive,1308.0,0,1,False,True,True,II,3.58,Unknown,,Unknown,,0,3.58
+TCGA-E2-A106,FEMALE,34,ASIAN,NOT HISPANIC OR LATINO,Stage IB,Positive,Positive,Equivocal,Alive,2541.0,0,2,False,True,False,I,6.96,HR+/HER2-,Negative,Negative,,0,6.96
+TCGA-E2-A107,FEMALE,54,WHITE,NOT HISPANIC OR LATINO,Stage IIIA,Positive,Negative,Equivocal,Alive,1047.0,0,11,True,True,True,III,2.87,HR+/HER2-,Negative,Negative,,0,2.87
+TCGA-E2-A108,FEMALE,64,WHITE,NOT HISPANIC OR LATINO,Stage IIIA,Positive,Positive,Negative,Alive,837.0,0,4,True,True,True,III,2.29,HR+/HER2-,,Negative,,0,2.29
+TCGA-E2-A109,FEMALE,64,WHITE,NOT HISPANIC OR LATINO,Stage IIA,Positive,Negative,Equivocal,Alive,1417.0,0,8,True,True,False,II,3.88,HR+/HER2-,Negative,Negative,,0,3.88
+TCGA-E2-A10A,FEMALE,41,WHITE,NOT HISPANIC OR LATINO,Stage IIB,Positive,Positive,Positive,Alive,1229.0,0,3,False,True,True,II,3.36,HER2-positive,Negative,Positive,,0,3.36
+TCGA-E2-A10B,FEMALE,67,WHITE,NOT HISPANIC OR LATINO,Stage IIB,Positive,Positive,Equivocal,Alive,1141.0,0,6,True,True,True,II,3.12,HR+/HER2-,Negative,Negative,,0,3.12
+TCGA-E2-A10C,FEMALE,54,WHITE,NOT HISPANIC OR LATINO,Stage IIB,Positive,Positive,Negative,Alive,1220.0,0,5,True,True,True,II,3.34,HR+/HER2-,,Negative,,0,3.34
+TCGA-E2-A10E,FEMALE,64,WHITE,NOT HISPANIC OR LATINO,Stage IIA,Positive,Positive,Equivocal,Alive,865.0,0,4,True,True,True,II,2.37,HR+/HER2-,Negative,Negative,,0,2.37
+TCGA-E2-A10F,FEMALE,47,WHITE,NOT HISPANIC OR LATINO,Stage IIA,Positive,Positive,Equivocal,Alive,878.0,0,3,True,True,True,II,2.4,HR+/HER2-,Negative,Negative,,0,2.4
+TCGA-E2-A14N,FEMALE,37,WHITE,NOT HISPANIC OR LATINO,Stage IIB,Negative,Negative,Negative,Alive,1434.0,0,3,True,False,True,II,3.93,Triple Negative,,Negative,,0,3.93
+TCGA-E2-A14O,FEMALE,76,WHITE,NOT HISPANIC OR LATINO,Stage IIIA,Positive,Positive,Equivocal,Alive,1359.0,0,1,False,True,True,III,3.72,HR+/HER2-,Negative,Negative,,0,3.72
+TCGA-E2-A14P,FEMALE,79,WHITE,NOT HISPANIC OR LATINO,Stage IIIC,Negative,Negative,Positive,Alive,1246.0,0,1,True,False,True,III,3.41,HER2-positive,,Positive,,0,3.41
+TCGA-E2-A14Q,FEMALE,50,WHITE,NOT HISPANIC OR LATINO,Stage IIB,Positive,Positive,Negative,Alive,1163.0,0,1,False,True,False,II,3.18,HR+/HER2-,,Negative,,0,3.18
+TCGA-E2-A14R,FEMALE,62,WHITE,NOT HISPANIC OR LATINO,Stage IIA,Negative,Negative,Negative,Alive,1174.0,0,4,True,False,True,II,3.21,Triple Negative,,Negative,,0,3.21
+TCGA-E2-A14S,FEMALE,65,WHITE,NOT HISPANIC OR LATINO,Stage I,Positive,Positive,Equivocal,Alive,1009.0,0,3,True,True,True,I,2.76,HR+/HER2-,Negative,Negative,,0,2.76
+TCGA-E2-A14T,FEMALE,52,WHITE,NOT HISPANIC OR LATINO,Stage IIA,Positive,Positive,Negative,Alive,2311.0,0,4,True,True,False,II,6.33,HR+/HER2-,Negative,Negative,,0,6.33
+TCGA-E2-A14U,FEMALE,74,WHITE,NOT HISPANIC OR LATINO,Stage I,Positive,Positive,Equivocal,Alive,1318.0,0,1,False,True,False,I,3.61,HR+/HER2-,Negative,Negative,,0,3.61
+TCGA-E2-A14V,FEMALE,53,WHITE,NOT HISPANIC OR LATINO,Stage IIB,Positive,Positive,Positive,Alive,1042.0,0,5,True,True,True,II,2.85,HER2-positive,,Positive,,0,2.85
+TCGA-E2-A14W,MALE,78,WHITE,NOT HISPANIC OR LATINO,Stage IIA,Positive,Positive,,Alive,974.0,0,4,True,True,False,II,2.67,HER2-positive,Positive,Positive,,0,2.67
+TCGA-E2-A14X,FEMALE,55,BLACK OR AFRICAN AMERICAN,NOT HISPANIC OR LATINO,Stage IIIA,Negative,Negative,Negative,Alive,972.0,0,5,True,False,True,III,2.66,Triple Negative,,Negative,,0,2.66
+TCGA-E2-A14Y,FEMALE,35,WHITE,NOT HISPANIC OR LATINO,Stage IIA,Positive,Positive,Equivocal,Alive,2109.0,0,6,True,True,False,II,5.77,HER2-positive,Positive,Positive,,0,5.77
+TCGA-E2-A14Z,FEMALE,64,WHITE,NOT HISPANIC OR LATINO,Stage I,Positive,Positive,Negative,Dead,563.0,1,3,True,True,True,I,1.54,HR+/HER2-,,Negative,,1,1.54
+TCGA-E2-A150,FEMALE,48,WHITE,NOT HISPANIC OR LATINO,Stage IIA,Negative,Negative,Negative,Alive,1935.0,0,3,True,False,True,II,5.3,Triple Negative,,Negative,,0,5.3
+TCGA-E2-A152,FEMALE,56,WHITE,NOT HISPANIC OR LATINO,Stage I,Positive,Negative,Positive,Alive,2128.0,0,5,True,True,False,I,5.83,HER2-positive,,Positive,,0,5.83
+TCGA-E2-A153,FEMALE,51,WHITE,NOT HISPANIC OR LATINO,Stage IIB,Positive,Positive,Negative,Alive,707.0,0,4,True,True,True,II,1.94,HR+/HER2-,,Negative,,0,1.94
+TCGA-E2-A154,FEMALE,68,WHITE,NOT HISPANIC OR LATINO,Stage I,Positive,Positive,Negative,Alive,591.0,0,1,False,True,True,I,1.62,HR+/HER2-,,Negative,,0,1.62
+TCGA-E2-A155,FEMALE,58,WHITE,NOT HISPANIC OR LATINO,Stage IIB,Positive,Negative,Negative,Alive,640.0,0,5,True,True,False,II,1.75,HR+/HER2-,,Negative,,0,1.75
+TCGA-E2-A156,FEMALE,61,WHITE,NOT HISPANIC OR LATINO,Stage I,Positive,Positive,Negative,Alive,726.0,0,1,False,True,True,I,1.99,HR+/HER2-,,Negative,,0,1.99
+TCGA-E2-A158,FEMALE,43,WHITE,NOT HISPANIC OR LATINO,Stage IIA,Negative,Negative,Negative,Alive,450.0,0,4,True,False,False,II,1.23,Triple Negative,,Negative,,0,1.23
+TCGA-E2-A159,FEMALE,50,WHITE,NOT HISPANIC OR LATINO,Stage IIA,Negative,Negative,,Alive,762.0,0,3,True,False,True,II,2.09,Triple Negative,Negative,Negative,,0,2.09
+TCGA-E2-A15A,FEMALE,45,WHITE,NOT HISPANIC OR LATINO,Stage IIIC,Positive,Positive,Negative,Alive,710.0,0,4,True,False,True,III,1.94,HR+/HER2-,,Negative,,0,1.94
+TCGA-E2-A15C,FEMALE,61,WHITE,NOT HISPANIC OR LATINO,Stage I,Positive,Positive,Equivocal,Alive,694.0,0,1,False,True,True,I,1.9,HR+/HER2-,Negative,Negative,,0,1.9
+TCGA-E2-A15D,FEMALE,47,WHITE,NOT HISPANIC OR LATINO,Stage IIA,Positive,Positive,Equivocal,Alive,526.0,0,1,False,True,True,II,1.44,HR+/HER2-,Negative,Negative,,0,1.44
+TCGA-E2-A15E,FEMALE,40,WHITE,NOT HISPANIC OR LATINO,Stage IIA,Positive,Positive,,Alive,630.0,0,7,True,True,True,II,1.72,HER2-positive,Positive,Positive,,0,1.72
+TCGA-E2-A15F,FEMALE,64,WHITE,NOT HISPANIC OR LATINO,Stage I,Positive,Positive,Negative,Alive,658.0,0,1,False,True,True,I,1.8,HR+/HER2-,,Negative,,0,1.8
+TCGA-E2-A15G,FEMALE,76,WHITE,NOT HISPANIC OR LATINO,Stage IIA,Positive,Positive,Negative,Alive,554.0,0,1,False,True,True,II,1.52,HR+/HER2-,,Negative,,0,1.52
+TCGA-E2-A15H,FEMALE,38,WHITE,NOT HISPANIC OR LATINO,Stage IIA,Positive,Positive,Equivocal,Alive,393.0,0,1,True,False,False,II,1.08,HER2-positive,Positive,Positive,,0,1.08
+TCGA-E2-A15I,FEMALE,44,WHITE,NOT HISPANIC OR LATINO,Stage IIA,Positive,Positive,Equivocal,Alive,1692.0,0,1,False,True,False,II,4.63,HR+/HER2-,Negative,Negative,,0,4.63
+TCGA-E2-A15J,FEMALE,51,WHITE,NOT HISPANIC OR LATINO,Stage I,Positive,Positive,Equivocal,Alive,1640.0,0,3,True,True,False,I,4.49,HR+/HER2-,Negative,Negative,,0,4.49
+TCGA-E2-A15K,FEMALE,58,WHITE,NOT HISPANIC OR LATINO,Stage IIB,Positive,Positive,Equivocal,Alive,275.0,0,3,True,False,True,II,0.75,HR+/HER2-,Negative,Negative,,0,0.75
+TCGA-E2-A15L,FEMALE,65,BLACK OR AFRICAN AMERICAN,NOT HISPANIC OR LATINO,Stage IIA,Positive,Positive,Equivocal,Alive,626.0,0,1,False,True,False,II,1.71,HR+/HER2-,Negative,Negative,,0,1.71
+TCGA-E2-A15M,FEMALE,66,WHITE,NOT HISPANIC OR LATINO,Stage IIA,Positive,Positive,Negative,Dead,336.0,1,1,False,True,True,II,0.92,HR+/HER2-,,Negative,,1,0.92
+TCGA-E2-A15O,FEMALE,89,BLACK OR AFRICAN AMERICAN,NOT HISPANIC OR LATINO,Stage I,Positive,Positive,Equivocal,Alive,289.0,0,4,False,True,False,I,0.79,HR+/HER2-,Negative,Negative,,0,0.79
+TCGA-E2-A15P,FEMALE,61,WHITE,NOT HISPANIC OR LATINO,Stage IA,Positive,Positive,Negative,Alive,595.0,0,2,False,True,True,I,1.63,HR+/HER2-,,Negative,,0,1.63
+TCGA-E2-A15R,FEMALE,64,WHITE,NOT HISPANIC OR LATINO,Stage IIA,Positive,Positive,Equivocal,Alive,1732.0,0,4,True,True,True,II,4.74,HR+/HER2-,Negative,Negative,,0,4.74
+TCGA-E2-A15S,FEMALE,34,WHITE,NOT HISPANIC OR LATINO,Stage IIB,Positive,Negative,Equivocal,Alive,428.0,0,4,True,True,True,II,1.17,HR+/HER2-,Negative,Negative,,0,1.17
+TCGA-E2-A15T,FEMALE,65,WHITE,NOT HISPANIC OR LATINO,Stage IIA,Positive,Positive,Equivocal,Alive,1563.0,0,1,False,True,False,II,4.28,HR+/HER2-,Negative,Negative,,0,4.28
+TCGA-E2-A1AZ,FEMALE,63,WHITE,HISPANIC OR LATINO,Stage IIB,Negative,Negative,Indeterminate,Alive,2329.0,0,2,True,False,True,II,6.38,Triple Negative,Negative,Negative,,0,6.38
+TCGA-E2-A1B0,FEMALE,50,WHITE,NOT HISPANIC OR LATINO,Stage IIIA,Negative,Negative,Positive,Alive,1631.0,0,4,True,False,True,III,4.47,HER2-positive,,Positive,,0,4.47
+TCGA-E2-A1B1,FEMALE,45,WHITE,NOT HISPANIC OR LATINO,Stage IIB,Positive,Positive,Equivocal,Alive,2653.0,0,7,True,True,True,II,7.26,HER2-positive,Positive,Positive,,0,7.26
+TCGA-E2-A1B4,FEMALE,74,WHITE,NOT HISPANIC OR LATINO,Stage IIIA,Positive,Positive,Negative,Dead,1004.0,1,1,False,True,True,III,2.75,HR+/HER2-,,Negative,,1,2.75
+TCGA-E2-A1B5,FEMALE,46,WHITE,NOT HISPANIC OR LATINO,Stage IIA,Positive,Positive,Negative,Alive,984.0,0,3,True,True,True,II,2.69,HR+/HER2-,,Negative,,0,2.69
+TCGA-E2-A1B6,FEMALE,44,WHITE,NOT HISPANIC OR LATINO,Stage IIA,Negative,Negative,Equivocal,Alive,867.0,0,3,True,False,False,II,2.37,Triple Negative,Negative,Negative,,0,2.37
+TCGA-E2-A1BC,FEMALE,63,,,Stage IA,Positive,Positive,Negative,Alive,501.0,0,1,False,True,False,I,1.37,HR+/HER2-,,Negative,,0,1.37
+TCGA-E2-A1BD,FEMALE,53,WHITE,NOT HISPANIC OR LATINO,Stage IIA,Positive,Positive,Equivocal,Alive,1133.0,0,1,False,True,True,II,3.1,HR+/HER2-,Negative,Negative,,0,3.1
+TCGA-E2-A1IE,FEMALE,61,WHITE,NOT HISPANIC OR LATINO,Stage IIB,Positive,Positive,Equivocal,Alive,2362.0,0,9,True,True,True,II,6.47,HR+/HER2-,Negative,Negative,,0,6.47
+TCGA-E2-A1IF,FEMALE,74,WHITE,NOT HISPANIC OR LATINO,Stage I,Positive,Positive,Negative,Alive,1138.0,0,1,False,True,False,I,3.12,HR+/HER2-,,Negative,,0,3.12
+TCGA-E2-A1IG,FEMALE,45,WHITE,NOT HISPANIC OR LATINO,Stage IIB,Positive,Positive,Negative,Alive,2140.0,0,5,True,True,True,II,5.86,HR+/HER2-,,Negative,,0,5.86
+TCGA-E2-A1IH,FEMALE,80,WHITE,NOT HISPANIC OR LATINO,Stage I,Positive,Positive,Equivocal,Alive,1026.0,0,1,False,True,False,I,2.81,Unknown,,Unknown,,0,2.81
+TCGA-E2-A1II,FEMALE,51,WHITE,NOT HISPANIC OR LATINO,Stage I,Negative,Positive,Negative,Alive,1025.0,0,3,True,False,True,I,2.81,HR+/HER2-,,Negative,,0,2.81
+TCGA-E2-A1IJ,FEMALE,57,WHITE,NOT HISPANIC OR LATINO,Stage I,Positive,Positive,Equivocal,Alive,865.0,0,1,False,True,True,I,2.37,HR+/HER2-,Negative,Negative,,0,2.37
+TCGA-E2-A1IK,FEMALE,71,WHITE,NOT HISPANIC OR LATINO,Stage IIA,Positive,Positive,Negative,Alive,1800.0,0,1,False,True,False,II,4.93,HR+/HER2-,,Negative,,0,4.93
+TCGA-E2-A1IL,FEMALE,78,WHITE,NOT HISPANIC OR LATINO,Stage IIA,Positive,Positive,Negative,Alive,118.0,0,1,False,True,True,II,0.32,HR+/HER2-,,Negative,,0,0.32
+TCGA-E2-A1IN,FEMALE,60,WHITE,NOT HISPANIC OR LATINO,Stage I,Positive,Positive,Negative,Alive,675.0,0,1,False,True,True,I,1.85,HR+/HER2-,,Negative,,0,1.85
+TCGA-E2-A1IO,FEMALE,37,WHITE,NOT HISPANIC OR LATINO,Stage I,Positive,Positive,Equivocal,Alive,1855.0,0,3,True,True,True,I,5.08,HR+/HER2-,Negative,Negative,,0,5.08
+TCGA-E2-A1IU,FEMALE,60,WHITE,NOT HISPANIC OR LATINO,Stage IA,Positive,Positive,Negative,Alive,337.0,0,1,False,True,False,I,0.92,HR+/HER2-,,Negative,,0,0.92
+TCGA-E2-A1L6,FEMALE,44,WHITE,NOT HISPANIC OR LATINO,Stage IIA,Positive,Positive,Negative,Alive,1648.0,0,6,True,True,False,II,4.51,HR+/HER2-,,Negative,,0,4.51
+TCGA-E2-A1L7,FEMALE,40,WHITE,NOT HISPANIC OR LATINO,Stage IIIA,Negative,Negative,Negative,Alive,1836.0,0,5,True,True,True,III,5.03,Triple Negative,,Negative,,0,5.03
+TCGA-E2-A1L8,FEMALE,52,BLACK OR AFRICAN AMERICAN,NOT HISPANIC OR LATINO,Stage IIB,Positive,Positive,Equivocal,Alive,2240.0,0,5,True,True,True,II,6.13,HR+/HER2-,Negative,Negative,,0,6.13
+TCGA-E2-A1L9,FEMALE,40,WHITE,NOT HISPANIC OR LATINO,Stage IIA,Positive,Positive,Negative,Alive,598.0,0,3,True,True,True,II,1.64,HR+/HER2-,,Negative,,0,1.64
+TCGA-E2-A1LA,FEMALE,59,,NOT HISPANIC OR LATINO,Stage IIA,Positive,Positive,Equivocal,Alive,748.0,0,1,False,True,False,II,2.05,HR+/HER2-,Negative,Negative,,0,2.05
+TCGA-E2-A1LB,FEMALE,41,BLACK OR AFRICAN AMERICAN,NOT HISPANIC OR LATINO,Stage IIB,Negative,Negative,Positive,Alive,2306.0,0,4,True,False,True,II,6.31,HER2-positive,,Positive,,0,6.31
+TCGA-E2-A1LE,FEMALE,71,WHITE,NOT HISPANIC OR LATINO,Stage IIIC,Negative,Negative,Positive,Dead,879.0,1,4,True,False,True,III,2.41,HER2-positive,,Positive,,1,2.41
+TCGA-E2-A1LG,FEMALE,50,BLACK OR AFRICAN AMERICAN,NOT HISPANIC OR LATINO,Stage IIA,Negative,Negative,Equivocal,Alive,1523.0,0,4,True,False,False,II,4.17,Triple Negative,Negative,Negative,,0,4.17
+TCGA-E2-A1LH,FEMALE,59,WHITE,NOT HISPANIC OR LATINO,Stage I,Negative,Negative,Negative,Alive,3247.0,0,2,True,False,True,I,8.89,Triple Negative,,Negative,,0,8.89
+TCGA-E2-A1LI,FEMALE,57,WHITE,NOT HISPANIC OR LATINO,Stage IIB,Negative,Negative,Equivocal,Alive,3121.0,0,2,True,False,True,II,8.54,Triple Negative,Negative,Negative,,0,8.54
+TCGA-E2-A1LK,FEMALE,84,BLACK OR AFRICAN AMERICAN,NOT HISPANIC OR LATINO,Stage IIIC,Negative,Negative,Equivocal,Dead,266.0,1,0,False,False,False,III,0.73,Triple Negative,Negative,Negative,,1,0.73
+TCGA-E2-A1LL,FEMALE,73,BLACK OR AFRICAN AMERICAN,NOT HISPANIC OR LATINO,Stage IIIA,Negative,Negative,Negative,Alive,1309.0,0,2,True,False,True,III,3.58,Triple Negative,,Negative,,0,3.58
+TCGA-E2-A1LS,FEMALE,46,WHITE,,Stage IA,Negative,Negative,Negative,Alive,1604.0,0,2,True,False,False,I,4.39,Triple Negative,,Negative,,0,4.39
+TCGA-E2-A2P5,FEMALE,78,BLACK OR AFRICAN AMERICAN,NOT HISPANIC OR LATINO,Stage IIIC,Positive,Positive,,Dead,821.0,1,1,False,True,True,III,2.25,HR+/HER2-,Negative,Negative,,1,2.25
+TCGA-E2-A2P6,FEMALE,77,,HISPANIC OR LATINO,Stage IIB,Positive,Positive,,Alive,1051.0,0,1,False,True,False,II,2.88,HR+/HER2-,Negative,Negative,,0,2.88
+TCGA-E2-A3DX,FEMALE,43,WHITE,NOT HISPANIC OR LATINO,Stage IIIC,Positive,Positive,,Alive,1325.0,0,5,True,True,True,III,3.63,HER2-positive,Positive,Positive,,0,3.63
+TCGA-E2-A56Z,FEMALE,69,BLACK OR AFRICAN AMERICAN,NOT HISPANIC OR LATINO,Stage IIB,Positive,Positive,Equivocal,Alive,252.0,0,1,False,True,True,II,0.69,HR+/HER2-,Negative,Negative,,0,0.69
+TCGA-E2-A570,FEMALE,47,BLACK OR AFRICAN AMERICAN,NOT HISPANIC OR LATINO,Stage IB,Positive,Positive,Equivocal,Alive,931.0,0,1,False,True,False,I,2.55,HR+/HER2-,Negative,Negative,,0,2.55
+TCGA-E2-A572,FEMALE,72,BLACK OR AFRICAN AMERICAN,NOT HISPANIC OR LATINO,Stage IIIA,Positive,Positive,Equivocal,Alive,1208.0,0,3,True,True,True,III,3.31,HR+/HER2-,Negative,Negative,,0,3.31
+TCGA-E2-A573,FEMALE,48,BLACK OR AFRICAN AMERICAN,NOT HISPANIC OR LATINO,Stage IA,Negative,Negative,Equivocal,Alive,1062.0,0,2,True,False,True,I,2.91,Triple Negative,Negative,Negative,,0,2.91
+TCGA-E2-A574,FEMALE,44,BLACK OR AFRICAN AMERICAN,NOT HISPANIC OR LATINO,Stage IIA,Negative,Negative,Equivocal,Alive,1179.0,0,3,True,False,True,II,3.23,Triple Negative,Negative,Negative,,0,3.23
+TCGA-E2-A576,FEMALE,69,BLACK OR AFRICAN AMERICAN,NOT HISPANIC OR LATINO,Stage IA,Positive,Positive,Equivocal,Alive,1043.0,0,3,True,True,True,I,2.86,HR+/HER2-,Negative,Negative,,0,2.86
+TCGA-E9-A1N3,FEMALE,70,WHITE,NOT HISPANIC OR LATINO,Stage IIIA,,,,Alive,1059.0,0,4,True,True,False,III,2.9,Unknown,,Unknown,,0,2.9
+TCGA-E9-A1N4,FEMALE,41,WHITE,NOT HISPANIC OR LATINO,Stage IIIA,Positive,Positive,Positive,Alive,1000.0,0,4,True,True,True,III,2.74,HER2-positive,,Positive,,0,2.74
+TCGA-E9-A1N5,FEMALE,45,WHITE,NOT HISPANIC OR LATINO,Stage IIB,Positive,Positive,Positive,Alive,1120.0,0,4,True,True,False,II,3.07,HER2-positive,,Positive,,0,3.07
+TCGA-E9-A1N6,FEMALE,52,WHITE,NOT HISPANIC OR LATINO,Stage IIB,Positive,Positive,Positive,Dead,678.0,1,4,True,True,True,II,1.86,HER2-positive,,Positive,,1,1.86
+TCGA-E9-A1N8,FEMALE,48,WHITE,NOT HISPANIC OR LATINO,Stage IIA,Negative,,Negative,Alive,1039.0,0,3,True,False,False,II,2.84,Unknown,,Negative,,0,2.84
+TCGA-E9-A1N9,FEMALE,58,WHITE,NOT HISPANIC OR LATINO,Stage IIA,Negative,Positive,Positive,Alive,1101.0,0,2,True,True,False,II,3.01,HER2-positive,,Positive,,0,3.01
+TCGA-E9-A1NA,FEMALE,58,WHITE,NOT HISPANIC OR LATINO,Stage IIA,Positive,Positive,Positive,Alive,1112.0,0,3,True,True,True,II,3.04,HER2-positive,,Positive,,0,3.04
+TCGA-E9-A1NC,FEMALE,61,WHITE,NOT HISPANIC OR LATINO,Stage IIB,Negative,Positive,Positive,Alive,1203.0,0,4,True,True,False,II,3.29,HER2-positive,,Positive,,0,3.29
+TCGA-E9-A1ND,FEMALE,75,WHITE,NOT HISPANIC OR LATINO,Stage IIB,Negative,Negative,Positive,Alive,1266.0,0,2,False,True,False,II,3.47,HER2-positive,,Positive,,0,3.47
+TCGA-E9-A1NE,FEMALE,28,WHITE,NOT HISPANIC OR LATINO,Stage IIB,Positive,Positive,Negative,Alive,1088.0,0,4,True,True,True,II,2.98,HR+/HER2-,,Negative,,0,2.98
+TCGA-E9-A1NF,FEMALE,60,WHITE,NOT HISPANIC OR LATINO,Stage IIA,Positive,Positive,Negative,Dead,1072.0,1,6,True,True,False,II,2.93,HR+/HER2-,,Negative,,1,2.93
+TCGA-E9-A1NG,FEMALE,62,WHITE,NOT HISPANIC OR LATINO,Stage IIA,Positive,Positive,Negative,Dead,786.0,1,2,False,True,False,II,2.15,HR+/HER2-,,Negative,,1,2.15
+TCGA-E9-A1NH,FEMALE,71,WHITE,NOT HISPANIC OR LATINO,Stage IIB,Positive,Positive,Negative,Alive,576.0,0,1,False,True,False,II,1.58,HR+/HER2-,,Negative,,0,1.58
+TCGA-E9-A1NI,FEMALE,51,WHITE,NOT HISPANIC OR LATINO,Stage IIA,Positive,Positive,Negative,Alive,300.0,0,4,True,True,False,II,0.82,HR+/HER2-,,Negative,,0,0.82
+TCGA-E9-A1QZ,FEMALE,61,WHITE,NOT HISPANIC OR LATINO,Stage IIA,,,,Alive,755.0,0,0,False,False,False,II,2.07,Unknown,,Unknown,,0,2.07
+TCGA-E9-A1R0,FEMALE,58,WHITE,NOT HISPANIC OR LATINO,Stage IIA,,,,Alive,860.0,0,2,True,False,False,II,2.35,Unknown,,Unknown,,0,2.35
+TCGA-E9-A1R2,FEMALE,51,WHITE,NOT HISPANIC OR LATINO,Stage IIIC,Positive,Negative,Equivocal,Alive,1063.0,0,3,True,False,True,III,2.91,HR+/HER2-,Negative,Negative,,0,2.91
+TCGA-E9-A1R3,FEMALE,70,WHITE,NOT HISPANIC OR LATINO,Stage IIIC,,,,Alive,78.0,0,4,True,True,True,III,0.21,Unknown,,Unknown,,0,0.21
+TCGA-E9-A1R4,FEMALE,66,WHITE,NOT HISPANIC OR LATINO,Stage IA,,,,Alive,186.0,0,4,True,True,True,I,0.51,Unknown,,Unknown,,0,0.51
+TCGA-E9-A1R5,FEMALE,63,WHITE,NOT HISPANIC OR LATINO,Stage IA,,,,Alive,92.0,0,1,False,True,True,I,0.25,Unknown,,Unknown,,0,0.25
+TCGA-E9-A1R6,FEMALE,63,WHITE,NOT HISPANIC OR LATINO,Stage IIA,,,,Alive,339.0,0,1,False,True,True,II,0.93,Unknown,,Unknown,,0,0.93
+TCGA-E9-A1R7,FEMALE,64,WHITE,NOT HISPANIC OR LATINO,Stage IIA,,,,Alive,1467.0,0,2,False,True,True,II,4.02,Unknown,,Unknown,,0,4.02
+TCGA-E9-A1RA,FEMALE,48,WHITE,NOT HISPANIC OR LATINO,Stage IA,,,,Alive,1369.0,0,3,True,True,True,I,3.75,Unknown,,Unknown,,0,3.75
+TCGA-E9-A1RB,FEMALE,40,WHITE,NOT HISPANIC OR LATINO,Stage IIA,,,,Dead,976.0,1,4,True,True,False,II,2.67,Unknown,,Unknown,,1,2.67
+TCGA-E9-A1RC,FEMALE,56,WHITE,NOT HISPANIC OR LATINO,Stage IIIC,,,,Alive,1224.0,0,4,True,True,False,III,3.35,Unknown,,Unknown,,0,3.35
+TCGA-E9-A1RD,FEMALE,67,WHITE,NOT HISPANIC OR LATINO,Stage IIA,,,,Alive,34.0,0,1,False,True,False,II,0.09,Unknown,,Unknown,,0,0.09
+TCGA-E9-A1RE,FEMALE,74,WHITE,NOT HISPANIC OR LATINO,Stage IIIA,,,,Alive,1419.0,0,7,True,True,True,III,3.89,Unknown,,Unknown,,0,3.89
+TCGA-E9-A1RF,FEMALE,68,WHITE,NOT HISPANIC OR LATINO,Stage IIIA,,,,Alive,200.0,0,4,True,True,True,III,0.55,Unknown,,Unknown,,0,0.55
+TCGA-E9-A1RG,FEMALE,62,WHITE,NOT HISPANIC OR LATINO,Stage IIIA,,,,Alive,647.0,0,9,True,True,True,III,1.77,Unknown,,Unknown,,0,1.77
+TCGA-E9-A1RH,FEMALE,63,WHITE,NOT HISPANIC OR LATINO,Stage IIA,,,,Alive,1417.0,0,4,True,False,True,II,3.88,Unknown,,Unknown,,0,3.88
+TCGA-E9-A1RI,FEMALE,43,WHITE,NOT HISPANIC OR LATINO,Stage IIIA,,,,Alive,1449.0,0,5,True,True,True,III,3.97,Unknown,,Unknown,,0,3.97
+TCGA-E9-A226,FEMALE,45,WHITE,NOT HISPANIC OR LATINO,Stage IIIA,,,,Dead,1048.0,1,5,True,True,True,III,2.87,Unknown,,Unknown,,1,2.87
+TCGA-E9-A227,FEMALE,42,WHITE,NOT HISPANIC OR LATINO,Stage IIB,Positive,Positive,Negative,Alive,975.0,0,2,True,True,True,II,2.67,HR+/HER2-,,Negative,,0,2.67
+TCGA-E9-A228,FEMALE,58,WHITE,NOT HISPANIC OR LATINO,Stage IIB,,,,Alive,1285.0,0,3,True,True,False,II,3.52,Unknown,,Unknown,,0,3.52
+TCGA-E9-A229,FEMALE,37,WHITE,NOT HISPANIC OR LATINO,Stage IA,,,,Alive,1148.0,0,3,True,False,True,I,3.14,Unknown,,Unknown,,0,3.14
+TCGA-E9-A22A,FEMALE,74,WHITE,NOT HISPANIC OR LATINO,Stage IIA,Positive,Negative,Negative,Alive,1189.0,0,1,False,True,False,II,3.26,HR+/HER2-,,Negative,,0,3.26
+TCGA-E9-A22B,FEMALE,71,WHITE,NOT HISPANIC OR LATINO,Stage IA,Positive,Negative,Negative,Alive,1167.0,0,1,False,True,False,I,3.2,HR+/HER2-,,Negative,,0,3.2
+TCGA-E9-A22D,FEMALE,38,WHITE,NOT HISPANIC OR LATINO,Stage IIA,Positive,Positive,Positive,Alive,1248.0,0,4,True,True,False,II,3.42,HER2-positive,,Positive,,0,3.42
+TCGA-E9-A22E,FEMALE,56,WHITE,NOT HISPANIC OR LATINO,Stage IIIA,Positive,Positive,Positive,Alive,1269.0,0,3,True,False,True,III,3.47,HER2-positive,,Positive,,0,3.47
+TCGA-E9-A22G,FEMALE,47,WHITE,NOT HISPANIC OR LATINO,Stage IIA,Negative,Negative,Positive,Alive,1239.0,0,2,True,False,False,II,3.39,HER2-positive,,Positive,,0,3.39
+TCGA-E9-A22H,FEMALE,42,WHITE,NOT HISPANIC OR LATINO,Stage IIB,Positive,Positive,Positive,Alive,1232.0,0,4,True,True,True,II,3.37,HER2-positive,,Positive,,0,3.37
+TCGA-E9-A243,FEMALE,52,WHITE,NOT HISPANIC OR LATINO,Stage IIA,,,,Alive,612.0,0,6,True,False,True,II,1.68,Unknown,,Unknown,,0,1.68
+TCGA-E9-A244,FEMALE,54,WHITE,NOT HISPANIC OR LATINO,Stage IIA,,,,Alive,21.0,0,2,True,False,False,II,0.06,Unknown,,Unknown,,0,0.06
+TCGA-E9-A245,FEMALE,47,WHITE,NOT HISPANIC OR LATINO,Stage IIB,,,,Dead,26.0,1,1,False,True,False,II,0.07,Unknown,,Unknown,,1,0.07
+TCGA-E9-A247,FEMALE,59,WHITE,NOT HISPANIC OR LATINO,Stage IA,,,,Alive,1186.0,0,1,False,True,True,I,3.25,Unknown,,Unknown,,0,3.25
+TCGA-E9-A248,FEMALE,51,WHITE,NOT HISPANIC OR LATINO,Stage IIA,,,,Alive,59.0,0,2,True,False,False,II,0.16,Unknown,,Unknown,,0,0.16
+TCGA-E9-A249,FEMALE,45,WHITE,NOT HISPANIC OR LATINO,Stage IIA,,,,Alive,217.0,0,4,True,True,True,II,0.59,Unknown,,Unknown,,0,0.59
+TCGA-E9-A24A,FEMALE,69,WHITE,NOT HISPANIC OR LATINO,Stage IIA,,,,Alive,747.0,0,1,False,True,True,II,2.05,Unknown,,Unknown,,0,2.05
+TCGA-E9-A295,FEMALE,71,WHITE,NOT HISPANIC OR LATINO,Stage IIA,Positive,Positive,Positive,Alive,375.0,0,1,False,True,True,II,1.03,HER2-positive,,Positive,,0,1.03
+TCGA-E9-A2JS,FEMALE,72,WHITE,NOT HISPANIC OR LATINO,Stage IIB,,,,Dead,904.0,1,6,True,True,True,II,2.48,Unknown,,Unknown,,1,2.48
+TCGA-E9-A2JT,FEMALE,63,WHITE,NOT HISPANIC OR LATINO,Stage IIA,,,,Alive,288.0,0,1,False,True,True,II,0.79,Unknown,,Unknown,,0,0.79
+TCGA-E9-A3HO,FEMALE,49,WHITE,NOT HISPANIC OR LATINO,Stage IIA,,,,Alive,1158.0,0,6,True,True,False,II,3.17,Unknown,,Unknown,,0,3.17
+TCGA-E9-A3Q9,FEMALE,78,WHITE,NOT HISPANIC OR LATINO,Stage IIIC,Positive,Positive,Indeterminate,Alive,1001.0,0,4,True,True,False,III,2.74,Unknown,,Unknown,,0,2.74
+TCGA-E9-A3QA,FEMALE,33,WHITE,NOT HISPANIC OR LATINO,Stage IIA,,,,Alive,918.0,0,0,False,False,False,II,2.51,Unknown,,Unknown,,0,2.51
+TCGA-E9-A3X8,FEMALE,48,WHITE,NOT HISPANIC OR LATINO,Stage IIB,Positive,Positive,Positive,Alive,926.0,0,4,True,True,True,II,2.54,HER2-positive,,Positive,,0,2.54
+TCGA-E9-A54X,FEMALE,85,WHITE,NOT HISPANIC OR LATINO,Stage IA,Positive,Positive,Negative,Alive,727.0,0,0,False,False,False,I,1.99,HR+/HER2-,,Negative,,0,1.99
+TCGA-E9-A54Y,FEMALE,63,WHITE,NOT HISPANIC OR LATINO,Stage IIIA,Positive,Positive,Negative,Alive,725.0,0,0,False,False,False,III,1.98,HR+/HER2-,,Negative,,0,1.98
+TCGA-E9-A5FK,FEMALE,60,WHITE,NOT HISPANIC OR LATINO,Stage IIIC,Positive,Positive,Negative,Alive,812.0,0,3,True,False,True,III,2.22,HR+/HER2-,,Negative,,0,2.22
+TCGA-E9-A5FL,FEMALE,65,WHITE,NOT HISPANIC OR LATINO,Stage IIB,Negative,Negative,Negative,Alive,24.0,0,0,False,False,False,II,0.07,Triple Negative,,Negative,,0,0.07
+TCGA-E9-A5UO,FEMALE,41,WHITE,NOT HISPANIC OR LATINO,Stage IIA,,,,Alive,785.0,0,0,False,False,False,II,2.15,Unknown,,Unknown,,0,2.15
+TCGA-E9-A5UP,FEMALE,63,WHITE,NOT HISPANIC OR LATINO,Stage IIA,,,,Alive,803.0,0,1,False,True,True,II,2.2,Unknown,,Unknown,,0,2.2
+TCGA-E9-A6HE,FEMALE,45,WHITE,NOT HISPANIC OR LATINO,Stage IIIC,Positive,Positive,Negative,Alive,847.0,0,4,True,True,True,III,2.32,HR+/HER2-,Negative,Negative,,0,2.32
+TCGA-EW-A1IW,FEMALE,80,WHITE,HISPANIC OR LATINO,Stage IIB,Positive,Positive,Positive,Alive,371.0,0,1,False,True,False,II,1.02,HER2-positive,,Positive,,0,1.02
+TCGA-EW-A1IX,FEMALE,48,ASIAN,HISPANIC OR LATINO,Stage IIA,Positive,Positive,Negative,Alive,1208.0,0,1,False,True,False,II,3.31,HR+/HER2-,,Negative,,0,3.31
+TCGA-EW-A1IY,FEMALE,38,ASIAN,NOT HISPANIC OR LATINO,Stage I,Positive,Positive,Negative,Alive,258.0,0,1,True,False,False,I,0.71,HR+/HER2-,,Negative,,0,0.71
+TCGA-EW-A1IZ,FEMALE,53,WHITE,NOT HISPANIC OR LATINO,Stage IIIA,Positive,Positive,Negative,Alive,554.0,0,4,True,True,True,III,1.52,HR+/HER2-,,Negative,,0,1.52
+TCGA-EW-A1J1,FEMALE,38,WHITE,HISPANIC OR LATINO,Stage IIB,Positive,Positive,Negative,Alive,575.0,0,5,True,True,True,II,1.57,HR+/HER2-,,Negative,,0,1.57
+TCGA-EW-A1J2,FEMALE,50,BLACK OR AFRICAN AMERICAN,NOT HISPANIC OR LATINO,,Positive,Positive,Negative,Alive,403.0,0,3,True,True,False,Unknown,1.1,HR+/HER2-,,Negative,,0,1.1
+TCGA-EW-A1J3,FEMALE,61,WHITE,HISPANIC OR LATINO,Stage IA,Positive,Positive,Positive,Alive,504.0,0,4,True,True,False,I,1.38,HER2-positive,,Positive,,0,1.38
+TCGA-EW-A1J5,FEMALE,59,WHITE,NOT HISPANIC OR LATINO,Stage IIB,Positive,Positive,Negative,Alive,477.0,0,4,True,False,False,II,1.31,HR+/HER2-,,Negative,,0,1.31
+TCGA-EW-A1J6,FEMALE,70,WHITE,HISPANIC OR LATINO,Stage I,Positive,Positive,Negative,Alive,875.0,0,1,False,True,False,I,2.4,HR+/HER2-,,Negative,,0,2.4
+TCGA-EW-A1OV,FEMALE,56,WHITE,HISPANIC OR LATINO,Stage IIB,Negative,Negative,Negative,Alive,789.0,0,4,True,False,False,II,2.16,Triple Negative,Negative,Negative,,0,2.16
+TCGA-EW-A1OW,FEMALE,58,BLACK OR AFRICAN AMERICAN,NOT HISPANIC OR LATINO,Stage IIA,Negative,Negative,Negative,Alive,694.0,0,4,True,False,True,II,1.9,Triple Negative,,Negative,,0,1.9
+TCGA-EW-A1OX,FEMALE,43,WHITE,HISPANIC OR LATINO,Stage IIA,Positive,Positive,Negative,Alive,911.0,0,4,True,True,True,II,2.49,HR+/HER2-,,Negative,,0,2.49
+TCGA-EW-A1OY,FEMALE,63,WHITE,HISPANIC OR LATINO,Stage IIA,Positive,Positive,Negative,Alive,908.0,0,4,True,True,True,II,2.49,HR+/HER2-,Negative,Negative,,0,2.49
+TCGA-EW-A1OZ,FEMALE,56,BLACK OR AFRICAN AMERICAN,NOT HISPANIC OR LATINO,Stage IIA,Positive,Negative,Equivocal,Alive,1229.0,0,5,True,False,False,II,3.36,HER2-positive,Positive,Positive,,0,3.36
+TCGA-EW-A1P0,FEMALE,55,WHITE,NOT HISPANIC OR LATINO,Stage IIB,Positive,Negative,Negative,Alive,1251.0,0,1,False,True,False,II,3.43,HR+/HER2-,,Negative,,0,3.43
+TCGA-EW-A1P1,FEMALE,68,WHITE,HISPANIC OR LATINO,Stage IIIC,Negative,Negative,Equivocal,Alive,1210.0,0,6,True,False,True,III,3.31,Triple Negative,Negative,Negative,,0,3.31
+TCGA-EW-A1P3,FEMALE,48,WHITE,NOT HISPANIC OR LATINO,Stage IIA,Positive,Positive,Negative,Alive,1611.0,0,6,True,True,False,II,4.41,HR+/HER2-,,Negative,,0,4.41
+TCGA-EW-A1P4,FEMALE,43,WHITE,HISPANIC OR LATINO,Stage IIA,Negative,Negative,Negative,Alive,907.0,0,2,True,False,True,II,2.48,Triple Negative,,Negative,,0,2.48
+TCGA-EW-A1P5,FEMALE,77,WHITE,NOT HISPANIC OR LATINO,Stage IIB,Positive,Positive,Negative,Alive,703.0,0,1,False,True,True,II,1.92,HR+/HER2-,Negative,Negative,,0,1.92
+TCGA-EW-A1P6,FEMALE,64,WHITE,HISPANIC OR LATINO,Stage IIB,Positive,Positive,Negative,Alive,562.0,0,6,True,True,True,II,1.54,HR+/HER2-,,Negative,,0,1.54
+TCGA-EW-A1P7,FEMALE,59,WHITE,HISPANIC OR LATINO,Stage IIA,Negative,Negative,Equivocal,Alive,915.0,0,2,True,False,False,II,2.51,Triple Negative,Negative,Negative,,0,2.51
+TCGA-EW-A1P8,FEMALE,58,WHITE,NOT HISPANIC OR LATINO,Stage IIIC,Negative,Negative,Negative,Dead,239.0,1,3,True,False,False,III,0.65,Triple Negative,,Negative,,1,0.65
+TCGA-EW-A1PA,FEMALE,59,WHITE,HISPANIC OR LATINO,Stage IIB,Positive,Positive,Negative,Alive,575.0,0,5,True,True,True,II,1.57,HR+/HER2-,,Negative,,0,1.57
+TCGA-EW-A1PB,FEMALE,70,BLACK OR AFRICAN AMERICAN,NOT HISPANIC OR LATINO,Stage IIIA,Negative,Negative,Negative,Alive,608.0,0,0,False,False,False,III,1.66,Triple Negative,,Negative,,0,1.66
+TCGA-EW-A1PC,FEMALE,66,BLACK OR AFRICAN AMERICAN,NOT HISPANIC OR LATINO,Stage IIB,Positive,Positive,Negative,Alive,187.0,0,1,False,True,False,II,0.51,HR+/HER2-,,Negative,,0,0.51
+TCGA-EW-A1PD,MALE,61,WHITE,HISPANIC OR LATINO,Stage IIA,Positive,Positive,Equivocal,Alive,424.0,0,3,True,False,False,II,1.16,HER2-positive,Positive,Positive,,0,1.16
+TCGA-EW-A1PE,FEMALE,56,WHITE,HISPANIC OR LATINO,Stage IIA,Positive,Positive,Negative,Alive,320.0,0,5,True,True,True,II,0.88,HR+/HER2-,,Negative,,0,0.88
+TCGA-EW-A1PF,FEMALE,50,WHITE,HISPANIC OR LATINO,Stage IA,Positive,Positive,Negative,Alive,439.0,0,3,True,True,False,I,1.2,HR+/HER2-,,Negative,,0,1.2
+TCGA-EW-A1PG,FEMALE,53,WHITE,HISPANIC OR LATINO,Stage IIB,Positive,Positive,Equivocal,Alive,1051.0,0,5,True,True,False,II,2.88,HR+/HER2-,Negative,Negative,,0,2.88
+TCGA-EW-A1PH,FEMALE,52,WHITE,HISPANIC OR LATINO,Stage IIA,Negative,Negative,Negative,Alive,607.0,0,5,True,False,True,II,1.66,Triple Negative,,Negative,,0,1.66
+TCGA-EW-A2FR,FEMALE,59,BLACK OR AFRICAN AMERICAN,NOT HISPANIC OR LATINO,Stage IIIC,Negative,Negative,Equivocal,Alive,1673.0,0,4,True,False,True,III,4.58,HER2-positive,Positive,Positive,,0,4.58
+TCGA-EW-A2FS,FEMALE,41,BLACK OR AFRICAN AMERICAN,NOT HISPANIC OR LATINO,Stage IIB,Positive,Negative,Negative,Alive,1604.0,0,6,True,True,True,II,4.39,HR+/HER2-,,Negative,,0,4.39
+TCGA-EW-A2FV,FEMALE,39,WHITE,HISPANIC OR LATINO,Stage IIIC,Positive,Positive,Negative,Alive,788.0,0,5,True,True,True,III,2.16,HR+/HER2-,,Negative,,0,2.16
+TCGA-EW-A2FW,FEMALE,52,WHITE,HISPANIC OR LATINO,Stage IIA,Positive,Positive,Negative,Alive,672.0,0,5,True,True,True,II,1.84,HR+/HER2-,,Negative,,0,1.84
+TCGA-EW-A3E8,FEMALE,60,WHITE,HISPANIC OR LATINO,Stage IIB,Positive,Negative,Negative,Alive,1035.0,0,1,False,True,True,II,2.83,HR+/HER2-,,Negative,,0,2.83
+TCGA-EW-A3U0,FEMALE,61,BLACK OR AFRICAN AMERICAN,NOT HISPANIC OR LATINO,Stage IIIA,Negative,Negative,Negative,Alive,532.0,0,4,True,False,True,III,1.46,Triple Negative,,Negative,,0,1.46
+TCGA-EW-A423,FEMALE,75,WHITE,HISPANIC OR LATINO,Stage IIA,Positive,Positive,Negative,Alive,533.0,0,1,False,True,True,II,1.46,HR+/HER2-,,Negative,,0,1.46
+TCGA-EW-A424,FEMALE,51,WHITE,HISPANIC OR LATINO,Stage IIIA,Positive,Positive,Positive,Alive,715.0,0,3,True,True,True,III,1.96,HER2-positive,,Positive,,0,1.96
+TCGA-EW-A6S9,FEMALE,34,BLACK OR AFRICAN AMERICAN,NOT HISPANIC OR LATINO,Stage IIA,Positive,Positive,Positive,Alive,463.0,0,0,False,False,False,II,1.27,HER2-positive,,Positive,,0,1.27
+TCGA-EW-A6SA,MALE,59,BLACK OR AFRICAN AMERICAN,NOT HISPANIC OR LATINO,Stage II,Positive,Negative,Negative,Alive,510.0,0,0,False,False,False,II,1.4,HR+/HER2-,,Negative,,0,1.4
+TCGA-EW-A6SB,FEMALE,62,BLACK OR AFRICAN AMERICAN,NOT HISPANIC OR LATINO,Stage II,Negative,Negative,Negative,Alive,760.0,0,0,False,False,False,II,2.08,Triple Negative,,Negative,,0,2.08
+TCGA-EW-A6SC,FEMALE,60,BLACK OR AFRICAN AMERICAN,NOT HISPANIC OR LATINO,Stage IIA,Positive,Positive,Negative,Alive,952.0,0,1,False,True,True,II,2.61,HR+/HER2-,,Negative,,0,2.61
+TCGA-EW-A6SD,FEMALE,32,BLACK OR AFRICAN AMERICAN,HISPANIC OR LATINO,Stage IIB,Negative,Negative,,Alive,1010.0,0,1,True,False,True,II,2.77,Unknown,,Unknown,,0,2.77
+TCGA-GI-A2C8,FEMALE,63,WHITE,NOT HISPANIC OR LATINO,Stage IIIB,Positive,Positive,Negative,Alive,225.0,0,3,True,False,False,III,0.62,HR+/HER2-,Negative,Negative,,0,0.62
+TCGA-GI-A2C9,FEMALE,58,BLACK OR AFRICAN AMERICAN,NOT HISPANIC OR LATINO,Stage IIB,Negative,Negative,Negative,Alive,3342.0,0,1,True,False,True,II,9.15,Triple Negative,,Negative,,0,9.15
+TCGA-GM-A2D9,FEMALE,69,WHITE,NOT HISPANIC OR LATINO,Stage I,Positive,Positive,,Dead,1812.0,1,4,True,True,True,I,4.96,HR+/HER2-,Negative,Negative,,1,4.96
+TCGA-GM-A2DA,FEMALE,46,WHITE,NOT HISPANIC OR LATINO,Stage IIB,Positive,Positive,Equivocal,Dead,6593.0,1,23,True,True,True,II,18.05,HER2-positive,Positive,Positive,,1,18.05
+TCGA-GM-A2DB,FEMALE,62,WHITE,NOT HISPANIC OR LATINO,Stage IIA,Negative,Negative,Negative,Alive,2406.0,0,4,True,False,True,II,6.59,Triple Negative,Negative,Negative,,0,6.59
+TCGA-GM-A2DC,FEMALE,57,WHITE,NOT HISPANIC OR LATINO,Stage IIA,Positive,Positive,,Alive,2535.0,0,7,True,True,True,II,6.94,HR+/HER2-,Negative,Negative,,0,6.94
+TCGA-GM-A2DD,FEMALE,53,WHITE,NOT HISPANIC OR LATINO,Stage I,Negative,Negative,Equivocal,Alive,2282.0,0,3,True,False,False,I,6.25,Triple Negative,Negative,Negative,,0,6.25
+TCGA-GM-A2DF,FEMALE,53,BLACK OR AFRICAN AMERICAN,NOT HISPANIC OR LATINO,Stage IIA,Negative,Negative,Negative,Alive,2155.0,0,4,True,False,True,II,5.9,Triple Negative,Negative,Negative,,0,5.9
+TCGA-GM-A2DH,FEMALE,58,WHITE,NOT HISPANIC OR LATINO,Stage I,Negative,Negative,Negative,Alive,2193.0,0,4,True,False,False,I,6.0,Triple Negative,Negative,Negative,,0,6.0
+TCGA-GM-A2DI,FEMALE,52,WHITE,NOT HISPANIC OR LATINO,Stage I,Negative,Negative,,Alive,2590.0,0,4,True,False,False,I,7.09,Triple Negative,Negative,Negative,,0,7.09
+TCGA-GM-A2DK,FEMALE,58,WHITE,NOT HISPANIC OR LATINO,Stage I,Positive,Negative,Negative,Alive,2645.0,0,1,False,True,True,I,7.24,HR+/HER2-,,Negative,,0,7.24
+TCGA-GM-A2DL,FEMALE,50,WHITE,NOT HISPANIC OR LATINO,Stage I,Positive,Positive,Negative,Alive,3519.0,0,2,False,True,True,I,9.63,HR+/HER2-,,Negative,,0,9.63
+TCGA-GM-A2DM,FEMALE,57,WHITE,HISPANIC OR LATINO,Stage IIA,Positive,Positive,Negative,Alive,3226.0,0,5,True,True,True,II,8.83,HR+/HER2-,,Negative,,0,8.83
+TCGA-GM-A2DN,FEMALE,58,WHITE,NOT HISPANIC OR LATINO,Stage IIA,Positive,Positive,Negative,Alive,3091.0,0,5,True,True,False,II,8.46,HR+/HER2-,,Negative,,0,8.46
+TCGA-GM-A2DO,FEMALE,54,BLACK OR AFRICAN AMERICAN,NOT HISPANIC OR LATINO,Stage I,Positive,Positive,Negative,Alive,2596.0,0,1,False,True,True,I,7.11,HR+/HER2-,,Negative,,0,7.11
+TCGA-GM-A3NW,FEMALE,63,WHITE,NOT HISPANIC OR LATINO,Stage IIA,Negative,Positive,Equivocal,Alive,3361.0,0,4,True,True,False,II,9.2,HR+/HER2-,Negative,Negative,,0,9.2
+TCGA-GM-A3NY,FEMALE,72,WHITE,NOT HISPANIC OR LATINO,Stage IIB,Positive,Positive,Negative,Alive,1162.0,0,1,False,True,True,II,3.18,HR+/HER2-,,Negative,,0,3.18
+TCGA-GM-A3XG,FEMALE,46,WHITE,NOT HISPANIC OR LATINO,Stage IIIA,Positive,Positive,Negative,Alive,1330.0,0,6,True,True,True,III,3.64,HR+/HER2-,Negative,Negative,,0,3.64
+TCGA-GM-A3XL,FEMALE,49,BLACK OR AFRICAN AMERICAN,NOT HISPANIC OR LATINO,Stage IIA,Negative,Negative,,Alive,2108.0,0,4,True,False,True,II,5.77,Triple Negative,Negative,Negative,,0,5.77
+TCGA-GM-A3XN,FEMALE,44,WHITE,NOT HISPANIC OR LATINO,Stage IIIA,Positive,Positive,Negative,Alive,2019.0,0,6,True,True,True,III,5.53,HR+/HER2-,Negative,Negative,,0,5.53
+TCGA-GM-A4E0,FEMALE,67,WHITE,NOT HISPANIC OR LATINO,Stage IIIC,Positive,Positive,,Alive,2191.0,0,6,True,True,True,III,6.0,HR+/HER2-,Negative,Negative,,0,6.0
+TCGA-GM-A5PV,FEMALE,63,WHITE,NOT HISPANIC OR LATINO,Stage IIB,Positive,Positive,,Alive,412.0,0,2,True,False,False,II,1.13,HR+/HER2-,Negative,Negative,,0,1.13
+TCGA-GM-A5PX,FEMALE,65,WHITE,NOT HISPANIC OR LATINO,Stage IIB,Positive,Positive,Negative,Alive,551.0,0,3,False,True,False,II,1.51,HR+/HER2-,Negative,Negative,,0,1.51
+TCGA-HN-A2NL,FEMALE,56,,,Stage IIA,Negative,Negative,Negative,Alive,79.0,0,2,True,False,False,II,0.22,Triple Negative,,Negative,,0,0.22
+TCGA-HN-A2OB,FEMALE,45,,,Stage IIB,Positive,Positive,Negative,Dead,1900.0,1,4,True,False,True,II,5.2,HR+/HER2-,Negative,Negative,1543.0,1,4.224503764544832
+TCGA-JL-A3YW,FEMALE,49,ASIAN,NOT HISPANIC OR LATINO,Stage IIB,Positive,Positive,Positive,Alive,360.0,0,0,False,False,False,II,0.99,HER2-positive,,Positive,,0,0.99
+TCGA-JL-A3YX,FEMALE,46,ASIAN,NOT HISPANIC OR LATINO,Stage IIA,Positive,Positive,Positive,Alive,352.0,0,0,False,False,False,II,0.96,HER2-positive,,Positive,,0,0.96
+TCGA-LD-A66U,FEMALE,44,WHITE,NOT HISPANIC OR LATINO,Stage IIB,Positive,Positive,Negative,Alive,646.0,0,4,True,True,True,II,1.77,HR+/HER2-,,Negative,,0,1.77
+TCGA-LD-A74U,FEMALE,79,WHITE,NOT HISPANIC OR LATINO,Stage IIIC,Positive,Negative,Negative,Alive,402.0,0,1,True,False,False,III,1.1,HR+/HER2-,,Negative,,0,1.1
+TCGA-LD-A7W5,FEMALE,52,BLACK OR AFRICAN AMERICAN,NOT HISPANIC OR LATINO,Stage IIIC,Positive,Positive,Negative,Alive,216.0,0,2,True,False,False,III,0.59,HR+/HER2-,,Negative,,0,0.59
+TCGA-LD-A7W6,FEMALE,54,WHITE,NOT HISPANIC OR LATINO,Stage IIB,Positive,Positive,Negative,Alive,404.0,0,1,True,False,False,II,1.11,HR+/HER2-,,Negative,,0,1.11
+TCGA-LD-A9QF,FEMALE,73,BLACK OR AFRICAN AMERICAN,NOT HISPANIC OR LATINO,Stage IA,Negative,Negative,Positive,Alive,323.0,0,2,True,False,False,I,0.88,HER2-positive,,Positive,,0,0.88
+TCGA-LL-A440,FEMALE,61,WHITE,NOT HISPANIC OR LATINO,Stage IA,Positive,Positive,Equivocal,Alive,759.0,0,3,True,True,False,I,2.08,HR+/HER2-,Negative,Negative,,0,2.08
+TCGA-LL-A441,FEMALE,62,BLACK OR AFRICAN AMERICAN,NOT HISPANIC OR LATINO,Stage IA,Negative,Negative,Negative,Alive,996.0,0,2,True,False,True,I,2.73,Triple Negative,,Negative,,0,2.73
+TCGA-LL-A442,FEMALE,56,BLACK OR AFRICAN AMERICAN,NOT HISPANIC OR LATINO,Stage IIA,Positive,Positive,Equivocal,Alive,889.0,0,1,False,True,False,II,2.43,HR+/HER2-,Negative,Negative,,0,2.43
+TCGA-LL-A50Y,FEMALE,84,WHITE,NOT HISPANIC OR LATINO,Stage IIA,Positive,Positive,Equivocal,Alive,762.0,0,1,False,True,False,II,2.09,HR+/HER2-,Negative,Negative,,0,2.09
+TCGA-LL-A5YL,FEMALE,64,WHITE,NOT HISPANIC OR LATINO,Stage IIB,Positive,Negative,Positive,Alive,519.0,0,5,True,True,True,II,1.42,HER2-positive,Negative,Positive,,0,1.42
+TCGA-LL-A5YM,FEMALE,88,BLACK OR AFRICAN AMERICAN,NOT HISPANIC OR LATINO,Stage IIIB,Positive,Positive,Equivocal,Alive,394.0,0,1,False,True,True,III,1.08,HER2-positive,Positive,Positive,,0,1.08
+TCGA-LL-A5YN,FEMALE,46,BLACK OR AFRICAN AMERICAN,NOT HISPANIC OR LATINO,Stage IIA,Positive,Positive,Equivocal,Alive,447.0,0,4,True,True,True,II,1.22,HER2-positive,Positive,Positive,,0,1.22
+TCGA-LL-A5YO,FEMALE,50,BLACK OR AFRICAN AMERICAN,NOT HISPANIC OR LATINO,Stage IA,Negative,Negative,Negative,Alive,440.0,0,2,True,False,True,I,1.2,Triple Negative,,Negative,,0,1.2
+TCGA-LL-A5YP,FEMALE,49,BLACK OR AFRICAN AMERICAN,NOT HISPANIC OR LATINO,Stage IIB,Positive,Negative,Negative,Alive,450.0,0,4,True,True,True,II,1.23,HR+/HER2-,Positive,Negative,,0,1.23
+TCGA-LL-A6FQ,FEMALE,77,BLACK OR AFRICAN AMERICAN,NOT HISPANIC OR LATINO,Stage IIIA,Positive,Positive,Negative,Alive,80.0,0,0,False,False,False,III,0.22,HR+/HER2-,,Negative,,0,0.22
+TCGA-LL-A6FR,FEMALE,50,BLACK OR AFRICAN AMERICAN,NOT HISPANIC OR LATINO,Stage IIA,Negative,Positive,Equivocal,Alive,489.0,0,4,True,False,True,II,1.34,HER2-positive,Positive,Positive,,0,1.34
+TCGA-LL-A73Y,FEMALE,67,BLACK OR AFRICAN AMERICAN,NOT HISPANIC OR LATINO,Stage IA,Negative,Negative,Negative,Alive,477.0,0,2,True,False,False,I,1.31,Triple Negative,,Negative,,0,1.31
+TCGA-LL-A73Z,FEMALE,55,BLACK OR AFRICAN AMERICAN,NOT HISPANIC OR LATINO,Stage IV,Positive,Positive,Equivocal,Dead,227.0,1,4,True,True,True,IV,0.62,HR+/HER2-,Negative,Negative,,1,0.62
+TCGA-LL-A740,FEMALE,61,BLACK OR AFRICAN AMERICAN,NOT HISPANIC OR LATINO,Stage IA,Negative,Negative,Equivocal,Alive,441.0,0,3,True,False,False,I,1.21,Triple Negative,Negative,Negative,,0,1.21
+TCGA-LL-A7SZ,FEMALE,49,BLACK OR AFRICAN AMERICAN,NOT HISPANIC OR LATINO,Stage IIB,Positive,Positive,Negative,Alive,594.0,0,4,True,True,True,II,1.63,HR+/HER2-,,Negative,,0,1.63
+TCGA-LL-A7T0,FEMALE,70,BLACK OR AFRICAN AMERICAN,NOT HISPANIC OR LATINO,Stage IIB,Positive,Positive,Positive,Alive,376.0,0,0,False,False,False,II,1.03,HER2-positive,,Positive,,0,1.03
+TCGA-LL-A8F5,FEMALE,61,BLACK OR AFRICAN AMERICAN,NOT HISPANIC OR LATINO,Stage IIA,Positive,Negative,Negative,Alive,596.0,0,5,True,True,True,II,1.63,HR+/HER2-,,Negative,,0,1.63
+TCGA-LL-A9Q3,FEMALE,69,WHITE,NOT HISPANIC OR LATINO,Stage IIIC,Positive,Positive,Positive,Alive,532.0,0,3,True,True,True,III,1.46,HER2-positive,,Positive,,0,1.46
+TCGA-LQ-A4E4,FEMALE,73,WHITE,NOT HISPANIC OR LATINO,Stage IIIA,Positive,Positive,,Alive,849.0,0,1,False,True,True,III,2.32,HR+/HER2-,Negative,Negative,,0,2.32
+TCGA-MS-A51U,FEMALE,44,WHITE,NOT HISPANIC OR LATINO,Stage IIB,Positive,Positive,Negative,Alive,681.0,0,3,True,False,True,II,1.86,HR+/HER2-,Negative,Negative,,0,1.86
+TCGA-OK-A5Q2,FEMALE,59,,,Stage II,Positive,Positive,Negative,Alive,64.0,0,0,False,False,False,II,0.18,HR+/HER2-,,Negative,,0,0.18
+TCGA-OL-A5D6,FEMALE,71,BLACK OR AFRICAN AMERICAN,NOT HISPANIC OR LATINO,Stage IIA,Negative,Negative,,Dead,1104.0,1,0,False,False,False,II,3.02,Triple Negative,Negative,Negative,,1,3.02
+TCGA-OL-A5D7,FEMALE,70,BLACK OR AFRICAN AMERICAN,NOT HISPANIC OR LATINO,Stage IIA,Negative,Negative,,Alive,1780.0,0,2,True,False,True,II,4.87,Triple Negative,Negative,Negative,,0,4.87
+TCGA-OL-A5D8,FEMALE,40,BLACK OR AFRICAN AMERICAN,NOT HISPANIC OR LATINO,Stage IIB,Positive,Positive,,Alive,973.0,0,0,False,False,False,II,2.66,HR+/HER2-,Negative,Negative,,0,2.66
+TCGA-OL-A5DA,FEMALE,61,WHITE,NOT HISPANIC OR LATINO,Stage IIA,Positive,Positive,,Alive,1783.0,0,0,False,False,False,II,4.88,HR+/HER2-,Negative,Negative,,0,4.88
+TCGA-OL-A5RU,FEMALE,63,BLACK OR AFRICAN AMERICAN,,Stage IIA,Positive,Positive,,Alive,1219.0,0,2,True,False,True,II,3.34,HR+/HER2-,Negative,Negative,,0,3.34
+TCGA-OL-A5RV,FEMALE,43,BLACK OR AFRICAN AMERICAN,,Stage IIIC,Positive,Positive,,Alive,1062.0,0,3,True,False,True,III,2.91,HR+/HER2-,Negative,Negative,,0,2.91
+TCGA-OL-A5RW,FEMALE,40,BLACK OR AFRICAN AMERICAN,,Stage IIA,Negative,Negative,,Alive,1106.0,0,3,True,False,True,II,3.03,Triple Negative,Negative,Negative,,0,3.03
+TCGA-OL-A5RX,FEMALE,51,BLACK OR AFRICAN AMERICAN,,Stage IA,Positive,Positive,,Alive,878.0,0,0,False,False,False,I,2.4,HR+/HER2-,Negative,Negative,,0,2.4
+TCGA-OL-A5RY,FEMALE,52,BLACK OR AFRICAN AMERICAN,,Stage IIA,Positive,Negative,,Alive,752.0,0,0,False,False,False,II,2.06,HER2-positive,Positive,Positive,,0,2.06
+TCGA-OL-A5RZ,FEMALE,57,BLACK OR AFRICAN AMERICAN,,Stage IA,Positive,Negative,,Alive,679.0,0,2,True,False,False,I,1.86,HER2-positive,Positive,Positive,,0,1.86
+TCGA-OL-A5S0,FEMALE,66,BLACK OR AFRICAN AMERICAN,,Stage IIB,Positive,Negative,,Alive,620.0,0,2,True,True,True,II,1.7,HER2-positive,Positive,Positive,,0,1.7
+TCGA-OL-A66H,FEMALE,74,BLACK OR AFRICAN AMERICAN,NOT HISPANIC OR LATINO,Stage IB,Positive,Positive,,Alive,812.0,0,0,False,False,True,I,2.22,HR+/HER2-,Negative,Negative,,0,2.22
+TCGA-OL-A66I,FEMALE,36,BLACK OR AFRICAN AMERICAN,NOT HISPANIC OR LATINO,Stage IIA,Negative,Negative,,Alive,714.0,0,3,True,False,True,II,1.95,Triple Negative,Negative,Negative,,0,1.95
+TCGA-OL-A66J,FEMALE,80,WHITE,NOT HISPANIC OR LATINO,Stage I,Positive,Positive,,Alive,1996.0,0,0,False,False,False,I,5.46,HR+/HER2-,Negative,Negative,,0,5.46
+TCGA-OL-A66K,FEMALE,72,WHITE,NOT HISPANIC OR LATINO,Stage IIA,Positive,Positive,Equivocal,Dead,1275.0,1,0,False,False,False,II,3.49,HR+/HER2-,Negative,Negative,,1,3.49
+TCGA-OL-A66L,FEMALE,71,BLACK OR AFRICAN AMERICAN,NOT HISPANIC OR LATINO,Stage IA,Positive,Positive,,Alive,1301.0,0,0,False,False,True,I,3.56,HR+/HER2-,Negative,Negative,,0,3.56
+TCGA-OL-A66N,FEMALE,59,WHITE,NOT HISPANIC OR LATINO,Stage IIIC,Positive,Negative,,Alive,792.0,0,0,False,False,True,III,2.17,HR+/HER2-,Negative,Negative,,0,2.17
+TCGA-OL-A66O,FEMALE,39,BLACK OR AFRICAN AMERICAN,NOT HISPANIC OR LATINO,Stage IIB,Positive,Positive,,Alive,528.0,0,2,True,False,True,II,1.45,HR+/HER2-,Negative,Negative,,0,1.45
+TCGA-OL-A66P,FEMALE,75,BLACK OR AFRICAN AMERICAN,NOT HISPANIC OR LATINO,Stage IIA,Negative,Negative,,Alive,428.0,0,2,True,False,False,II,1.17,Triple Negative,Negative,Negative,,0,1.17
+TCGA-OL-A6VO,FEMALE,43,BLACK OR AFRICAN AMERICAN,NOT HISPANIC OR LATINO,Stage IA,Negative,Negative,Negative,Alive,858.0,0,2,True,False,True,I,2.35,Triple Negative,Negative,Negative,,0,2.35
+TCGA-OL-A6VQ,FEMALE,49,WHITE,NOT HISPANIC OR LATINO,Stage IIA,Positive,Positive,,Alive,600.0,0,0,False,False,False,II,1.64,HR+/HER2-,Negative,Negative,,0,1.64
+TCGA-OL-A6VR,FEMALE,48,BLACK OR AFRICAN AMERICAN,NOT HISPANIC OR LATINO,Stage IA,Positive,Positive,Negative,Alive,1220.0,0,0,False,False,False,I,3.34,HR+/HER2-,Negative,Negative,,0,3.34
+TCGA-OL-A97C,FEMALE,67,BLACK OR AFRICAN AMERICAN,NOT HISPANIC OR LATINO,Stage IIB,Negative,Negative,,Alive,271.0,0,0,False,False,False,II,0.74,Triple Negative,Negative,Negative,275.0,1,0.74
+TCGA-PE-A5DC,FEMALE,72,WHITE,NOT HISPANIC OR LATINO,Stage IIIA,Positive,Positive,Positive,Dead,1430.0,1,0,False,False,False,III,3.92,HER2-positive,,Positive,,1,3.92
+TCGA-PE-A5DD,FEMALE,64,ASIAN,NOT HISPANIC OR LATINO,Stage IIA,Positive,Negative,Positive,Alive,1953.0,0,2,True,True,True,II,5.35,HER2-positive,Positive,Positive,,0,5.35
+TCGA-PE-A5DE,FEMALE,41,WHITE,,Stage IIA,Positive,Positive,Negative,Alive,2645.0,0,3,True,True,True,II,7.24,HR+/HER2-,,Negative,,0,7.24
+TCGA-PL-A8LX,FEMALE,35,BLACK OR AFRICAN AMERICAN,NOT HISPANIC OR LATINO,Stage IV,,,,Alive,5.0,0,0,False,False,False,IV,0.01,Unknown,,Unknown,,0,0.01
+TCGA-PL-A8LY,FEMALE,30,BLACK OR AFRICAN AMERICAN,NOT HISPANIC OR LATINO,Stage IIB,,,,Alive,8.0,0,0,False,False,False,II,0.02,Unknown,,Unknown,,0,0.02
+TCGA-PL-A8LZ,FEMALE,29,BLACK OR AFRICAN AMERICAN,NOT HISPANIC OR LATINO,Stage IIIB,,,,Alive,302.0,0,1,True,False,False,III,0.83,Unknown,,Unknown,,0,0.83
+TCGA-S3-A6ZF,FEMALE,64,BLACK OR AFRICAN AMERICAN,NOT HISPANIC OR LATINO,Stage IIA,Positive,Positive,Equivocal,Alive,572.0,0,6,True,True,False,II,1.57,HR+/HER2-,Negative,Negative,,0,1.57
+TCGA-S3-A6ZG,FEMALE,71,BLACK OR AFRICAN AMERICAN,NOT HISPANIC OR LATINO,Stage IIB,Positive,Positive,Negative,Alive,562.0,0,5,True,True,True,II,1.54,HR+/HER2-,,Negative,,0,1.54
+TCGA-S3-A6ZH,FEMALE,29,BLACK OR AFRICAN AMERICAN,NOT HISPANIC OR LATINO,Stage IIIC,Positive,Positive,Equivocal,Alive,641.0,0,5,True,True,True,III,1.75,HR+/HER2-,Negative,Negative,,0,1.75
+TCGA-S3-AA0Z,FEMALE,63,BLACK OR AFRICAN AMERICAN,NOT HISPANIC OR LATINO,Stage IIB,Positive,Positive,Equivocal,Alive,629.0,0,4,True,True,False,II,1.72,HR+/HER2-,Negative,Negative,,0,1.72
+TCGA-S3-AA10,FEMALE,65,BLACK OR AFRICAN AMERICAN,NOT HISPANIC OR LATINO,Stage IIA,Negative,Negative,Negative,Alive,586.0,0,4,True,True,False,II,1.6,Triple Negative,,Negative,,0,1.6
+TCGA-S3-AA11,FEMALE,67,BLACK OR AFRICAN AMERICAN,NOT HISPANIC OR LATINO,Stage IIA,Positive,Positive,Equivocal,Alive,421.0,0,3,False,True,True,II,1.15,HR+/HER2-,Negative,Negative,,0,1.15
+TCGA-S3-AA12,FEMALE,82,BLACK OR AFRICAN AMERICAN,NOT HISPANIC OR LATINO,Stage IIIA,Positive,Negative,Negative,Alive,574.0,0,1,False,True,False,III,1.57,HR+/HER2-,Negative,Negative,,0,1.57
+TCGA-S3-AA14,FEMALE,47,BLACK OR AFRICAN AMERICAN,NOT HISPANIC OR LATINO,Stage I,Positive,Positive,Positive,Alive,529.0,0,5,True,False,True,I,1.45,HER2-positive,,Positive,,0,1.45
+TCGA-S3-AA15,FEMALE,51,BLACK OR AFRICAN AMERICAN,NOT HISPANIC OR LATINO,Stage IIB,Negative,Negative,Negative,Alive,525.0,0,4,True,False,True,II,1.44,Triple Negative,,Negative,,0,1.44
+TCGA-S3-AA17,FEMALE,64,BLACK OR AFRICAN AMERICAN,NOT HISPANIC OR LATINO,Stage IIB,Positive,Positive,Equivocal,Alive,424.0,0,1,False,True,True,II,1.16,HR+/HER2-,Negative,Negative,,0,1.16
+TCGA-UL-AAZ6,FEMALE,73,BLACK OR AFRICAN AMERICAN,NOT HISPANIC OR LATINO,Stage IIA,Positive,Positive,Positive,Alive,518.0,0,1,True,False,False,II,1.42,HER2-positive,,Positive,,0,1.42
+TCGA-UU-A93S,FEMALE,63,BLACK OR AFRICAN AMERICAN,NOT HISPANIC OR LATINO,Stage IV,Negative,Negative,Positive,Dead,116.0,1,0,False,False,False,IV,0.32,HER2-positive,,Positive,,1,0.32
+TCGA-V7-A7HQ,FEMALE,75,BLACK OR AFRICAN AMERICAN,NOT HISPANIC OR LATINO,Stage IIIA,Positive,Positive,,Alive,2033.0,0,1,False,True,True,III,5.57,HR+/HER2-,Negative,Negative,,0,5.57
+TCGA-W8-A86G,FEMALE,66,WHITE,NOT HISPANIC OR LATINO,Stage IIA,Positive,Positive,Negative,Alive,347.0,0,1,False,True,False,II,0.95,HR+/HER2-,,Negative,,0,0.95
+TCGA-WT-AB41,FEMALE,55,BLACK OR AFRICAN AMERICAN,NOT HISPANIC OR LATINO,Stage IIB,Positive,Positive,,Alive,1611.0,0,4,True,True,False,II,4.41,Unknown,,Unknown,,0,4.41
+TCGA-WT-AB44,FEMALE,77,WHITE,NOT HISPANIC OR LATINO,Stage IA,Positive,Positive,Negative,Alive,883.0,0,1,False,True,True,I,2.42,HR+/HER2-,,Negative,,0,2.42
+TCGA-XX-A899,FEMALE,46,WHITE,NOT HISPANIC OR LATINO,Stage IIIA,Positive,Positive,Negative,Alive,467.0,0,3,True,True,True,III,1.28,HR+/HER2-,,Negative,,0,1.28
+TCGA-XX-A89A,FEMALE,68,WHITE,NOT HISPANIC OR LATINO,Stage IIB,Positive,Positive,Negative,Alive,488.0,0,0,False,False,True,II,1.34,HR+/HER2-,,Negative,,0,1.34
+TCGA-Z7-A8R5,FEMALE,61,WHITE,NOT HISPANIC OR LATINO,Stage IIIA,Positive,Positive,Negative,Alive,3287.0,0,3,True,False,False,III,9.0,HR+/HER2-,,Negative,181.0,1,0.49555099247091033
+TCGA-Z7-A8R6,FEMALE,46,WHITE,NOT HISPANIC OR LATINO,Stage I,Positive,Positive,Negative,Alive,3256.0,0,3,False,False,False,I,8.91,HR+/HER2-,,Negative,,0,8.91

@@ -48,3 +48,4 @@ renv/staging/
 .env
 *.key
 credentials.json
+!data/processed/patients_analysis.csv

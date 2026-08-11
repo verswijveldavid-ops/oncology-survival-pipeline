@@ -1,0 +1,9 @@
+Group,N,Alive at 5 yrs (%),Alive at 10 yrs (%)
+All patients,1073,82,58
+Stage I,183,90,80
+Stage II,606,85,62
+Stage III,241,73,52
+Stage IV,20,27,9
+HR+/HER2-,589,88,65
+HER2-positive,188,80,55
+Triple Negative,158,75,43

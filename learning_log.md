@@ -267,6 +267,28 @@ No. This is a credible, documented SDTM mapping (DM, CM, DS) that demonstrates t
 
 Table 1 cohort summary; then the Streamlit dashboard. Still open: PFI second endpoint, follow-up merge, MH domain, forest-plot polish.
 
+## 2026-08-11 — Day 2: follow-up reconciliation changed the results
+
+### What I found and fixed
+
+- `src/18_reconcile_followup.py` — audited follow-up completeness. Our survival used the patient file alone. Found **779/1097 patients had later follow-up in the follow-up files**, and **48 "Alive" patients had actually died** (recorded only in follow-up).
+- Reconciled all four sources (patient + three follow-up versions) to each patient's latest known status. Rebuilt the whole pipeline (`src/02` now reads the reconciled survival). Deaths 104 → 152; median follow-up 1.0 → 2.1 years.
+
+### How the conclusions changed (this is the key story)
+
+- Re-ran everything on corrected data. Cox model (penalized, 923 patients, 100 deaths): Age HR 1.23, Stage IV 6.70, Stage III 1.64 — stage and age are the strong predictors. Subtype now weak: Triple Negative only borderline (HR 1.44, p=0.057), HER2-positive not significant.
+- The proportional-hazards assumption **now holds**. The earlier dramatic "front-loaded risk / Triple Negative HR 4.8" finding was largely an **artifact of the broken follow-up**.
+- **Lesson to tell in interviews:** incomplete data gave a confident wrong story; fixing data completeness gave a quieter, truer, more conservative result. I found the flaw by auditing, not by luck.
+
+### Also learned
+
+- A Cox model can fail to converge ("singular matrix / high collinearity") when a group is lopsided after a data change. Fix: a small ridge `penalizer=0.1` stabilises it.
+- Why I missed it first: I built survival from the patient file's own columns, which had zero missing values, so it looked complete. I did not cross-check the follow-up files. Combining all sources should have been the default for a survival study.
+
+### Next
+
+Commit corrected pipeline. Then: recurrence/progression endpoint from new-tumor-event data; reproducibility (requirements.txt + run-all); dashboard v2 leading with the headline.
+
 ---
 
 <!--

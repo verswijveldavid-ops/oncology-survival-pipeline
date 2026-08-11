@@ -37,25 +37,32 @@ We **kept the full timeline** rather than cutting it off. We added a **numbers-a
 
 **Rule of thumb for reading the chart:** trust a curve while its number at risk is still healthy. Treat small groups and the far-right tail as suggestive, not conclusive.
 
-## Multivariable model and time-varying risk
+## Data-completeness fix (important — it changed the results)
 
-We fitted a Cox proportional-hazards model with age, stage, and molecular subtype together. This adjusts each factor for the others. After adjustment, higher stage and worse subtype each raise the risk of death independently. Reference groups were Stage I and HR+/HER2-.
+Our first survival table used the patient file alone. An audit found that **779 of 1,097 patients had later follow-up recorded in the follow-up files** we had ignored, and **48 patients marked "Alive" had actually died** (recorded only in a follow-up file). We reconciled all four sources (patient file + three follow-up versions), taking each patient's latest known status.
 
-We then checked the model's core assumption (proportional hazards, via Schoenfeld residuals). Three variables failed it: age, Stage IV, and Triple Negative. Their effect on risk is **not constant over time**.
+Effect: deaths rose 104 → 152; median follow-up for living patients doubled (1.0 → 2.1 years). **Every result below uses the corrected data.** The earlier, patient-file-only numbers were biased and are superseded.
 
-Rather than hide this, we investigated it. We estimated hazard ratios separately for the first 5 years and after 5 years:
+## Multivariable model (corrected data)
 
-| Factor | Years 0-5 | Years 5+ |
+Cox proportional-hazards model with age, stage, and subtype together (ridge-penalized for stability), on 923 patients with 100 deaths:
+
+| Factor | HR | p |
 |---|---|---|
-| Triple Negative | 4.76 | 0.63 |
-| Stage IV | 7.51 | 0.00 (unstable) |
-| HER2-positive | 3.04 | 0.95 |
-| Stage III | 2.96 | 1.08 |
-| Age (per decade) | 1.61 | 1.08 |
+| Age (per decade) | 1.23 | <0.001 |
+| Stage II | 0.88 | 0.41 (ns) |
+| Stage III | 1.64 | 0.006 |
+| Stage IV | 6.70 | <0.001 |
+| HER2-positive | 1.15 | 0.46 (ns) |
+| Triple Negative | 1.44 | 0.057 (borderline) |
 
-**Finding:** risk is front-loaded into the first 5 years. Triple Negative is about 4.8x the death rate early, then falls below the reference for patients who survive 5 years. This matches known biology: Triple Negative breast cancer recurs early or not at all.
+Concordance 0.79. **Stage and age are the strong independent predictors.** After adjustment on the corrected data, subtype's independent effect is weak — Triple Negative is only borderline, HER2-positive not significant.
 
-**Limitation:** the late period has only 83 patients and 14 deaths, so the late hazard ratios are unstable (the Stage IV `0.00` is a degenerate estimate, not real). The trustworthy message is the direction — effects shrink sharply after 5 years — not the exact late numbers.
+## What changed vs the broken-data analysis
+
+On the truncated data we had reported a dramatic "front-loaded risk" pattern (Triple Negative HR ~4.8 early, dropping later) and a violated proportional-hazards assumption. **With corrected follow-up, the proportional-hazards assumption now holds** (no variable clearly fails it), and the time-varying pattern is only a weak, non-significant hint. The earlier finding was largely an artifact of missing follow-up.
+
+**The lesson:** a data-completeness problem produced a confident but wrong story. Fixing it gave a quieter, more conservative, more trustworthy result. This is the single most important methodological point in the project.
 
 ## Sources
 

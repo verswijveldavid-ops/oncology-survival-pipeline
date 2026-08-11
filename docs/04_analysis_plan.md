@@ -58,3 +58,33 @@ Not just death. Use the new-tumor-event data.
 ---
 
 Order is flexible. B and A feed C and D, so we do subtypes and characterization before the multivariable model.
+
+---
+
+## H. Advanced extensions (to maximize recruiter impact)
+
+These turn a solid analysis into a standout portfolio. Prioritised for clinical-data-analyst / statistical-programming roles.
+
+### The CDISC crown jewel — full regulatory pipeline
+- [ ] **ADSL** (Subject-Level Analysis Dataset) — one row per subject, analysis flags, built with `admiral`.
+- [ ] **ADTTE** (Time-to-Event Analysis Dataset) — OS and PFS as PARAMCD, AVAL/CNSR, with `admiral`.
+- [ ] Complete **SDTM**: add MH (medical history); write a **define-style data dictionary**; run **conformance-style checks** (our own Pinnacle-21-like rule engine).
+
+### Show more languages/tools
+- [ ] **SQL / DuckDB** edit-check layer — run the quality checks as SQL against the tables.
+- [ ] R **Table 1** with `gtsummary` (publication-style), alongside the Python one.
+
+### Statistical depth
+- [ ] Adjusted (model-based) survival curves from the Cox model.
+- [ ] Restricted mean survival time (RMST) as an HR-free summary.
+- [ ] Treatment question done properly (confounding-aware), e.g. propensity or stratified.
+
+### Credibility & delivery
+- [ ] **Validate** our derived OS/PFS against the Liu et al. 2018 curated endpoints.
+- [ ] **Deploy the dashboard** to Streamlit Community Cloud → a live public URL recruiters can click.
+- [ ] Dashboard v2 — lead with the headline finding, explain HR, restore uncertainty.
+- [ ] Reproducibility — `requirements.txt`, an R `renv` or package list, a run-all script.
+- [ ] A short written **results summary** (abstract-style) in the README.
+- [ ] Basic **tests** (pytest) on the key derivations (os_time, subtype, PFS).
+
+Nothing here is filler — each item maps to a skill a hiring manager checks for.
