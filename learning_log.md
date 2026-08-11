@@ -289,6 +289,25 @@ Table 1 cohort summary; then the Streamlit dashboard. Still open: PFI second end
 
 Commit corrected pipeline. Then: recurrence/progression endpoint from new-tumor-event data; reproducibility (requirements.txt + run-all); dashboard v2 leading with the headline.
 
+## 2026-08-11 — Day 2 (cont.): ADaM, dashboard rebuild, live deployment
+
+### What I built
+
+- `src/19` — second endpoint (progression-free survival). Recurrence is thinly recorded, so PFS is close to overall survival here (a data limit worth noting).
+- `src/20` — 5- and 10-year survival rates by group (the plain-English headline numbers).
+- `R/06` ADSL, `R/07` ADTTE (with `admiral`) — the ADaM analysis datasets. This completes the full chain: raw -> SDTM -> ADaM -> analysis.
+- Rebuilt `app/app.py` into a 7-section guided story with plain explanations on each part.
+- `requirements.txt`; deployed the app to Streamlit Community Cloud with a public URL.
+
+### Key numbers (corrected data)
+
+- 5-year survival: all patients 82%; Stage I 90%; Stage IV 27%; Triple Negative 75%.
+
+### What I learned
+
+- A live, shareable link is the single most valuable portfolio artifact — recruiters click it with zero setup.
+- To deploy, the app's data file had to be committed (it is public, anonymous data) and a `requirements.txt` had to list the packages.
+
 ---
 
 <!--

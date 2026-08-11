@@ -49,3 +49,4 @@ renv/staging/
 *.key
 credentials.json
 !data/processed/patients_analysis.csv
+*.docx

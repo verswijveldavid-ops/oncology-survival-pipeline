@@ -1,56 +1,78 @@
-# Oncology Survival Pipeline — TCGA-BRCA
+# Breast Cancer Survival — TCGA-BRCA
 
-End-to-end clinical data pipeline on **real-world oncology data**: map the TCGA breast cancer cohort into CDISC SDTM/ADaM standard, run data quality checks, derive time-to-event analysis datasets, perform Kaplan-Meier and Cox regression survival analysis, and publish an interactive dashboard.
+**Who lives longer after a breast cancer diagnosis, and why?**
 
-## Why this project
+An end-to-end clinical data pipeline on **real, de-identified patient data**: clean the data, check it, run a survival analysis, standardise it into the drug industry's CDISC formats (SDTM and ADaM), and present the findings in an interactive dashboard.
 
-Most junior clinical data analyst portfolios use synthetic CDISC data. This one uses **real de-identified patient data from the NCI Genomic Data Commons** (~1,100 real breast cancer patients from the TCGA-BRCA study), and demonstrates the CDA skill of **mapping non-CDISC real-world data into the CDISC standard** — a task every sponsor faces when integrating legacy data, external cohorts, or acquired assets.
+> ▶ **Live dashboard:** https://oncology-survival-pipeline-husupmr7t8azdx3xjdbc9p.streamlit.app/
 
-## Data source
+---
 
-- **Repository:** NCI Genomic Data Commons ([portal.gdc.cancer.gov](https://portal.gdc.cancer.gov))
-- **Program:** The Cancer Genome Atlas (TCGA)
-- **Project:** TCGA-BRCA (Breast Invasive Carcinoma)
-- **Access tier:** Open (no registration for clinical supplement data)
-- **Cohort size:** ~1,100 patients
-- **Endpoints available:** Overall Survival (OS), Progression-Free Interval (PFI), Disease-Free Interval (DFI), Disease-Specific Survival (DSS) — as standardized by [Liu et al., Cell 2018 (TCGA Pan-Cancer Clinical Data Resource)](https://www.cell.com/cell/fulltext/S0092-8674(18)30229-0)
+## Why this project is different
 
-The raw XML/tab-delimited files are **not committed to the repo** — they are re-downloadable from GDC using the manifest saved in `data/raw/manifest.txt`.
+Most beginner portfolios use made-up data. This one uses **real, anonymous data on ~1,100 breast cancer patients** from the public [NCI Genomic Data Commons](https://portal.gdc.cancer.gov) (the TCGA-BRCA study). It also does something those portfolios skip: it maps non-standard real-world data **into the CDISC standard** that every drug sponsor uses — and it does the survival statistics on top.
 
-## Pipeline architecture
+## The headline finding
+
+| Group | 5-year survival | 10-year survival |
+|---|---|---|
+| All patients | 82% | 58% |
+| Stage I (earliest) | 90% | 80% |
+| Stage IV (most advanced) | 27% | 9% |
+
+After weighing everything at once (a Cox model), **how far the cancer has spread (stage) and the patient's age are the strongest drivers of survival.** Cancer subtype mattered less once stage and age were accounted for.
+
+## The best story: I found and fixed a data error
+
+My first version read only one file to decide who lived or died. It was incomplete. Combining **all** the follow-up records revealed that **48 patients marked "alive" had actually died**, and follow-up time roughly doubled. This changed the results — an earlier "dramatic" finding turned out to be an artifact of the missing data. Finding and correcting it is the core of careful clinical data work.
+
+## The pipeline
 
 ```
-data/raw/                  Raw XML + biotabs from GDC (gitignored)
-   ↓  01_load_and_flatten.py
-data/processed/patients.parquet    One-row-per-patient dataframe
-   ↓  02_map_to_sdtm.py
-data/processed/sdtm_*.parquet      DM, MH, CM, DS domains
-   ↓  03_quality_checks.py + sql/  Edit-check engine (extends Project 1 pattern)
-data/processed/dq_issues.csv       Flagged issues per dimension
-   ↓  R/04_derive_adam.R           ADSL + ADTTE
-data/processed/adam_*.parquet
-   ↓  R/05_survival_analysis.R     KM curves, log-rank, Cox
-data/processed/km_results.parquet
-   ↓  app/app.py                   Streamlit dashboard
+raw files  →  reconcile all follow-up records  →  clean patient table
+   →  quality checks  →  analysis table (subtypes via IHC + FISH)
+   →  survival analysis (Kaplan-Meier, Cox)  →  SDTM (DM, CM, DS)
+   →  ADaM (ADSL, ADTTE with admiral)  →  dashboard
 ```
+
+This is the full regulatory chain: **raw data → SDTM → ADaM → analysis.**
 
 ## Tech stack
 
-- **Python 3.11+** (pandas, DuckDB, lxml) — data loading, SDTM mapping, QC
-- **SQL** (via DuckDB) — edit checks
-- **R 4.3+** (admiral, survival, survminer, ggplot2) — ADaM derivation, survival analysis
-- **Streamlit + Altair** — dashboard
+- **Python** — pandas, lifelines (survival analysis), matplotlib.
+- **R** — survival, survminer, and **admiral** (the industry ADaM tool).
+- **Streamlit** — the interactive dashboard.
 
-## Repository structure
+## How to run
 
-- `data/` — raw and processed data (contents gitignored, folders tracked with .gitkeep)
-- `src/` — Python scripts (numbered in pipeline order)
-- `sql/` — SQL queries for the DuckDB-based QC engine
-- `R/` — R scripts for ADaM derivation and survival analysis
-- `docs/` — orientation notes, mapping decisions, methods writeups
-- `app/` — Streamlit dashboard
-- `learning_log.md` — running log of what was built, why, what was learned
+```bash
+python3 -m venv .venv && source .venv/bin/activate
+pip install -r requirements.txt
+streamlit run app/app.py
+```
 
-## Status
+The raw patient files are re-downloadable from the GDC portal (BCR Biotab format, TCGA-BRCA clinical). The processed analysis table is included so the dashboard runs immediately.
 
-**Started:** 2026-08-10. In progress.
+## Honest limits
+
+- The far end of each survival curve rests on very few patients, so it is less reliable.
+- Cancer subtype is missing for some patients (recovered where possible using the FISH test).
+- Recurrence is thinly recorded, so the progression-free endpoint adds little here.
+- The CDISC mapping demonstrates the standard but is not full submission compliance (deviations are documented in `docs/`).
+
+## Repository
+
+- `src/` — Python scripts, numbered in pipeline order.
+- `R/` — R scripts (survival analysis, ADaM datasets).
+- `docs/` — orientation, survival findings, SDTM mapping spec, analysis plan.
+- `app/` — the Streamlit dashboard.
+- `reports/` — figures and result tables.
+- `learning_log.md` — a dated record of what was built and why.
+
+## Data source
+
+NCI Genomic Data Commons, TCGA-BRCA (Breast Invasive Carcinoma). Open-access clinical tier. Survival endpoints follow [Liu et al., *Cell* 2018](https://www.cell.com/cell/fulltext/S0092-8674(18)30229-0).
+
+---
+
+*Educational portfolio project. Real de-identified data; findings demonstrate methodology and are not clinical advice.*
